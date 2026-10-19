@@ -1,0 +1,22 @@
+{
+"AMM|2026-10-18": {
+"err": "HTTPError: 403 Client Error:  for url: https://opensky-network.org/api/flights/departure?airport=OJAI&begin=1792281600&end=17923680",
+"http": 403,
+"last_try": 1792410301.37786
+},
+"JED|2026-10-18": {
+"err": "HTTPError: 403 Client Error:  for url: https://opensky-network.org/api/flights/departure?airport=OEJN&begin=1792281600&end=17923680",
+"http": 403,
+"last_try": 1792410301.37786
+},
+"MED|2026-10-18": {
+"err": "HTTPError: 403 Client Error:  for url: https://opensky-network.org/api/flights/departure?airport=OEMA&begin=1792281600&end=17923680",
+"http": 403,
+"last_try": 1792410301.37786
+},
+"TLV|2026-10-18": {
+"err": "HTTPError: 403 Client Error:  for url: https://opensky-network.org/api/flights/departure?airport=LLBG&begin=1792281600&end=17923680",
+"http": 403,
+"last_try": 1792410301.37786
+}
+}
