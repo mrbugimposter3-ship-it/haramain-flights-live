@@ -111,6 +111,7 @@ def opensky(now, log):
             r = requests.get('https://opensky-network.org/api/flights/departure', params={'airport': icao, 'begin': b, 'end': b + 86400}, headers=UA, timeout=40)
             s['http'] = r.status_code
             if r.status_code == 404: s['ok'] = True; s['n'] = 0; log(f'OpenSky {iata}: no departures for {day} (404)'); continue
+            if r.status_code in (401, 403): s['ok'] = True; s['n'] = 0; s['err'] = f'HTTP {r.status_code}: anonymous access refused (account needed); not retried today'; log(f'OpenSky {iata}: {s["err"]}'); continue
             r.raise_for_status(); fl = r.json(); n = 0
             for f in fl:
                 cs = (f.get('callsign') or '').strip(); dest = ICAO.get(f.get('estArrivalAirport') or '')
