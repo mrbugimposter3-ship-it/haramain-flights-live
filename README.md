@@ -11,7 +11,7 @@ Live dashboard of departures from **Makkah (JED)**, **Madinah (MED)** and **Al-A
 `.github/workflows/collect.yml` runs every 15 minutes (GitHub's scheduler can run late) and also on demand:
 1. `collector/collect.py` pulls free, keyless, public sources:
    - ADS-B positions: [adsb.fi open data](https://adsb.fi) (1 request/s) and [adsb.lol](https://adsb.lol) (ODbL), with routes from [adsbdb.com](https://www.adsbdb.com) (cached in `data/routes/`)
-   - [OpenSky Network](https://opensky-network.org) anonymous "departures by airport" for the previous day (once per airport per day)
+   - [OpenSky Network](https://opensky-network.org) anonymous "departures by airport" is tried once per airport per day. As of 19 Oct 2026 it returns HTTP 403 (needs an account), so it adds nothing yet.
    - Israel Airports Authority flight board, official open data on [data.gov.il](https://data.gov.il) (TLV)
    - Tibah Airports public departures board (MED)
    - JED (kaia.sa) and AMM (qaiairport.com) are only probed with a normal request. They refuse automated requests (HTTP 403) and are not bypassed.
