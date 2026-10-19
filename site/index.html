@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Haramain & Al-Aqsa Flights Live</title><link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="style.css"></head><body>
+<header>
+ <h1>✈ Haramain &amp; Al-Aqsa Flights Live</h1>
+ <div class="sub">Departures from Makkah (JED), Madinah (MED) and Al-Aqsa (TLV, plus AMM as the nearby gateway), with location differences, mod 27 and modes by prayer window</div>
+ <div id="fresh" class="fresh">loading…</div>
+</header>
+<main>
+<section class="warn" id="labels">
+ <b>What each label means.</b>
+ <span class="tag obs">observed (ADS-B)</span> seen in the air by free community trackers (adsb.fi, adsb.lol, OpenSky), with the route from adsbdb.com; departure time is estimated unless OpenSky reports it.
+ <span class="tag obs">observed (airport board)</span> the airport's own board reports it departed (TLV: Israel Airports Authority open data; MED: Tibah Airports public board).
+ <span class="tag sch">scheduled</span> published but not yet confirmed as departed (timetable, not observed).
+ <b>Seats are estimates</b> based on aircraft type, and are only known for some flights. Real passenger numbers aren't public.
+ <b>Coverage is limited:</b> JED and AMM have no airport-board data. Free trackers have very few receivers inside Saudi Arabia, so many JED/MED flights are missed until they leave Saudi airspace.
+ <b>Codeshares</b> are counted once unless you include them.
+ dlat/dlon = destination minus origin (airport or mosque); km = great-circle distance; "mod 27" = value mod 27 (positive remainder); modes use the whole-number part.
+ Prayer windows: Makkah and Madinah use Umm al-Qura; Al-Aqsa uses the Jordan Ministry of Awqaf method, computed at the mosque, for both TLV and AMM.
+</section>
+<section class="card" id="prog"></section>
+<section class="controls card">
+ <label>Layer <select id="layer"><option value="observed">observed only</option><option value="all" selected>observed + scheduled</option><option value="scheduled">scheduled only</option></select></label>
+ <label>Differences from <select id="ref"><option value="airport">airport</option><option value="mosque">mosque</option></select></label>
+ <label>Site <select id="site"><option value="">all</option><option>Makkah</option><option>Madinah</option><option>Al-Aqsa</option></select></label>
+ <label>Origin <select id="origin"><option value="">all</option><option>JED</option><option>MED</option><option>TLV</option><option>AMM</option></select></label>
+ <label>Date <select id="date"><option value="">all</option></select></label>
+ <label>Data type <select id="dtype"><option value="">all</option><option value="observed (ADS-B">observed (ADS-B)</option><option value="observed (airport">observed (airport board)</option><option value="scheduled">scheduled</option></select></label>
+ <label>Destination <input id="dest" placeholder="city / IATA / country"></label>
+ <label class="chk"><input type="checkbox" id="cs"> include codeshares</label>
+</section>
+<section class="grid3" id="prayer"></section>
+<h2>Current modes</h2><section class="grid" id="modes"></section>
+<h2>Map: great-circle routes, coloured by prayer window</h2>
+<section class="card"><div id="map"></div><div class="muted" id="maplegend"></div></section>
+<h2>7-day rolling view (per day and per prayer window)</h2>
+<section class="card"><label>Window <select id="rwin"></select></label> <span class="muted">Future dates contain scheduled flights only. The 7-day window fills up as days are collected.</span>
+ <div class="charts"><div class="cbox"><canvas id="c1"></canvas></div><div class="cbox"><canvas id="c2"></canvas></div><div class="cbox"><canvas id="c3"></canvas></div><div class="cbox"><canvas id="c4"></canvas></div></div>
+ <div class="scroll"><table id="rt"></table></div></section>
+<h2>Mod 27 histograms (filtered flights)</h2>
+<section class="card"><div class="charts"><div class="cbox"><canvas id="h1"></canvas></div><div class="cbox"><canvas id="h2"></canvas></div><div class="cbox"><canvas id="h3"></canvas></div></div></section>
+<h2>Top destinations</h2><section class="card"><div class="scroll short"><table id="top"></table></div></section>
+<h2>All flights</h2>
+<section class="card"><div class="row"><span id="ftot" class="muted"></span>
+ <label>Group <select id="grp"><option value="1">by date and prayer window</option><option value="0">none (click headers to sort)</option></select></label>
+ <button id="csv">⬇ Download CSV (filtered)</button></div>
+ <div class="scroll"><table id="ft"></table></div></section>
+<p class="muted foot">Data: adsb.fi and adsb.lol (community ADS-B), OpenSky Network, adsbdb.com routes, Israel Airports Authority (data.gov.il), Tibah Airports public board, OurAirports, OpenFlights, GeoNames (CC-BY), Aladhan prayer times. Map © OpenStreetMap contributors.
+Collected by GitHub Actions every ~15 min (GitHub's scheduler can run late). <a href="https://github.com/mrbugimposter3-ship-it/haramain-flights-live">Source and data</a></p>
+</main><script src="app.js"></script></body></html>
