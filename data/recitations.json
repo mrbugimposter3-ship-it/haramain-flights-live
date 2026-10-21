@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-21T15:27:23Z",
+  "updated_utc": "2026-10-21T17:06:42Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -59,47 +59,47 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "asr",
-        "date": "2026-10-20",
+        "date": "2026-10-21",
         "imam": "Sheikh Baleelah",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=Fh4VY1RKpyo",
-        "source_title": "20th Oct 2026 Makkah 'Asr Sheikh Baleelah",
+        "source_video": "https://www.youtube.com/watch?v=E9Aw8zMXnHQ",
+        "source_title": "21st Oct 2026 Makkah 'Asr Sheikh Baleelah",
         "identified_utc": null
       },
       "maghrib": {
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "maghrib",
-        "date": "2026-10-20",
+        "date": "2026-10-21",
         "imam": "Sheikh Shamsaan",
-        "surah": 82,
-        "surah_name": "Al-Infitar",
-        "ayah_from": 1,
-        "ayah_to": 19,
+        "surah": 57,
+        "surah_name": "Al-Hadid",
+        "ayah_from": 18,
+        "ayah_to": 21,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 82,
-            "surah_name": "Al-Infitar",
-            "ayah_from": 1,
-            "ayah_to": 12,
-            "ref": "82:1-12"
+            "surah": 57,
+            "surah_name": "Al-Hadid",
+            "ayah_from": 18,
+            "ayah_to": 20,
+            "ref": "57:18-20"
           },
           {
             "rakah": 2,
-            "surah": 82,
-            "surah_name": "Al-Infitar",
-            "ayah_from": 1,
-            "ayah_to": 19,
-            "ref": "82:1-19"
+            "surah": 57,
+            "surah_name": "Al-Hadid",
+            "ayah_from": 21,
+            "ayah_to": 21,
+            "ref": "57:21"
           }
         ],
-        "summary": "82:1-12 · 82:1-19",
-        "confidence": 78,
-        "source_video": "https://www.youtube.com/watch?v=7j959zJsQfc",
-        "source_title": "20th Oct 2026 Makkah Maghrib Sheikh Shamsaan",
-        "identified_utc": "2026-10-21T11:26:00Z"
+        "summary": "57:18-20 · 57:21",
+        "confidence": 93,
+        "source_video": "https://www.youtube.com/watch?v=a9ZUYRIY294",
+        "source_title": "21st Oct 2026 Makkah Maghrib Sheikh Shamsaan",
+        "identified_utc": "2026-10-21T17:05:04Z"
       },
       "isha": {
         "mosque": "makkah",
@@ -187,47 +187,47 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "asr",
-        "date": "2026-10-20",
+        "date": "2026-10-21",
         "imam": "Sheikh Budayr",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=uTXv4OViSEA",
-        "source_title": "20th Oct 2026 Madeenah 'Asr Sheikh Budayr",
+        "source_video": "https://www.youtube.com/watch?v=QmVWv7doD4o",
+        "source_title": "21st Oct 2026 Madeenah 'Asr Sheikh Budayr",
         "identified_utc": null
       },
       "maghrib": {
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "maghrib",
-        "date": "2026-10-20",
+        "date": "2026-10-21",
         "imam": "Sheikh Muhanna",
-        "surah": 33,
-        "surah_name": "Al-Ahzab",
-        "ayah_from": 41,
-        "ayah_to": 48,
+        "surah": 101,
+        "surah_name": "Al-Qariah",
+        "ayah_from": 3,
+        "ayah_to": 11,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 33,
-            "surah_name": "Al-Ahzab",
-            "ayah_from": 41,
-            "ayah_to": 44,
-            "ref": "33:41-44"
+            "surah": 101,
+            "surah_name": "Al-Qariah",
+            "ayah_from": 3,
+            "ayah_to": 11,
+            "ref": "101:3-11"
           },
           {
             "rakah": 2,
-            "surah": 33,
-            "surah_name": "Al-Ahzab",
-            "ayah_from": 45,
-            "ayah_to": 48,
-            "ref": "33:45-48"
+            "surah": 102,
+            "surah_name": "At-Takathur",
+            "ayah_from": 1,
+            "ayah_to": 8,
+            "ref": "102:1-8"
           }
         ],
-        "summary": "33:41-44 · 33:45-48",
-        "confidence": 84,
-        "source_video": "https://www.youtube.com/watch?v=H7gKGp_SAaI",
-        "source_title": "20th Oct 2026 Madeenah Maghrib Sheikh Muhanna",
-        "identified_utc": "2026-10-21T11:24:04Z"
+        "summary": "101:3-11 · 102:1-8",
+        "confidence": 78,
+        "source_video": "https://www.youtube.com/watch?v=prLXfvF_SyE",
+        "source_title": "21st Oct 2026 Madeenah Maghrib Sheikh Muhanna",
+        "identified_utc": "2026-10-21T17:06:42Z"
       },
       "isha": {
         "mosque": "madinah",
