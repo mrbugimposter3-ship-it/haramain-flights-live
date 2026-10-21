@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-10-21T15:27:23Z",
+  "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
+  "sources": {
+    "makkah": "https://www.youtube.com/@haramain_recordings",
+    "madinah": "https://www.youtube.com/@haramain_recordings",
+    "aqsa": "https://www.youtube.com/channel/UCNt-JieowDFWRJkp2D-RTlA"
+  },
+  "mosques": {
+    "makkah": {
+      "fajr": {
+        "mosque": "makkah",
+        "mosque_name": "Masjid al-Haram",
+        "prayer": "fajr",
+        "date": "2026-10-21",
+        "imam": "Sheikh Baleelah",
+        "surah": 45,
+        "surah_name": "Al-Jathiyah",
+        "ayah_from": 3,
+        "ayah_to": 22,
+        "rakahs": [
+          {
+            "rakah": 1,
+            "surah": 45,
+            "surah_name": "Al-Jathiyah",
+            "ayah_from": 3,
+            "ayah_to": 15,
+            "ref": "45:3-15"
+          },
+          {
+            "rakah": 2,
+            "surah": 45,
+            "surah_name": "Al-Jathiyah",
+            "ayah_from": 16,
+            "ayah_to": 22,
+            "ref": "45:16-22"
+          }
+        ],
+        "summary": "45:3-15 · 45:16-22",
+        "confidence": 86,
+        "source_video": "https://www.youtube.com/watch?v=V8zhPojccdk",
+        "source_title": "21st Oct 2026 Makkah Fajr Sheikh Baleelah",
+        "identified_utc": "2026-10-21T11:48:10Z"
+      },
+      "dhuhr": {
+        "mosque": "makkah",
+        "mosque_name": "Masjid al-Haram",
+        "prayer": "dhuhr",
+        "date": "2026-10-21",
+        "imam": "Sheikh Usaamah Khayyat",
+        "silent": true,
+        "note": "Recited silently; no ayat to show.",
+        "source_video": "https://www.youtube.com/watch?v=_BgFdcKAGuE",
+        "source_title": "21st Oct 2026 Makkah Dhuhr Sheikh Usaamah Khayyat",
+        "identified_utc": null
+      },
+      "asr": {
+        "mosque": "makkah",
+        "mosque_name": "Masjid al-Haram",
+        "prayer": "asr",
+        "date": "2026-10-20",
+        "imam": "Sheikh Baleelah",
+        "silent": true,
+        "note": "Recited silently; no ayat to show.",
+        "source_video": "https://www.youtube.com/watch?v=Fh4VY1RKpyo",
+        "source_title": "20th Oct 2026 Makkah 'Asr Sheikh Baleelah",
+        "identified_utc": null
+      },
+      "maghrib": {
+        "mosque": "makkah",
+        "mosque_name": "Masjid al-Haram",
+        "prayer": "maghrib",
+        "date": "2026-10-20",
+        "imam": "Sheikh Shamsaan",
+        "surah": 82,
+        "surah_name": "Al-Infitar",
+        "ayah_from": 1,
+        "ayah_to": 19,
+        "rakahs": [
+          {
+            "rakah": 1,
+            "surah": 82,
+            "surah_name": "Al-Infitar",
+            "ayah_from": 1,
+            "ayah_to": 12,
+            "ref": "82:1-12"
+          },
+          {
+            "rakah": 2,
+            "surah": 82,
+            "surah_name": "Al-Infitar",
+            "ayah_from": 1,
+            "ayah_to": 19,
+            "ref": "82:1-19"
+          }
+        ],
+        "summary": "82:1-12 · 82:1-19",
+        "confidence": 78,
+        "source_video": "https://www.youtube.com/watch?v=7j959zJsQfc",
+        "source_title": "20th Oct 2026 Makkah Maghrib Sheikh Shamsaan",
+        "identified_utc": "2026-10-21T11:26:00Z"
+      },
+      "isha": {
+        "mosque": "makkah",
+        "mosque_name": "Masjid al-Haram",
+        "prayer": "isha",
+        "date": "2026-10-20",
+        "imam": "Sheikh Maahir",
+        "surah": 25,
+        "surah_name": "Al-Furqan",
+        "ayah_from": 21,
+        "ayah_to": 41,
+        "rakahs": [
+          {
+            "rakah": 1,
+            "surah": 25,
+            "surah_name": "Al-Furqan",
+            "ayah_from": 21,
+            "ayah_to": 34,
+            "ref": "25:21-34"
+          },
+          {
+            "rakah": 2,
+            "surah": 25,
+            "surah_name": "Al-Furqan",
+            "ayah_from": 35,
+            "ayah_to": 41,
+            "ref": "25:35-41"
+          }
+        ],
+        "summary": "25:21-34 · 25:35-41",
+        "confidence": 84,
+        "source_video": "https://www.youtube.com/watch?v=5D86WtqQ6g8",
+        "source_title": "20th Oct 2026 Makkah 'Isha Sheikh Maahir",
+        "identified_utc": "2026-10-21T11:05:25Z"
+      }
+    },
+    "madinah": {
+      "fajr": {
+        "mosque": "madinah",
+        "mosque_name": "Masjid an-Nabawi",
+        "prayer": "fajr",
+        "date": "2026-10-21",
+        "imam": "Sheikh Quraafi",
+        "surah": 8,
+        "surah_name": "Al-Anfal",
+        "ayah_from": 45,
+        "ayah_to": 63,
+        "rakahs": [
+          {
+            "rakah": 1,
+            "surah": 8,
+            "surah_name": "Al-Anfal",
+            "ayah_from": 45,
+            "ayah_to": 55,
+            "ref": "8:45-55"
+          },
+          {
+            "rakah": 2,
+            "surah": 8,
+            "surah_name": "Al-Anfal",
+            "ayah_from": 55,
+            "ayah_to": 63,
+            "ref": "8:55-63"
+          }
+        ],
+        "summary": "8:45-55 · 8:55-63",
+        "confidence": 86,
+        "source_video": "https://www.youtube.com/watch?v=9vJ0O6XJifQ",
+        "source_title": "21st Oct 2026 Madeenah Fajr Sheikh Quraafi",
+        "identified_utc": "2026-10-21T11:45:41Z"
+      },
+      "dhuhr": {
+        "mosque": "madinah",
+        "mosque_name": "Masjid an-Nabawi",
+        "prayer": "dhuhr",
+        "date": "2026-10-21",
+        "imam": "Sheikh Bu’ayjaan",
+        "silent": true,
+        "note": "Recited silently; no ayat to show.",
+        "source_video": "https://www.youtube.com/watch?v=MQCalkVIQdw",
+        "source_title": "21st Oct 2026 Madeenah Dhuhr Sheikh Bu’ayjaan",
+        "identified_utc": null
+      },
+      "asr": {
+        "mosque": "madinah",
+        "mosque_name": "Masjid an-Nabawi",
+        "prayer": "asr",
+        "date": "2026-10-20",
+        "imam": "Sheikh Budayr",
+        "silent": true,
+        "note": "Recited silently; no ayat to show.",
+        "source_video": "https://www.youtube.com/watch?v=uTXv4OViSEA",
+        "source_title": "20th Oct 2026 Madeenah 'Asr Sheikh Budayr",
+        "identified_utc": null
+      },
+      "maghrib": {
+        "mosque": "madinah",
+        "mosque_name": "Masjid an-Nabawi",
+        "prayer": "maghrib",
+        "date": "2026-10-20",
+        "imam": "Sheikh Muhanna",
+        "surah": 33,
+        "surah_name": "Al-Ahzab",
+        "ayah_from": 41,
+        "ayah_to": 48,
+        "rakahs": [
+          {
+            "rakah": 1,
+            "surah": 33,
+            "surah_name": "Al-Ahzab",
+            "ayah_from": 41,
+            "ayah_to": 44,
+            "ref": "33:41-44"
+          },
+          {
+            "rakah": 2,
+            "surah": 33,
+            "surah_name": "Al-Ahzab",
+            "ayah_from": 45,
+            "ayah_to": 48,
+            "ref": "33:45-48"
+          }
+        ],
+        "summary": "33:41-44 · 33:45-48",
+        "confidence": 84,
+        "source_video": "https://www.youtube.com/watch?v=H7gKGp_SAaI",
+        "source_title": "20th Oct 2026 Madeenah Maghrib Sheikh Muhanna",
+        "identified_utc": "2026-10-21T11:24:04Z"
+      },
+      "isha": {
+        "mosque": "madinah",
+        "mosque_name": "Masjid an-Nabawi",
+        "prayer": "isha",
+        "date": "2026-10-20",
+        "imam": "Sheikh Ahmad al Hudhaify",
+        "surah": 32,
+        "surah_name": "As-Sajdah",
+        "ayah_from": 18,
+        "ayah_to": 30,
+        "rakahs": [
+          {
+            "rakah": 1,
+            "surah": 32,
+            "surah_name": "As-Sajdah",
+            "ayah_from": 18,
+            "ayah_to": 25,
+            "ref": "32:18-25"
+          },
+          {
+            "rakah": 2,
+            "surah": 32,
+            "surah_name": "As-Sajdah",
+            "ayah_from": 26,
+            "ayah_to": 30,
+            "ref": "32:26-30"
+          }
+        ],
+        "summary": "32:18-25 · 32:26-30",
+        "confidence": 82,
+        "source_video": "https://www.youtube.com/watch?v=7pbKQkiGNH4",
+        "source_title": "20th Oct 2026 Madeenah 'Isha Sheikh Ahmad al Hudhaify",
+        "identified_utc": "2026-10-21T11:07:32Z"
+      }
+    },
+    "aqsa": {}
+  }
+}

@@ -1,23 +1,63 @@
 {
-  "updated_utc": "2026-10-21T10:32:44Z",
-  "note": "Ayat identified from the Haramain Recordings YouTube upload of that prayer; not a live feed. Al-Aqsa not covered.",
+  "updated_utc": "2026-10-21T15:27:23Z",
+  "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
+  "latest": {
+    "mosque": "makkah",
+    "mosque_name": "Masjid al-Haram",
+    "prayer": "Fajr",
+    "date": "2026-10-21",
+    "imam": "Sheikh Baleelah",
+    "surah": 45,
+    "surah_name": "Al-Jathiyah",
+    "ayah_from": 3,
+    "ayah_to": 22,
+    "confidence": 86,
+    "source_video": "https://www.youtube.com/watch?v=V8zhPojccdk",
+    "source_title": "21st Oct 2026 Makkah Fajr Sheikh Baleelah",
+    "identified_utc": "2026-10-21T11:48:10Z",
+    "rakahs": [
+      "45:3-15",
+      "45:16-22"
+    ]
+  },
   "mosques": {
+    "makkah": {
+      "mosque": "makkah",
+      "mosque_name": "Masjid al-Haram",
+      "prayer": "Fajr",
+      "date": "2026-10-21",
+      "imam": "Sheikh Baleelah",
+      "surah": 45,
+      "surah_name": "Al-Jathiyah",
+      "ayah_from": 3,
+      "ayah_to": 22,
+      "confidence": 86,
+      "source_video": "https://www.youtube.com/watch?v=V8zhPojccdk",
+      "source_title": "21st Oct 2026 Makkah Fajr Sheikh Baleelah",
+      "identified_utc": "2026-10-21T11:48:10Z",
+      "rakahs": [
+        "45:3-15",
+        "45:16-22"
+      ]
+    },
     "madinah": {
       "mosque": "madinah",
       "mosque_name": "Masjid an-Nabawi",
       "prayer": "Fajr",
-      "date": "2026-10-20",
+      "date": "2026-10-21",
       "imam": "Sheikh Quraafi",
       "surah": 8,
       "surah_name": "Al-Anfal",
-      "ayah_from": 30,
-      "ayah_to": 44,
+      "ayah_from": 45,
+      "ayah_to": 63,
+      "confidence": 86,
+      "source_video": "https://www.youtube.com/watch?v=9vJ0O6XJifQ",
+      "source_title": "21st Oct 2026 Madeenah Fajr Sheikh Quraafi",
+      "identified_utc": "2026-10-21T11:45:41Z",
       "rakahs": [
-        "8:30-40",
-        "8:41-44"
-      ],
-      "source_video": "https://www.youtube.com/watch?v=oM7DPOVfRNk",
-      "source_title": "20th Oct 2026 Madeenah Fajr Sheikh Quraafi"
+        "8:45-55",
+        "8:55-63"
+      ]
     }
   }
 }
