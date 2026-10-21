@@ -33,3 +33,19 @@ The top of the page is a kid-friendly view (big cards, Arabic + English): per mo
 - **Coverage is limited:** free trackers have few receivers inside Saudi Arabia, and JED/AMM have no board data.
 
 Data credits: adsb.fi, adsb.lol, hexdb.io, Haramain Recordings (last recited ayat), OpenSky Network, adsbdb, Israel Airports Authority, Tibah Airports, OurAirports (public domain), OpenFlights (ODbL), GeoNames (CC-BY 4.0), Aladhan. Map tiles © OpenStreetMap contributors.
+
+## الإنفاق في سبيل الله · Spending in the way of Allah
+
+> مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ ﴿٢٦١﴾
+>
+> — سُورَةُ البَقَرَةِ 2:261
+
+> ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَأَنفِقُوا۟ مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ۖ فَٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَأَنفَقُوا۟ لَهُمْ أَجْرٌۭ كَبِيرٌۭ ﴿٧﴾
+>
+> — سُورَةُ الحَدِيدِ 57:7
+
+The app shows a rotating card of ayat on zakat and charity (2:43, 2:245, 2:261, 2:267, 2:274, 9:41, 9:60, 57:7, 61:10–11, 64:16). Text: Tanzil Uthmani via [Al Quran Cloud](https://alquran.cloud) (`quran-uthmani`), used verbatim; generated into `infaq.js`, not typed by hand.
+
+## Tools we use · أدوات نستخدمها
+
+[Postiz](https://postiz.pro/mr-bug) for scheduling social posts. This is a **referral link** (we may earn a commission). It is a tool recommendation, not a charity.

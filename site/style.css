@@ -47,3 +47,14 @@ th{cursor:pointer;background:#e0f2fe;position:sticky;top:0}tr.grp td{background:
 .chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(86px,1fr));gap:6px}.chip{border-radius:16px;padding:7px 4px;text-align:center;font-size:13px;line-height:1.35;font-weight:700}
 .chip b{font-size:14px}.chip.silent{background:#ede9fe;color:#5b21b6}.chip.loud{background:#dcfce7;color:#14532d}.chip.none{background:#f1f5f9;color:#64748b}.tiny{font-size:12px;opacity:.85}
 .silentnow{background:#ede9fe;color:#4c1d95;border-radius:18px;padding:10px 12px;font-weight:800;font-size:16px}
+
+.infaqcard{border-color:#bbf7d0;box-shadow:0 5px 0 #bbf7d0;background:#f0fdf4}
+.infaq-h{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.infaq-t{font-family:"Noto Naskh Arabic","Geeza Pro",Tahoma,sans-serif;font-size:22px;color:#166534;font-weight:900}
+.infaq-t{flex:1}.infaq-sub{order:3;flex-basis:100%;font-size:14px;color:#475569;direction:ltr;unicode-bidi:isolate;text-align:right}.infaq-nav{display:flex;gap:6px}
+.infaq-b{background:#16a34a;border-color:#16a34a;border-radius:999px;min-width:46px;min-height:44px;font-size:22px;padding:0 12px}
+.infaq-ar{display:block;font-family:"Amiri Quran",Amiri,"Noto Naskh Arabic","Geeza Pro","Traditional Arabic",serif;font-size:clamp(22px,3.4vw,28px);line-height:2.1;color:#0f172a;margin-top:6px}
+.infaq-ref{display:block;color:#15803d;font-weight:800;font-size:15px}
+.infaq-all summary{cursor:pointer;font-weight:800;color:#166534;margin-top:8px;padding:6px 0}.infaq-all p{border-top:1px solid #dcfce7;margin:6px 0;padding-top:6px}
+.infaq-src{font-size:12px;color:#64748b;margin-top:6px}
+.tools-line{margin:16px 0 0;padding:10px 12px;border:2px dashed #93c5fd;border-radius:16px;background:#ffffffaa;font-size:15px;font-weight:700}
+.tools-line .infaq-tn{font-weight:400;color:#475569}
