@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install --quiet requests tzdata
-      - name: Collect (adsb.fi, adsb.lol, adsbdb, IAA TLV board, MED board, OpenSky, JED/AMM probes)
+      - name: Collect (adsb.fi, adsb.lol, adsbdb + hexdb.io routes, IAA TLV board, MED board, OpenSky, JED/AMM probes)
         run: python collector/collect.py
       - name: Build site data
         run: python collector/build.py
@@ -29,6 +29,7 @@ jobs:
           git config user.name "flights-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
+          git reset -q -- data/last_recited.json data/recitations.json   # written by the separate recitation job; never committed from here
           if git diff --cached --quiet; then echo "no data changes"; exit 0; fi
           git commit -q -m "data: collection $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && break; sleep 5; done

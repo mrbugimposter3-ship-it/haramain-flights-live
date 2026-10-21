@@ -24,8 +24,8 @@ function agg(rows,ndays=1){const p=P(),mean=k=>rows.length?rows.reduce((s,r)=>s+
  o.modes={city:modes(rows.map(r=>r.dest_city)),dlat:modes(rows.map(r=>Math.floor(r[p+'dlat_mod27']))),dlon:modes(rows.map(r=>Math.floor(r[p+'dlon_mod27']))),km:modes(rows.map(r=>Math.floor(r[p+'km_mod27'])))};return o}
 // ---------- freshness & progress
 function renderFresh(){if(!META)return;const t=new Date(META.last_run?META.last_run.ts_utc:META.generated_utc),mins=Math.round((Date.now()-t)/60000);
- const el=$('fresh');el.className='fresh'+(mins>45?' stale':'');
- el.innerHTML=`Last collection ${mins<1?'just now':mins+' min ago'} (${t.toLocaleString()})${mins>45?' ⚠ Data is stale: the scheduled collector may be delayed or failing.':''} · page reloads data every 60 s`}
+ const el=$('fresh');el.className='fresh'+(mins>75?' stale':'');
+ el.innerHTML=`🔄 Updated ${mins<1?'just now':mins+' min ago'} · <span class="ar">آخر تحديث</span>${mins>75?' · ⚠️ Data is late: the collector may be delayed · <span class="ar">البيانات متأخرة</span>':''}`;el.title=`Last collection ${t.toLocaleString()} · page reloads data every 60 s`}
 function renderProg(){const T=META.totals,tgt=META.target,obs=T.observed||0,sch=T.scheduled||0,pct=v=>Math.min(100,v/tgt*100).toFixed(1);
  const y=addDays(todayKSA(),-1),tom=addDays(todayKSA(),1),pd=META.per_day||{},sum=(d,k)=>Object.entries(pd[d]||{}).filter(([x])=>x.endsWith('|'+k)).reduce((s,[,v])=>s+v,0);
  const rate=Math.max(sum(y,'observed'),sum(tom,'scheduled')+sum(tom,'observed'));const left=v=>v>=tgt?0:(rate?((tgt-v)/rate).toFixed(1):'?');
@@ -63,8 +63,8 @@ function renderMap(){if(!window.L)return;if(!map){map=L.map('map',{worldCopyJump
  for(const [k,p] of origins)L.circleMarker(p,{radius:6,color:'#fff',fillColor:'#10b981',fillOpacity:1}).bindTooltip(k).addTo(mapLayer);
  $('maplegend').innerHTML=`${g.size} route lines from ${FIL.length} flights · lines start at the ${ref?'mosque':'airport'} · `+W.map(w=>`<span class="legend"><i style="background:${WCOL[w]}"></i>${w}</span>`).join('')}
 // ---------- charts
-function chart(id,cfg){cfg.options=Object.assign({responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{labels:{color:'#cde',boxWidth:12}},title:{display:true,text:cfg.title,color:'#9fd3ff'}},
- scales:{x:{ticks:{color:'#9ab'}},y:{ticks:{color:'#9ab'},beginAtZero:true}}},cfg.options||{});if(charts[id]){charts[id].data=cfg.data;charts[id].options=cfg.options;charts[id].update('none');return}charts[id]=new Chart($(id),cfg)}
+function chart(id,cfg){cfg.options=Object.assign({responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{labels:{color:'#334155',boxWidth:12}},title:{display:true,text:cfg.title,color:'#1e40af'}},
+ scales:{x:{ticks:{color:'#475569'}},y:{ticks:{color:'#475569'},beginAtZero:true}}},cfg.options||{});if(charts[id]){charts[id].data=cfg.data;charts[id].options=cfg.options;charts[id].update('none');return}charts[id]=new Chart($(id),cfg)}
 function renderRolling(){const base=filtered({ignoreDate:true}),w=$('rwin').value||'ALL',t=todayKSA();const ds=[...new Set(base.map(r=>r.dep_date))].sort();if(!ds.length){$('rt').innerHTML='<tr><td>No data</td></tr>';return}
  const days=[];for(let d=ds[0];d<=ds[ds.length-1];d=addDays(d,1))days.push(d);const by={};base.forEach(r=>(by[r.dep_date]=by[r.dep_date]||[]).push(r));
  const rows=[];for(const d of days)for(const x of ['ALL',...W]){const f=r=>x==='ALL'||r.prayer_window===x;const span=days.filter(y=>y<=d&&y>addDays(d,-7));
@@ -72,7 +72,7 @@ function renderRolling(){const base=filtered({ignoreDate:true}),w=$('rwin').valu
  const rs=rows.filter(r=>r.x===w),L_=rs.map(r=>r.d);
  chart('c1',{type:'bar',title:`Flights per day: ${w}`,data:{labels:L_,datasets:[{label:'flights',data:rs.map(r=>r.day.flights),backgroundColor:rs.map(r=>r.future?'#047857':'#3b82f6')},{type:'line',label:'7-day rolling avg',data:rs.map(r=>r.roll.perDay),borderColor:'#ffd479'}]}});
  chart('c2',{type:'bar',title:`Estimated seats per day (known types only): ${w}`,data:{labels:L_,datasets:[{label:'est. seats',data:rs.map(r=>r.day.seats),backgroundColor:'#10b981'},{type:'line',label:'7-day rolling avg',data:rs.map(r=>r.roll.seatsPerDay),borderColor:'#ffd479'}]}});
- chart('c3',{type:'line',title:`Mean dlat / dlon / km mod 27: ${w}`,data:{labels:L_,datasets:[['mdlat27','dlat','#60a5fa'],['mdlon27','dlon','#f472b6'],['mkm27','km','#34d399']].flatMap(([k,n,c])=>[{label:n+' (day)',data:rs.map(r=>r.day[k]),borderColor:c},{label:n+' (7d)',data:rs.map(r=>r.roll[k]),borderColor:c,borderDash:[5,4]}])},options:{scales:{x:{ticks:{color:'#9ab'}},y:{min:0,max:27,ticks:{color:'#9ab'}}}}});
+ chart('c3',{type:'line',title:`Mean dlat / dlon / km mod 27: ${w}`,data:{labels:L_,datasets:[['mdlat27','dlat','#60a5fa'],['mdlon27','dlon','#f472b6'],['mkm27','km','#34d399']].flatMap(([k,n,c])=>[{label:n+' (day)',data:rs.map(r=>r.day[k]),borderColor:c},{label:n+' (7d)',data:rs.map(r=>r.roll[k]),borderColor:c,borderDash:[5,4]}])},options:{scales:{x:{ticks:{color:'#475569'}},y:{min:0,max:27,ticks:{color:'#475569'}}}}});
  const sel=$('date').value||(days.includes(t)?t:days[days.length-1]);const bw=W.map(x=>rows.find(r=>r.d===sel&&r.x===x));
  chart('c4',{type:'bar',title:`By prayer window on ${sel}: day vs 7-day avg`,data:{labels:W,datasets:[{label:'flights (day)',data:bw.map(r=>r?r.day.flights:0),backgroundColor:W.map(x=>WCOL[x])},{label:'7-day avg/day',data:bw.map(r=>r?r.roll.perDay:0),backgroundColor:'#ffd47999'}]}});
  const WO=['ALL',...W];let h='<tr><th>Date</th><th>Window</th><th>Flights</th><th>Est. seats</th><th>mean dlat</th><th>mean dlon</th><th>mean km</th><th>dlat%27</th><th>dlon%27</th><th>km%27</th><th>Mode city</th><th>Mode dlat%27</th><th>Mode dlon%27</th><th>Mode km%27</th><th>7d avg/day</th><th>7d seats/day</th><th>7d dlat%27</th><th>7d dlon%27</th><th>7d km%27</th><th>7d mode city</th><th>7d mode km%27</th><th>days in 7d</th></tr>';
@@ -108,7 +108,7 @@ function renderAll(){FIL=filtered();renderModes();renderMap();renderRolling();re
 async function load(){try{const v='?t='+Date.now();const [f,m,p]=await Promise.all(['flights','meta','prayer'].map(n=>fetch('data/'+n+'.json'+v).then(r=>r.json())));
  ALL=f.rows.map(a=>Object.fromEntries(f.cols.map((c,i)=>[c,a[i]])));META=m;PRAY=p;
  const cur=$('date').value,ds=[...new Set(ALL.map(r=>r.dep_date))].sort().reverse();$('date').innerHTML='<option value="">all</option>'+ds.map(d=>`<option${d===cur?' selected':''}>${d}</option>`).join('');
- if(!$('rwin').options.length)$('rwin').innerHTML=['ALL',...W].map(x=>`<option>${x}</option>`).join('');renderPrayer();renderAll()}catch(e){$('fresh').className='fresh stale';$('fresh').textContent='Could not load data: '+e}}
+ if(!$('rwin').options.length)$('rwin').innerHTML=['ALL',...W].map(x=>`<option>${x}</option>`).join('');renderPrayer();renderAll();if(typeof loadRecited==='function'){await loadRecited();renderKids()}}catch(e){$('fresh').className='fresh stale';$('fresh').textContent='Could not load data: '+e}}
 ['layer','ref','site','origin','date','dtype','cs'].forEach(i=>$(i).addEventListener('change',renderAll));$('grp').addEventListener('change',renderTable);$('rwin').addEventListener('change',renderRolling);
 $('dest').addEventListener('input',()=>{clearTimeout(window._t);window._t=setTimeout(renderAll,300)});$('csv').addEventListener('click',downloadCSV);
-load();setInterval(load,60000);setInterval(()=>{renderPrayer();renderFresh()},1000);
+load();setInterval(load,60000);setInterval(()=>{renderPrayer();renderFresh();if(typeof tickKids==='function')tickKids()},1000);

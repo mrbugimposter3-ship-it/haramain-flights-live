@@ -1,18 +1,26 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Haramain & Al-Aqsa Flights Live</title><link rel="icon" href="data:,">
+<title>Haramain Flights Live · رحلات الحرمين مباشر</title><meta name="theme-color" content="#38bdf8"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="icon" href="data:,">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <link rel="stylesheet" href="style.css"></head><body>
 <header>
- <h1>✈ Haramain &amp; Al-Aqsa Flights Live</h1>
- <div class="sub">Departures from Makkah (JED), Madinah (MED) and Al-Aqsa (TLV, plus AMM as the nearby gateway), with location differences, mod 27 and modes by prayer window</div>
- <div id="fresh" class="fresh">loading…</div>
+ <h1>✈️ Haramain Flights Live · <span class="ar">رحلات الحرمين مباشر</span></h1>
+ <div class="sub">Planes leaving Makkah 🕋, Madinah 🕌 and Al-Aqsa 🕌 · <span class="ar">الطائرات المغادرة من مكة والمدينة والقدس</span></div>
+ <div id="fresh" class="fresh">loading… · <span class="ar">جارٍ التحميل</span></div>
 </header>
 <main>
-<section class="warn" id="labels">
+<section class="hero" id="hero"></section>
+<section class="kids" id="kids"></section>
+<section class="help card">
+ <div class="helprow"><span class="tag obs">✈️ flew · طارت</span> seen flying by plane trackers or the airport board · <span class="ar">شوهدت وهي تطير</span></div>
+ <div class="helprow"><span class="tag sch">🗓️ planned · مجدولة</span> on the timetable, not seen flying yet · <span class="ar">في الجدول ولم تُشاهد بعد</span></div>
+ <div class="helprow">📖 “Last recited” comes from the video of that prayer · <span class="ar">من تسجيل الصلاة</span> · 🤫 Dhuhr and Asr are silent prayers · <span class="ar">الظهر والعصر صلاتان سرّيتان</span></div>
+ <div class="helprow">🔢 The “number-pattern surah” is a game with the flight numbers, <b>not</b> what the imam is reading · <span class="ar">لعبة أرقام وليست ما يقرأه الإمام</span></div>
+ <details><summary>More about the data (for grown-ups) · <span class="ar">تفاصيل للكبار</span></summary>
+ <div class="warn" id="labels">
  <b>What each label means.</b>
- <span class="tag obs">observed (ADS-B)</span> seen in the air by free community trackers (adsb.fi, adsb.lol), with the route from adsbdb.com; departure time is estimated from distance flown. (OpenSky is tried daily but refuses anonymous access.)
+ <span class="tag obs">observed (ADS-B)</span> seen in the air by free community trackers (adsb.fi, adsb.lol), with the route from adsbdb.com (hexdb.io when adsbdb has none); departure time is estimated from distance flown. (OpenSky is tried daily but refuses anonymous access.)
  <span class="tag obs">observed (airport board)</span> the airport's own board reports it departed (TLV: Israel Airports Authority open data; MED: Tibah Airports public board).
  <span class="tag sch">scheduled</span> published but not yet confirmed as departed (timetable, not observed).
  <b>Seats are estimates</b> based on aircraft type, and are only known for some flights. Real passenger numbers aren't public.
@@ -20,7 +28,11 @@
  <b>Codeshares</b> are counted once unless you include them.
  dlat/dlon = destination minus origin (airport or mosque); km = great-circle distance; "mod 27" = value mod 27 (positive remainder); modes use the whole-number part.
  Prayer windows: Makkah and Madinah use Umm al-Qura; Al-Aqsa uses the Jordan Ministry of Awqaf method, computed at the mosque, for both TLV and AMM.
+ <b>Last recited:</b> the surah and ayat of each mosque's latest audible prayer (Fajr, Maghrib, Isha), identified from the YouTube recording of that prayer (data/recitations.json, else data/last_recited.json; updated daily). Shown only if at most 3 days old. Dhuhr and Asr are silent prayers, so they have no ayat.
+ <b>Number-pattern surah:</b> used only when a mosque has no recent recitation data. It is NOT the live recitation (no public feed says what is being recited). Formula: take that site's flights for its local today in the current prayer window (if fewer than 3, the whole day; if still fewer than 3, the last 7 days); a = most common whole-number dlat mod 27 and k = most common whole-number km mod 27, both measured from the mosque (ties: smallest value); surah = ((27 × a + k) mod 114) + 1, which is always 1 to 114.
+ </div></details>
 </section>
+<h2 class="grown">📊 Grown-up details · <span class="ar">تفاصيل وأرقام</span></h2>
 <section class="card" id="prog"></section>
 <section class="controls card">
  <label>Layer <select id="layer"><option value="observed">observed only</option><option value="all" selected>observed + scheduled</option><option value="scheduled">scheduled only</option></select></label>
@@ -48,6 +60,6 @@
  <label>Group <select id="grp"><option value="1">by date and prayer window</option><option value="0">none (click headers to sort)</option></select></label>
  <button id="csv">⬇ Download CSV (filtered)</button></div>
  <div class="scroll"><table id="ft"></table></div></section>
-<p class="muted foot">Data: adsb.fi and adsb.lol (community ADS-B), OpenSky Network, adsbdb.com routes, Israel Airports Authority (data.gov.il), Tibah Airports public board, OurAirports, OpenFlights, GeoNames (CC-BY), Aladhan prayer times. Map © OpenStreetMap contributors.
+<p class="muted foot">Data: adsb.fi and adsb.lol (community ADS-B), OpenSky Network, adsbdb.com and hexdb.io routes, Haramain Recordings (last recited ayat), Israel Airports Authority (data.gov.il), Tibah Airports public board, OurAirports, OpenFlights, GeoNames (CC-BY), Aladhan prayer times. Map © OpenStreetMap contributors.
 Collected by GitHub Actions every ~15 min (GitHub's scheduler can run late). <a href="https://github.com/mrbugimposter3-ship-it/haramain-flights-live">Source and data</a></p>
-</main><script src="app.js"></script></body></html>
+</main><script src="surahs.js"></script><script src="app.js"></script><script src="kids.js"></script></body></html>

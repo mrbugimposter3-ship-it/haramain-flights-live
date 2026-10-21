@@ -36,5 +36,11 @@ def main():
                 per_day={d: dict(c) for d, c in sorted(per_day.items())}, window=[lo, hi], origins={k: {'site': v[0], 'label': v[1]} for k, v in hfl.ORIGINS.items()},
                 mosques={k: v[:2] for k, v in hfl.MOSQUE.items()})
     json.dump(meta, open(os.path.join(OUT, 'meta.json'), 'w'), separators=(',', ':'), default=str)
+    # Recitation data (data/recitations.json, data/last_recited.json) is written by a separate daily job; it is only copied here, never edited or deleted.
+    for name in ('recitations.json', 'last_recited.json'):
+        src = os.path.join(hfl.DATA, name)
+        if os.path.exists(src):
+            try: json.dump(json.load(open(src, encoding='utf-8')), open(os.path.join(OUT, name), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+            except Exception as e: print(name, 'not copied:', e)
     print('built', len(rows), 'rows;', dict(totals))
 if __name__ == '__main__': main()
