@@ -1,62 +1,62 @@
 {
-  "updated_utc": "2026-10-21T17:06:42Z",
+  "updated_utc": "2026-10-22T02:09:03Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
-    "mosque": "makkah",
-    "mosque_name": "Masjid al-Haram",
-    "prayer": "Maghrib",
-    "date": "2026-10-21",
-    "imam": "Sheikh Shamsaan",
-    "surah": 57,
-    "surah_name": "Al-Hadid",
-    "ayah_from": 18,
-    "ayah_to": 21,
-    "confidence": 93,
-    "source_video": "https://www.youtube.com/watch?v=a9ZUYRIY294",
-    "source_title": "21st Oct 2026 Makkah Maghrib Sheikh Shamsaan",
-    "identified_utc": "2026-10-21T17:05:04Z",
+    "mosque": "madinah",
+    "mosque_name": "Masjid an-Nabawi",
+    "prayer": "Isha",
+    "date": "2026-10-22",
+    "imam": "Sheikh Ahmad al Hudhaify",
+    "surah": 25,
+    "surah_name": "Al-Furqan",
+    "ayah_from": 21,
+    "ayah_to": 41,
+    "confidence": 82,
+    "source_video": "https://www.youtube.com/watch?v=-zYAAa3yqi8",
+    "source_title": "22nd Oct 2026 Madeenah 'Isha Sheikh Ahmad al Hudhaify",
+    "identified_utc": "2026-10-22T02:06:20Z",
     "rakahs": [
-      "57:18-20",
-      "57:21"
+      "25:21-34",
+      "25:35-41"
     ]
   },
   "mosques": {
     "makkah": {
       "mosque": "makkah",
       "mosque_name": "Masjid al-Haram",
-      "prayer": "Maghrib",
+      "prayer": "Isha",
       "date": "2026-10-21",
-      "imam": "Sheikh Shamsaan",
-      "surah": 57,
-      "surah_name": "Al-Hadid",
-      "ayah_from": 18,
-      "ayah_to": 21,
-      "confidence": 93,
-      "source_video": "https://www.youtube.com/watch?v=a9ZUYRIY294",
-      "source_title": "21st Oct 2026 Makkah Maghrib Sheikh Shamsaan",
-      "identified_utc": "2026-10-21T17:05:04Z",
+      "imam": "Sheikh Maahir",
+      "surah": 24,
+      "surah_name": "An-Nur",
+      "ayah_from": 34,
+      "ayah_to": 44,
+      "confidence": 82,
+      "source_video": "https://www.youtube.com/watch?v=Ai896Y0Y6Hs",
+      "source_title": "21st Oct 2026 Makkah 'Isha Sheikh Maahir",
+      "identified_utc": "2026-10-22T02:09:03Z",
       "rakahs": [
-        "57:18-20",
-        "57:21"
+        "24:34-40",
+        "24:41-44"
       ]
     },
     "madinah": {
       "mosque": "madinah",
       "mosque_name": "Masjid an-Nabawi",
-      "prayer": "Maghrib",
-      "date": "2026-10-21",
-      "imam": "Sheikh Muhanna",
-      "surah": 101,
-      "surah_name": "Al-Qariah",
-      "ayah_from": 3,
-      "ayah_to": 11,
-      "confidence": 78,
-      "source_video": "https://www.youtube.com/watch?v=prLXfvF_SyE",
-      "source_title": "21st Oct 2026 Madeenah Maghrib Sheikh Muhanna",
-      "identified_utc": "2026-10-21T17:06:42Z",
+      "prayer": "Isha",
+      "date": "2026-10-22",
+      "imam": "Sheikh Ahmad al Hudhaify",
+      "surah": 25,
+      "surah_name": "Al-Furqan",
+      "ayah_from": 21,
+      "ayah_to": 41,
+      "confidence": 82,
+      "source_video": "https://www.youtube.com/watch?v=-zYAAa3yqi8",
+      "source_title": "22nd Oct 2026 Madeenah 'Isha Sheikh Ahmad al Hudhaify",
+      "identified_utc": "2026-10-22T02:06:20Z",
       "rakahs": [
-        "101:3-11",
-        "102:1-8"
+        "25:21-34",
+        "25:35-41"
       ]
     }
   }
