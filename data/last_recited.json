@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-22T02:09:03Z",
+  "updated_utc": "2026-10-22T13:54:40Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
     "mosque": "madinah",
@@ -24,20 +24,21 @@
     "makkah": {
       "mosque": "makkah",
       "mosque_name": "Masjid al-Haram",
-      "prayer": "Isha",
-      "date": "2026-10-21",
-      "imam": "Sheikh Maahir",
-      "surah": 24,
-      "surah_name": "An-Nur",
-      "ayah_from": 34,
-      "ayah_to": 44,
-      "confidence": 82,
-      "source_video": "https://www.youtube.com/watch?v=Ai896Y0Y6Hs",
-      "source_title": "21st Oct 2026 Makkah 'Isha Sheikh Maahir",
-      "identified_utc": "2026-10-22T02:09:03Z",
+      "prayer": "Fajr",
+      "date": "2026-10-22",
+      "imam": "Sheikh Baleelah",
+      "surah": 45,
+      "surah_name": "Al-Jathiyah",
+      "ayah_from": 23,
+      "ayah_to": 37,
+      "confidence": 79,
+      "source_video": "https://www.youtube.com/watch?v=ynDJfbbKmcU",
+      "source_title": "22nd Oct 2026 Makkah Fajr Sheikh Baleelah",
+      "identified_utc": "2026-10-22T11:11:50Z",
       "rakahs": [
-        "24:34-40",
-        "24:41-44"
+        "45:23-31",
+        "45:32-37",
+        "2:217"
       ]
     },
     "madinah": {
