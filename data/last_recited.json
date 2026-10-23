@@ -1,62 +1,59 @@
 {
-  "updated_utc": "2026-10-23T05:08:30Z",
+  "updated_utc": "2026-10-23T13:12:07Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
     "mosque": "makkah",
     "mosque_name": "Masjid al-Haram",
-    "prayer": "Fajr",
+    "prayer": "Jumuah",
     "date": "2026-10-23",
-    "imam": "Sheikh Baleelah",
-    "surah": 62,
-    "surah_name": "Al-Jumuah",
+    "imam": "Sheikh Humaid",
+    "surah": 105,
+    "surah_name": "Al-Fil",
     "ayah_from": 1,
-    "ayah_to": 11,
-    "confidence": 86,
-    "source_video": "https://www.youtube.com/watch?v=T3_mebuwwkg",
-    "source_title": "23rd Oct 2026 Makkah Fajr Sheikh Baleelah",
-    "identified_utc": "2026-10-23T05:08:30Z",
+    "ayah_to": 5,
+    "confidence": 76,
+    "source_video": "https://www.youtube.com/watch?v=oSEy0K0d7zU",
+    "source_title": "23rd Oct 2026 Makkah Jumu'ah Salaah Sheikh Humaid",
+    "identified_utc": "2026-10-23T11:07:08Z",
     "rakahs": [
-      "62:1-8",
-      "62:9-11"
+      "105:1-5"
     ]
   },
   "mosques": {
     "makkah": {
       "mosque": "makkah",
       "mosque_name": "Masjid al-Haram",
-      "prayer": "Fajr",
+      "prayer": "Jumuah",
       "date": "2026-10-23",
-      "imam": "Sheikh Baleelah",
-      "surah": 62,
-      "surah_name": "Al-Jumuah",
+      "imam": "Sheikh Humaid",
+      "surah": 105,
+      "surah_name": "Al-Fil",
       "ayah_from": 1,
-      "ayah_to": 11,
-      "confidence": 86,
-      "source_video": "https://www.youtube.com/watch?v=T3_mebuwwkg",
-      "source_title": "23rd Oct 2026 Makkah Fajr Sheikh Baleelah",
-      "identified_utc": "2026-10-23T05:08:30Z",
+      "ayah_to": 5,
+      "confidence": 76,
+      "source_video": "https://www.youtube.com/watch?v=oSEy0K0d7zU",
+      "source_title": "23rd Oct 2026 Makkah Jumu'ah Salaah Sheikh Humaid",
+      "identified_utc": "2026-10-23T11:07:08Z",
       "rakahs": [
-        "62:1-8",
-        "62:9-11"
+        "105:1-5"
       ]
     },
     "madinah": {
       "mosque": "madinah",
       "mosque_name": "Masjid an-Nabawi",
-      "prayer": "Fajr",
+      "prayer": "Jumuah",
       "date": "2026-10-23",
-      "imam": "Sheikh Quraafi",
-      "surah": 32,
-      "surah_name": "As-Sajdah",
+      "imam": "Sheikh ‘Ali Hudhaify",
+      "surah": 112,
+      "surah_name": "Al-Ikhlas",
       "ayah_from": 1,
-      "ayah_to": 30,
-      "confidence": 82,
-      "source_video": "https://www.youtube.com/watch?v=5k2MOx11iU8",
-      "source_title": "23rd Oct 2026 Madeenah Fajr Sheikh Quraafi",
-      "identified_utc": "2026-10-23T04:39:16Z",
+      "ayah_to": 4,
+      "confidence": 79,
+      "source_video": "https://www.youtube.com/watch?v=Yt5iMeljo74",
+      "source_title": "23rd Oct 2026 Madeenah Jumu'ah Salaah Sheikh ‘Ali Hudhaify",
+      "identified_utc": "2026-10-23T11:05:47Z",
       "rakahs": [
-        "32:1-30",
-        "76:1-31"
+        "112:1-4"
       ]
     }
   }
