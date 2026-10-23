@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-23T04:39:16Z",
+  "updated_utc": "2026-10-23T05:08:30Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -13,43 +13,35 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "fajr",
-        "date": "2026-10-22",
+        "date": "2026-10-23",
         "imam": "Sheikh Baleelah",
-        "surah": 45,
-        "surah_name": "Al-Jathiyah",
-        "ayah_from": 23,
-        "ayah_to": 37,
+        "surah": 62,
+        "surah_name": "Al-Jumuah",
+        "ayah_from": 1,
+        "ayah_to": 11,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 45,
-            "surah_name": "Al-Jathiyah",
-            "ayah_from": 23,
-            "ayah_to": 31,
-            "ref": "45:23-31"
+            "surah": 62,
+            "surah_name": "Al-Jumuah",
+            "ayah_from": 1,
+            "ayah_to": 8,
+            "ref": "62:1-8"
           },
           {
             "rakah": 2,
-            "surah": 45,
-            "surah_name": "Al-Jathiyah",
-            "ayah_from": 32,
-            "ayah_to": 37,
-            "ref": "45:32-37"
-          },
-          {
-            "rakah": 2,
-            "surah": 2,
-            "surah_name": "Al-Baqarah",
-            "ayah_from": 217,
-            "ayah_to": 217,
-            "ref": "2:217"
+            "surah": 62,
+            "surah_name": "Al-Jumuah",
+            "ayah_from": 9,
+            "ayah_to": 11,
+            "ref": "62:9-11"
           }
         ],
-        "summary": "45:23-31 · 45:32-37 · 2:217",
-        "confidence": 79,
-        "source_video": "https://www.youtube.com/watch?v=ynDJfbbKmcU",
-        "source_title": "22nd Oct 2026 Makkah Fajr Sheikh Baleelah",
-        "identified_utc": "2026-10-22T11:11:50Z"
+        "summary": "62:1-8 · 62:9-11",
+        "confidence": 86,
+        "source_video": "https://www.youtube.com/watch?v=T3_mebuwwkg",
+        "source_title": "23rd Oct 2026 Makkah Fajr Sheikh Baleelah",
+        "identified_utc": "2026-10-23T05:08:30Z"
       },
       "dhuhr": {
         "mosque": "makkah",
