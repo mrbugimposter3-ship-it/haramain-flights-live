@@ -30,7 +30,7 @@ function avatarSVG(spec){const W=LetterWardrobe,{W:w,H:h}=W.data,px=W.renderPixe
 function shopLinks(q){const e=encodeURIComponent(q),slug=q.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),C=SHOP_CONFIG;
  return[['Amazon.ca','https://www.amazon.ca/s?k='+e+(C.amazonTag?'&tag='+encodeURIComponent(C.amazonTag):'')],
   ['Temu','https://www.temu.com/search_result.html?search_key='+e+(C.temuCode?'&'+C.temuCode:'')],
-  ["Macy's",'https://www.macys.com/shop/featured/'+slug+(C.macysId?'?'+C.macysId:'')]]}
+  ["Macy's",'https://www.macys.com/shop/search?keyword='+e+(C.macysId?'&'+C.macysId:'')]]}
 async function renderOutfit(){const el=document.getElementById('outfit');if(!el||!ALL||!window.LetterWardrobe)return;
  const m=dayModes();if(!m){el.innerHTML='<div class="ofcard"><div class="small">Not enough flights yet · لا رحلات كافية بعد</div></div>';return}
  try{QIDX=QIDX||await qjson('index');const surah=((27*m.a+m.k)%114)+1,cnt=QIDX.ayahs[surah-1],ayah=((m.a*m.k+m.a+m.k)%cnt)+1;
