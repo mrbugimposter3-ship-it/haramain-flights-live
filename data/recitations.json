@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-22T20:11:08Z",
+  "updated_utc": "2026-10-23T04:39:16Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -149,35 +149,35 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "fajr",
-        "date": "2026-10-22",
+        "date": "2026-10-23",
         "imam": "Sheikh Quraafi",
-        "surah": 8,
-        "surah_name": "Al-Anfal",
-        "ayah_from": 64,
-        "ayah_to": 75,
+        "surah": 32,
+        "surah_name": "As-Sajdah",
+        "ayah_from": 1,
+        "ayah_to": 30,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 8,
-            "surah_name": "Al-Anfal",
-            "ayah_from": 64,
-            "ayah_to": 71,
-            "ref": "8:64-71"
+            "surah": 32,
+            "surah_name": "As-Sajdah",
+            "ayah_from": 1,
+            "ayah_to": 30,
+            "ref": "32:1-30"
           },
           {
             "rakah": 2,
-            "surah": 8,
-            "surah_name": "Al-Anfal",
-            "ayah_from": 72,
-            "ayah_to": 75,
-            "ref": "8:72-75"
+            "surah": 76,
+            "surah_name": "Al-Insan",
+            "ayah_from": 1,
+            "ayah_to": 31,
+            "ref": "76:1-31"
           }
         ],
-        "summary": "8:64-71 · 8:72-75",
-        "confidence": 90,
-        "source_video": "https://www.youtube.com/watch?v=TepGrocvcCY",
-        "source_title": "22nd Oct 2026 Madeenah Fajr Sheikh Quraafi",
-        "identified_utc": "2026-10-22T11:09:33Z"
+        "summary": "32:1-30 · 76:1-31",
+        "confidence": 82,
+        "source_video": "https://www.youtube.com/watch?v=5k2MOx11iU8",
+        "source_title": "23rd Oct 2026 Madeenah Fajr Sheikh Quraafi",
+        "identified_utc": "2026-10-23T04:39:16Z"
       },
       "dhuhr": {
         "mosque": "madinah",

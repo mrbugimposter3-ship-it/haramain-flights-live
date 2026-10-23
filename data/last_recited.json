@@ -1,23 +1,23 @@
 {
-  "updated_utc": "2026-10-22T20:11:08Z",
+  "updated_utc": "2026-10-23T04:39:16Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
-    "mosque": "makkah",
-    "mosque_name": "Masjid al-Haram",
-    "prayer": "Isha",
-    "date": "2026-10-22",
-    "imam": "Sheikh Mu’ayqali",
-    "surah": 29,
-    "surah_name": "Al-Ankabut",
-    "ayah_from": 14,
-    "ayah_to": 25,
+    "mosque": "madinah",
+    "mosque_name": "Masjid an-Nabawi",
+    "prayer": "Fajr",
+    "date": "2026-10-23",
+    "imam": "Sheikh Quraafi",
+    "surah": 32,
+    "surah_name": "As-Sajdah",
+    "ayah_from": 1,
+    "ayah_to": 30,
     "confidence": 82,
-    "source_video": "https://www.youtube.com/watch?v=o5M4xP5mAVs",
-    "source_title": "22nd Oct 2026 Makkah 'Isha Sheikh Mu’ayqali",
-    "identified_utc": "2026-10-22T20:04:25Z",
+    "source_video": "https://www.youtube.com/watch?v=5k2MOx11iU8",
+    "source_title": "23rd Oct 2026 Madeenah Fajr Sheikh Quraafi",
+    "identified_utc": "2026-10-23T04:39:16Z",
     "rakahs": [
-      "29:14-23",
-      "29:24-25"
+      "32:1-30",
+      "76:1-31"
     ]
   },
   "mosques": {
@@ -43,20 +43,20 @@
     "madinah": {
       "mosque": "madinah",
       "mosque_name": "Masjid an-Nabawi",
-      "prayer": "Isha",
-      "date": "2026-10-22",
-      "imam": "Sheikh Ahmed Hudhaify",
-      "surah": 41,
-      "surah_name": "Fussilat",
-      "ayah_from": 19,
-      "ayah_to": 35,
-      "confidence": 84,
-      "source_video": "https://www.youtube.com/watch?v=bABVYTcC8Zk",
-      "source_title": "22nd Oct 2026 Madeenah 'Isha Sheikh Ahmed Hudhaify",
-      "identified_utc": "2026-10-22T20:07:29Z",
+      "prayer": "Fajr",
+      "date": "2026-10-23",
+      "imam": "Sheikh Quraafi",
+      "surah": 32,
+      "surah_name": "As-Sajdah",
+      "ayah_from": 1,
+      "ayah_to": 30,
+      "confidence": 82,
+      "source_video": "https://www.youtube.com/watch?v=5k2MOx11iU8",
+      "source_title": "23rd Oct 2026 Madeenah Fajr Sheikh Quraafi",
+      "identified_utc": "2026-10-23T04:39:16Z",
       "rakahs": [
-        "41:19-29",
-        "41:30-35"
+        "32:1-30",
+        "76:1-31"
       ]
     }
   }
