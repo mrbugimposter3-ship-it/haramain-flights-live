@@ -58,3 +58,12 @@ th{cursor:pointer;background:#e0f2fe;position:sticky;top:0}tr.grp td{background:
 .infaq-src{font-size:12px;color:#64748b;margin-top:6px}
 .tools-line{margin:16px 0 0;padding:10px 12px;border:2px dashed #93c5fd;border-radius:16px;background:#ffffffaa;font-size:15px;font-weight:700}
 .tools-line .infaq-tn{font-weight:400;color:#475569}
+.outfit{margin-top:16px}.ofcard{background:#fff;border-radius:28px;padding:16px;border:4px solid #ec4899;box-shadow:0 8px 0 #ec4899;display:flex;flex-direction:column;gap:12px}
+.oft{font-weight:900;font-size:clamp(20px,3.6vw,26px);color:#0f172a}.ofayah{background:#fef3c7;border:3px dashed #f59e0b;border-radius:22px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.ofar{font-family:"Amiri Quran",Amiri,"Noto Naskh Arabic","Geeza Pro","Traditional Arabic",serif;font-size:clamp(22px,3.4vw,28px);line-height:2.1;color:#0f172a}
+.ofen{font-size:17px;line-height:1.5}.ofwear{display:flex;gap:14px;align-items:flex-start;background:#fdf2f8;border-radius:22px;padding:12px}
+.ofav{width:120px;height:160px;flex:none;background:#fce7f3;border-radius:16px;image-rendering:pixelated}
+.ofparts{list-style:none;margin:6px 0;padding:0;display:flex;flex-direction:column;gap:6px;font-size:16px}.ofsw{display:inline-block;width:16px;height:16px;border-radius:5px;border:1px solid #0003;vertical-align:-2px;margin-right:4px}
+.ofshop{border:3px dashed #94a3b8;border-radius:20px;padding:10px 14px;background:#f8fafc}.ofshop-h{font-weight:900;color:#334155}
+.ofshop ul{margin:6px 0 0;padding-left:18px;line-height:1.9;font-size:15px}.ofshop a{font-weight:800;overflow-wrap:anywhere}
+@media (max-width:600px){.ofwear{flex-direction:column;align-items:center}.ofav{width:96px;height:128px}}

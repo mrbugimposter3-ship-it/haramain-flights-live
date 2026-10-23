@@ -108,7 +108,7 @@ function renderAll(){FIL=filtered();renderModes();renderMap();renderRolling();re
 async function load(){try{const v='?t='+Date.now();const [f,m,p]=await Promise.all(['flights','meta','prayer'].map(n=>fetch('data/'+n+'.json'+v).then(r=>r.json())));
  ALL=f.rows.map(a=>Object.fromEntries(f.cols.map((c,i)=>[c,a[i]])));META=m;PRAY=p;
  const cur=$('date').value,ds=[...new Set(ALL.map(r=>r.dep_date))].sort().reverse();$('date').innerHTML='<option value="">all</option>'+ds.map(d=>`<option${d===cur?' selected':''}>${d}</option>`).join('');
- if(!$('rwin').options.length)$('rwin').innerHTML=['ALL',...W].map(x=>`<option>${x}</option>`).join('');renderPrayer();renderAll();if(typeof loadRecited==='function'){await loadRecited();renderKids()}}catch(e){$('fresh').className='fresh stale';$('fresh').textContent='Could not load data: '+e}}
+ if(!$('rwin').options.length)$('rwin').innerHTML=['ALL',...W].map(x=>`<option>${x}</option>`).join('');renderPrayer();renderAll();if(typeof loadRecited==='function'){await loadRecited();renderKids()}if(typeof renderOutfit==='function')renderOutfit()}catch(e){$('fresh').className='fresh stale';$('fresh').textContent='Could not load data: '+e}}
 ['layer','ref','site','origin','date','dtype','cs'].forEach(i=>$(i).addEventListener('change',renderAll));$('grp').addEventListener('change',renderTable);$('rwin').addEventListener('change',renderRolling);
 $('dest').addEventListener('input',()=>{clearTimeout(window._t);window._t=setTimeout(renderAll,300)});$('csv').addEventListener('click',downloadCSV);
 load();setInterval(load,60000);setInterval(()=>{renderPrayer();renderFresh();if(typeof tickKids==='function')tickKids()},1000);

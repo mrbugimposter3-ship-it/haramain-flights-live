@@ -34,6 +34,14 @@ The top of the page is a kid-friendly view (big cards, Arabic + English): per mo
 
 Data credits: adsb.fi, adsb.lol, hexdb.io, Haramain Recordings (last recited ayat), OpenSky Network, adsbdb, Israel Airports Authority, Tibah Airports, OurAirports (public domain), OpenFlights (ODbL), GeoNames (CC-BY 4.0), Aladhan. Map tiles © OpenStreetMap contributors.
 
+## 👕 Today's ayah & outfit · آية اليوم ولباسها
+A kid-style card under the mosque cards. **Number pattern for fun, not tafsir and not the live recitation.**
+- **Modes:** all three mosques' flights on today's KSA date (codeshares and cancellations excluded; if fewer than 3, the last 7 days). a = most common whole-number `dlat mod 27`, k = most common whole-number `km mod 27`, both from the mosque (ties go to the smaller value).
+- **surah = ((27 × a + k) mod 114) + 1**, then **ayah = ((a × k + a + k) mod ayahCount) + 1**, where ayahCount is that surah's number of ayahs.
+- **Text:** Uthmani Arabic (`quran-uthmani`) and Pickthall's English (`en.pickthall`, public domain) from [Al Quran Cloud](https://alquran.cloud), cached by `collector/gen_ayah_data.py` into `site/quran/NNN.json`, never typed by hand (the basmala alquran.cloud puts before ayah 1 is removed).
+- **Outfit:** Letter Wardrobe by Rufus (HelpOutBoran-Videos): first letter → top, middle letter → outerwear (cut by its strength), last letter → bottom, from tajweed letter sounds only. `site/wardrobe.js` and `site/wardrobe-data.js` are copied unchanged from [Quran Recorder](https://github.com/mrbugimposter3-ship-it/quran-recorder) (`docs/`, commit 6bac659). `collector/gen_outfits.js` stores each ayah's letters (`lw`) computed with that code over Quran Recorder's own text, so both apps show the same outfit (same outfit id). Pixel figure seen from behind, no face.
+- **Shopping links** (own dashed box, `rel="noopener sponsored"`): Amazon.ca, Temu and Macy's store searches using Quran Recorder's search wording (`LetterWardrobe.searchQuery`). Affiliate settings are in `SHOP_CONFIG` at the top of `site/outfit.js` (`amazonTag`, `temuCode`, `macysId`); they are empty and only added when set.
+
 ## الإنفاق في سبيل الله · Spending in the way of Allah
 
 > مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ ﴿٢٦١﴾
