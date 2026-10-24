@@ -42,6 +42,19 @@ A kid-style card under the mosque cards. **Number pattern for fun, not tafsir an
 - **Outfit:** Letter Wardrobe by Rufus (HelpOutBoran-Videos): first letter → top, middle letter → outerwear (cut by its strength), last letter → bottom, from tajweed letter sounds only. `site/wardrobe.js` and `site/wardrobe-data.js` are copied unchanged from [Quran Recorder](https://github.com/mrbugimposter3-ship-it/quran-recorder) (`docs/`, commit 6bac659). `collector/gen_outfits.js` stores each ayah's letters (`lw`) computed with that code over Quran Recorder's own text, so both apps show the same outfit (same outfit id). Pixel figure seen from behind, no face.
 - **Shopping links** (own dashed box, `rel="noopener sponsored"`): Amazon.ca, Temu and Macy's store searches using Quran Recorder's search wording (`LetterWardrobe.searchQuery`). Affiliate settings are in `SHOP_CONFIG` at the top of `site/outfit.js` (`amazonTag`, `temuCode`, `macysId`); they are empty and only added when set.
 
+## 🌙 📅 🍂 Month, Hijri month and season ayah & outfit
+Three cards under the daily one use the same formula, with a and k taken as modes over **all** stored flights (three mosques, codeshares and cancellations excluded, Saudi dates up to today) in:
+- **Hijri month to date**: Umm al-Qura (device `Intl` islamic-umalqura, tabular fallback), logic from Juz Daily's `cal.js`.
+- **Gregorian month to date.**
+- **Season to date**: astronomical seasons, Northern Hemisphere, starting at the equinox/solstice instant (Meeus ch.27 + VSOP87, `site/astro.js` from Juz Daily).
+
+`collector/build.py` writes `site/data/daycounts.json` (per Saudi date: flight count and counts of each floor(dlat mod 27) and floor(km mod 27)) from every shard in `data/flights/`; `site/periods.js` sums them per period. Flight history starts on 17 Oct 2026, so a period that began earlier says "based on N flights since 17 Oct 2026". While all three periods cover the same stored days they show the same ayah. Number pattern only, not tafsir.
+
+### Photo-realistic looks
+Each card shows `site/looks/<outfit-id>.jpg` when it exists: an **AI-generated** model seen from behind (face not visible), modest full-length clothes, plain studio background, no logos, captioned "AI-generated model, not a real person · صورة مولّدة بالذكاء الاصطناعي". No photos of real people are used. Outfits with no image yet show the pixel figure. `site/looks/index.json` lists the images that exist.
+
+To refresh: `python collector/build.py && node collector/looks_missing.js` prints the current outfits, writes `site/looks/missing.json` (also built on every Action run and deployed to the site) with a ready image prompt per missing outfit id. Generate each image, save as a 576×768 JPEG under 300 KB at `site/looks/<id>.jpg`, rerun the script (it updates `index.json`), and commit.
+
 ## الإنفاق في سبيل الله · Spending in the way of Allah
 
 > مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ ﴿٢٦١﴾

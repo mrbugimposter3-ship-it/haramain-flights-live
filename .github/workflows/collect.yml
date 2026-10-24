@@ -24,6 +24,8 @@ jobs:
         run: python collector/collect.py
       - name: Build site data
         run: python collector/build.py
+      - name: List outfits missing a look image (site/looks/missing.json, deployed, not committed)
+        run: node collector/looks_missing.js || echo "looks_missing failed (site still works; pixel figure fallback)"
       - name: Commit data
         run: |
           git config user.name "flights-bot"

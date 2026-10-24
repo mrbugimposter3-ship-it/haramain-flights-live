@@ -20,6 +20,19 @@ def main():
             if not r['is_codeshare']:
                 totals[kind(r)] += 1; per_day[d][f"{r['holy_site']}|{kind(r)}"] += 1
             if lo <= d <= hi: rows.append([r[k] for k in KEEP])
+    # Per-day counts of floor(m_dlat_mod27) and floor(m_km_mod27) over ALL stored shards (codeshares and cancellations excluded, like the daily card),
+    # so the site can take the month / Hijri month / season modes in the browser without shipping every flight: site/data/daycounts.json
+    dc = {}
+    for d in hfl.all_dates():
+        if d < '2026-10-17': continue   # collection started 2026-10-17; older shards are strays
+        A, K, n = collections.Counter(), collections.Counter(), 0
+        for r in hfl.load_shard(d).values():
+            if r['is_codeshare'] or kind(r) == 'cancelled': continue
+            try: a, k = int(float(r['m_dlat_mod27']) // 1), int(float(r['m_km_mod27']) // 1)
+            except (TypeError, ValueError): continue
+            A[a] += 1; K[k] += 1; n += 1
+        if n: dc[d] = {'n': n, 'a': dict(A), 'k': dict(K)}
+    json.dump({'generated_utc': now.isoformat(timespec='seconds'), 'tz': 'Asia/Riyadh', 'days': dc}, open(os.path.join(OUT, 'daycounts.json'), 'w'), separators=(',', ':'))
     rows.sort(key=lambda x: (x[1], x[30] or ''))
     json.dump({'cols': KEEP, 'rows': rows}, open(os.path.join(OUT, 'flights.json'), 'w'), separators=(',', ':'), default=str)
     prayer = {}
