@@ -1,62 +1,62 @@
 {
-  "updated_utc": "2026-10-24T14:06:48Z",
+  "updated_utc": "2026-10-24T20:13:57Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
     "mosque": "makkah",
     "mosque_name": "Masjid al-Haram",
-    "prayer": "Fajr",
+    "prayer": "Isha",
     "date": "2026-10-24",
-    "imam": "Sheikh Baleelah",
-    "surah": 75,
-    "surah_name": "Al-Qiyamah",
-    "ayah_from": 1,
-    "ayah_to": 39,
-    "confidence": 77,
-    "source_video": "https://www.youtube.com/watch?v=SKcvZbOhanI",
-    "source_title": "24h Oct 2026 Makkah Fajr Sheikh Baleelah",
-    "identified_utc": "2026-10-24T14:06:48Z",
+    "imam": "Sheikh Maahir",
+    "surah": 57,
+    "surah_name": "Al-Hadid",
+    "ayah_from": 11,
+    "ayah_to": 21,
+    "confidence": 85,
+    "source_video": "https://www.youtube.com/watch?v=3kOr_9tx21U",
+    "source_title": "24th Oct 2026 Makkah 'Isha Sheikh Maahir",
+    "identified_utc": "2026-10-24T20:08:30Z",
     "rakahs": [
-      "75:1-19",
-      "75:20-39"
+      "57:11-17",
+      "57:18-21"
     ]
   },
   "mosques": {
     "makkah": {
       "mosque": "makkah",
       "mosque_name": "Masjid al-Haram",
-      "prayer": "Fajr",
+      "prayer": "Isha",
       "date": "2026-10-24",
-      "imam": "Sheikh Baleelah",
-      "surah": 75,
-      "surah_name": "Al-Qiyamah",
-      "ayah_from": 1,
-      "ayah_to": 39,
-      "confidence": 77,
-      "source_video": "https://www.youtube.com/watch?v=SKcvZbOhanI",
-      "source_title": "24h Oct 2026 Makkah Fajr Sheikh Baleelah",
-      "identified_utc": "2026-10-24T14:06:48Z",
+      "imam": "Sheikh Maahir",
+      "surah": 57,
+      "surah_name": "Al-Hadid",
+      "ayah_from": 11,
+      "ayah_to": 21,
+      "confidence": 85,
+      "source_video": "https://www.youtube.com/watch?v=3kOr_9tx21U",
+      "source_title": "24th Oct 2026 Makkah 'Isha Sheikh Maahir",
+      "identified_utc": "2026-10-24T20:08:30Z",
       "rakahs": [
-        "75:1-19",
-        "75:20-39"
+        "57:11-17",
+        "57:18-21"
       ]
     },
     "madinah": {
       "mosque": "madinah",
       "mosque_name": "Masjid an-Nabawi",
-      "prayer": "Fajr",
+      "prayer": "Isha",
       "date": "2026-10-24",
-      "imam": "Sheikh Quraafi",
-      "surah": 9,
-      "surah_name": "At-Tawbah",
-      "ayah_from": 38,
-      "ayah_to": 55,
-      "confidence": 87,
-      "source_video": "https://www.youtube.com/watch?v=yLfIM02YCqM",
-      "source_title": "24th Oct 2026 Madeenah Fajr Sheikh Quraafi",
-      "identified_utc": "2026-10-24T14:04:39Z",
+      "imam": "Sheikh Budayr",
+      "surah": 55,
+      "surah_name": "Ar-Rahman",
+      "ayah_from": 1,
+      "ayah_to": 27,
+      "confidence": 82,
+      "source_video": "https://www.youtube.com/watch?v=AO-4yzjUEKw",
+      "source_title": "24th Oct 2026 Madeenah 'Isha Sheikh Budayr",
+      "identified_utc": "2026-10-24T20:10:36Z",
       "rakahs": [
-        "9:38-47",
-        "9:48-55"
+        "55:1-17",
+        "55:18-27"
       ]
     }
   }
