@@ -60,11 +60,24 @@ function prayerChips(list,today){const by={};list.forEach(e=>{const k=e.prayer.t
   const e=by[k];if(!e||e.silent||e.date<addDays(today,-3))return `<div class="chip none"><b>${p}</b> <span class="ar">${ar}</span><div>🔊 no data yet<br><span class="ar">لا بيانات بعد</span></div></div>`;
   const s=SURAHS[e.surah-1];return `<div class="chip loud"><b>${p}</b> <span class="ar">${ar}</span><div>🔊 ${e.surah}:${e.from||''}${e.to&&e.to!==e.from?'–'+e.to:''}<br><span class="ar">${s[0]}</span> · ${s[1]}</div><div class="tiny">${esc(e.date.slice(5))}${e.url?` · <a href="${esc(e.url)}" target="_blank" rel="noopener">▶️</a>`:''}</div></div>`};
  return `<div class="chips">${['Fajr','Dhuhr','Asr','Maghrib','Isha'].map(chip).join('')}</div>`}
+// Safeguard: the recitation feed (data/recitations.json, written by a separate job) can skip runs. If the next LOUD prayer after the
+// shown one (Fajr, Jumu'ah on Fridays, Maghrib, Isha; Dhuhr and Asr are silent) began more than FEED_GRACE ago in the mosque's own
+// time zone, the shown entry is no longer the latest prayer: say so instead of presenting it as current.
+const FEED_GRACE=90*60e3;
+function feedStale(ks,r){const P_=PRAY&&PRAY[ks.place];if(!P_||!r||!r.date)return null;const tz=P_.tz,now=new Date();
+ const fri=d=>new Date(d+'T12:00:00Z').getUTCDay()===5,at=(d,k)=>{const x=P_.days[d];return x&&x[k]?new Date(x[k]):null};
+ const key=/^jumu'?ah$/i.test(String(r.prayer))?'Dhuhr':cap(r.prayer),t0=at(r.date,key);if(!t0)return null;
+ let nx=null;for(const d of [r.date,addDays(r.date,1),addDays(r.date,2)]){for(const k of ['Fajr','Dhuhr','Maghrib','Isha']){if(k==='Dhuhr'&&!fri(d))continue;
+   const t=at(d,k);if(t&&t>t0){nx={k:k==='Dhuhr'?"Jumu'ah":k,t};break}}if(nx)break}
+ if(!nx||now-nx.t<FEED_GRACE)return null;
+ const u=(RECS&&RECS.updated_utc)||(RECITED&&RECITED.updated_utc),ut=u?new Date(u):null;
+ const f=x=>x.toLocaleString('en-GB',{timeZone:tz,weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+ return{upd:ut&&!isNaN(ut)?f(ut)+' ('+(tz==='Asia/Riyadh'?'Saudi':'local')+' time)':'unknown',next:nx.k+' '+f(nx.t)}}
 function reciteBox(ks,st){const today=st?st.d:todayKSA();const fresh=e=>e&&e.date>=addDays(today,-3);let h='';
  const recs=forMosque(entriesOf(RECS),ks.key),loud=recs.filter(e=>!e.silent);
  const r1=newest(loud),r2=ks.key!=='aqsa'?recitedFor(ks.key):null;
  const real=fresh(r1)?r1:fresh(r2)?r2:null;
- if(real)h=realBox(real);
+ if(real){h=realBox(real);const st2=feedStale(ks,real);if(st2)h=h.replace('<div class="note">',`<div class="feedstale">🕒 Feed last updated ${esc(st2.upd)} · waiting for update (${esc(st2.next)} should have a recording by now) · <span class="ar">بانتظار التحديث</span></div><div class="note">`)}
  else{const p=patternSurah(ks,today,st?st.win:'');const old=r1||r2;
   h=`<div class="rbox fun"><div class="rtitle">🔢 Number-pattern surah · <span class="ar">سورة من نمط الأرقام</span></div>${p?surahLine(p.surah):'<div class="small">Not enough flights yet</div>'}
   <div class="note">Number pattern for fun — not the live recitation · <span class="ar">نمط أرقام للتسلية — ليست التلاوة المباشرة</span></div>
