@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-24T02:00:00Z",
+  "updated_utc": "2026-10-24T14:06:48Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -13,46 +13,46 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "fajr",
-        "date": "2026-10-23",
+        "date": "2026-10-24",
         "imam": "Sheikh Baleelah",
-        "surah": 62,
-        "surah_name": "Al-Jumuah",
+        "surah": 75,
+        "surah_name": "Al-Qiyamah",
         "ayah_from": 1,
-        "ayah_to": 11,
+        "ayah_to": 39,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 62,
-            "surah_name": "Al-Jumuah",
+            "surah": 75,
+            "surah_name": "Al-Qiyamah",
             "ayah_from": 1,
-            "ayah_to": 8,
-            "ref": "62:1-8"
+            "ayah_to": 19,
+            "ref": "75:1-19"
           },
           {
             "rakah": 2,
-            "surah": 62,
-            "surah_name": "Al-Jumuah",
-            "ayah_from": 9,
-            "ayah_to": 11,
-            "ref": "62:9-11"
+            "surah": 75,
+            "surah_name": "Al-Qiyamah",
+            "ayah_from": 20,
+            "ayah_to": 39,
+            "ref": "75:20-39"
           }
         ],
-        "summary": "62:1-8 · 62:9-11",
-        "confidence": 86,
-        "source_video": "https://www.youtube.com/watch?v=T3_mebuwwkg",
-        "source_title": "23rd Oct 2026 Makkah Fajr Sheikh Baleelah",
-        "identified_utc": "2026-10-23T05:08:30Z"
+        "summary": "75:1-19 · 75:20-39",
+        "confidence": 77,
+        "source_video": "https://www.youtube.com/watch?v=SKcvZbOhanI",
+        "source_title": "24h Oct 2026 Makkah Fajr Sheikh Baleelah",
+        "identified_utc": "2026-10-24T14:06:48Z"
       },
       "dhuhr": {
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "dhuhr",
-        "date": "2026-10-22",
+        "date": "2026-10-24",
         "imam": "Sheikh Usaamah Khayyat",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=5bDBB8jtXkc",
-        "source_title": "22nd Oct 2026 Makkah Dhuhr Sheikh Usaamah Khayyat",
+        "source_video": "https://www.youtube.com/watch?v=Vf5cL1Rv96o",
+        "source_title": "24th Oct 2026 Makkah Dhuhr Sheikh Usaamah Khayyat",
         "identified_utc": null
       },
       "jumuah": {
@@ -167,46 +167,46 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "fajr",
-        "date": "2026-10-23",
+        "date": "2026-10-24",
         "imam": "Sheikh Quraafi",
-        "surah": 32,
-        "surah_name": "As-Sajdah",
-        "ayah_from": 1,
-        "ayah_to": 30,
+        "surah": 9,
+        "surah_name": "At-Tawbah",
+        "ayah_from": 38,
+        "ayah_to": 55,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 32,
-            "surah_name": "As-Sajdah",
-            "ayah_from": 1,
-            "ayah_to": 30,
-            "ref": "32:1-30"
+            "surah": 9,
+            "surah_name": "At-Tawbah",
+            "ayah_from": 38,
+            "ayah_to": 47,
+            "ref": "9:38-47"
           },
           {
             "rakah": 2,
-            "surah": 76,
-            "surah_name": "Al-Insan",
-            "ayah_from": 1,
-            "ayah_to": 31,
-            "ref": "76:1-31"
+            "surah": 9,
+            "surah_name": "At-Tawbah",
+            "ayah_from": 48,
+            "ayah_to": 55,
+            "ref": "9:48-55"
           }
         ],
-        "summary": "32:1-30 · 76:1-31",
-        "confidence": 82,
-        "source_video": "https://www.youtube.com/watch?v=5k2MOx11iU8",
-        "source_title": "23rd Oct 2026 Madeenah Fajr Sheikh Quraafi",
-        "identified_utc": "2026-10-23T04:39:16Z"
+        "summary": "9:38-47 · 9:48-55",
+        "confidence": 87,
+        "source_video": "https://www.youtube.com/watch?v=yLfIM02YCqM",
+        "source_title": "24th Oct 2026 Madeenah Fajr Sheikh Quraafi",
+        "identified_utc": "2026-10-24T14:04:39Z"
       },
       "dhuhr": {
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "dhuhr",
-        "date": "2026-10-22",
-        "imam": "Sheikh Bu’ayjaan",
+        "date": "2026-10-24",
+        "imam": "Sheikh Bu'ayjaan",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=Vwal0WqChus",
-        "source_title": "22nd Oct 2026 Madeenah Dhuhr Sheikh Bu’ayjaan",
+        "source_video": "https://www.youtube.com/watch?v=KvSf2S-8PO8",
+        "source_title": "24th Oct 2026 Madeenah Dhuhr Sheikh Bu'ayjaan",
         "identified_utc": null
       },
       "jumuah": {
