@@ -13,7 +13,7 @@ let RECITED=null,RECS=null;
 async function getJSON(name){for(const u of['https://raw.githubusercontent.com/mrbugimposter3-ship-it/haramain-flights-live/main/data/'+name,'data/'+name]){
   try{const r=await fetch(u+'?t='+Date.now(),{cache:'no-store'});if(r.ok)return await r.json()}catch(e){}}return null}
 async function loadRecited(){[RECS,RECITED]=await Promise.all([getJSON('recitations.json'),getJSON('last_recited.json')])}
-const PORDER={fajr:0,dhuhr:1,jumuah:1,asr:2,maghrib:3,isha:4};
+const PORDER={fajr:0,dhuhr:1,jumuah:1,"jumu'ah":1,asr:2,maghrib:3,isha:4};   // cap() turns 'jumuah' into "Jumu'ah", so both spellings must rank as Dhuhr's slot
 const cap=p=>{p=String(p||'').toLowerCase();return p==='jumuah'?"Jumu'ah":p.charAt(0).toUpperCase()+p.slice(1)};
 const MPAT={makkah:/makk|mecca|makka|haram/i,madinah:/madin|medin|nabaw/i,aqsa:/aqsa|quds|jerus/i};
 // One entry, any of the shapes the two files use -> {prayer,surah,from,to,date,imam,rakahs,url,silent} or null
