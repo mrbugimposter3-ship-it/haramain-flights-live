@@ -2790,8 +2790,8 @@
   "imam": "Sheikh Dosary",
   "status": "pending",
   "listed_utc": "2026-10-29T17:09:00Z",
-  "errors": 1,
-  "last_error": "download failed (not on the haramain.info MP3 mirror yet; YouTube: dash: ERROR: [youtube] ebIrsTiJIvs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-c"
+  "errors": 2,
+  "last_error": "download failed (not on the haramain.info MP3 mirror yet; YouTube: dash: ERROR: [youtube] ebIrsTiJIvs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manua"
  },
  "i_JUsExOjWA": {
   "video": "i_JUsExOjWA",
@@ -2804,7 +2804,7 @@
   "imam": "Sheikh Bu'ayjaan",
   "status": "pending",
   "listed_utc": "2026-10-29T17:09:00Z",
-  "errors": 1,
+  "errors": 2,
   "last_error": "download failed: not on the haramain.info MP3 mirror yet, and YouTube is blocking this runner"
  }
 }
