@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-29T05:11:30Z",
+  "updated_utc": "2026-10-29T13:37:25Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -316,6 +316,45 @@
         "identified_utc": "2026-10-29T02:13:59Z"
       }
     },
-    "aqsa": {}
+    "aqsa": {
+      "dhuhr": {
+        "mosque": "aqsa",
+        "mosque_name": "Al-Masjid al-Aqsa",
+        "prayer": "dhuhr",
+        "date": "2026-10-27",
+        "imam": null,
+        "silent": true,
+        "note": "Recited silently; no ayat to show.",
+        "source_video": "https://www.youtube.com/watch?v=PD7-WuiCRqM",
+        "source_title": "27.10.2026 أذان و صلاة الظهر من المسجد الأقصى المبارك Dhuhr prayer from the blessed Al-Aqsa Mosque",
+        "identified_utc": null
+      },
+      "maghrib": {
+        "mosque": "aqsa",
+        "mosque_name": "Al-Masjid al-Aqsa",
+        "prayer": "maghrib",
+        "date": "2026-10-27",
+        "imam": null,
+        "surah": 18,
+        "surah_name": "Al-Kahf",
+        "ayah_from": 39,
+        "ayah_to": 39,
+        "rakahs": [
+          {
+            "rakah": 1,
+            "surah": 18,
+            "surah_name": "Al-Kahf",
+            "ayah_from": 39,
+            "ayah_to": 39,
+            "ref": "18:39"
+          }
+        ],
+        "summary": "18:39",
+        "confidence": 64,
+        "source_video": "https://www.youtube.com/watch?v=Zz6bv0M1Y80",
+        "source_title": "27.10.2026 أذان و صلاة المغرب من المسجد الأقصى المبارك Maghrib prayer from  Al-Aqsa Mosque",
+        "identified_utc": "2026-10-29T12:16:35Z"
+      }
+    }
   }
 }

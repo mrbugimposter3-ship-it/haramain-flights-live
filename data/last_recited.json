@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T05:11:30Z",
+  "updated_utc": "2026-10-29T13:37:25Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
     "mosque": "makkah",
@@ -57,6 +57,24 @@
       "rakahs": [
         "23:112-118",
         "26:221-227"
+      ]
+    },
+    "aqsa": {
+      "mosque": "aqsa",
+      "mosque_name": "Al-Masjid al-Aqsa",
+      "prayer": "Maghrib",
+      "date": "2026-10-27",
+      "imam": null,
+      "surah": 18,
+      "surah_name": "Al-Kahf",
+      "ayah_from": 39,
+      "ayah_to": 39,
+      "confidence": 64,
+      "source_video": "https://www.youtube.com/watch?v=Zz6bv0M1Y80",
+      "source_title": "27.10.2026 أذان و صلاة المغرب من المسجد الأقصى المبارك Maghrib prayer from  Al-Aqsa Mosque",
+      "identified_utc": "2026-10-29T12:16:35Z",
+      "rakahs": [
+        "18:39"
       ]
     }
   }
