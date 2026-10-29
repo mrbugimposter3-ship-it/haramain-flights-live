@@ -297,10 +297,14 @@ def main():
                 log(' ->', rec['status'], [r['ref'] for r in rk], conf, f"{rec['seconds']}s")
             except Exception as ex:
                 errors += 1
-                rec['errors'] = rec.get('errors', 0) + 1; rec['last_error'] = str(ex)[:300]
-                # the MP3 mirror can lag the YouTube upload by some hours: only give up after 3 failures AND 24 h
+                # the haramain.info MP3 mirror posts 4-22 h after the prayer: waiting for it is not an error (and does not
+                # change the done-list, so no commit every run). Only give up after 36 h, then after 3 real failures.
                 age_h = (time.time() - datetime.datetime.strptime(rec.get('listed_utc', '2000-01-01T00:00:00Z'), '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc).timestamp()) / 3600
-                if rec['errors'] >= 3 and age_h >= 24: rec['status'] = 'error'
+                waiting = 'not on the haramain.info MP3 mirror yet' in str(ex) and age_h < 36
+                if waiting: rec['last_error'] = 'waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)'
+                else:
+                    rec['errors'] = rec.get('errors', 0) + 1; rec['last_error'] = str(ex)[:300]
+                    if rec['errors'] >= 3: rec['status'] = 'error'
                 processed -= 'download failed' in str(ex)   # a download that never started costs no CPU time
                 log(' !! failed', str(ex)[:300])
             save(DONE, done)
