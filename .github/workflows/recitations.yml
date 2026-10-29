@@ -9,7 +9,7 @@ on:
     inputs:
       max_videos:
         description: 'Max new videos to transcribe this run'
-        default: '6'
+        default: '4'
       reprocess_video:
         description: 'Test only: YouTube id to download + transcribe into a scratch folder (data/ untouched, nothing committed)'
         default: ''
@@ -26,7 +26,7 @@ concurrency:
 jobs:
   recitations:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 60
     env:
       ASR_THREADS: '4'
       OMP_NUM_THREADS: '4'
@@ -56,7 +56,7 @@ jobs:
           if [ -n "${{ inputs.reprocess_video }}" ]; then
             python collector/recitations/track.py --reprocess "${{ inputs.reprocess_video }}" --out-dir "$RUNNER_TEMP/scratch"
           else
-            python collector/recitations/track.py --max-videos "${{ inputs.max_videos || '6' }}" ${{ inputs.with_aqsa && '--with-aqsa' || '' }}
+            python collector/recitations/track.py --max-videos "${{ inputs.max_videos || '4' }}" ${{ inputs.with_aqsa && '--with-aqsa' || '' }}
           fi
       - name: Upload scratch result (test runs)
         if: inputs.reprocess_video != ''

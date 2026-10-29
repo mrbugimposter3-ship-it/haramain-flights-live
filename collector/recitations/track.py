@@ -251,12 +251,13 @@ def reprocess(vid, out_dir):
     gh_output(changed='false', processed=1, ok=int(bool(rk)), errors=0)
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('--days', type=int, default=3); ap.add_argument('--max-videos', type=int, default=6)
+    ap = argparse.ArgumentParser(); ap.add_argument('--days', type=int, default=3); ap.add_argument('--max-videos', type=int, default=4)
+    ap.add_argument('--time-budget', type=float, default=32, help='minutes: no new transcription starts after this (GitHub runners take ~5-10 min per prayer)')
     ap.add_argument('--export-only', action='store_true'); ap.add_argument('--with-aqsa', action='store_true')
     ap.add_argument('--reprocess', default=''); ap.add_argument('--out-dir', default=f'{ROOT}/data')
     ap.add_argument('--ident-dir', default=os.environ.get('RUNNER_TEMP') or tempfile.gettempdir()); a = ap.parse_args()
     if a.reprocess: return reprocess(a.reprocess.strip(), a.out_dir)
-    done = load(DONE, {})
+    T0 = time.time(); done = load(DONE, {})
     processed = ok = errors = 0
     if not a.export_only:
         items = []
@@ -275,6 +276,7 @@ def main():
             if rec['prayer'] in SILENT:
                 rec.update(status='silent', silent=True); save(DONE, done); continue
             if processed >= a.max_videos: break
+            if (time.time() - T0) / 60 > a.time_budget: log(f'time budget of {a.time_budget:.0f} min reached; the rest waits for the next run'); break
             rec.setdefault('listed_utc', now_utc())
             t0 = time.time(); log('identify', rec['video'], rec['title'])
             processed += 1
