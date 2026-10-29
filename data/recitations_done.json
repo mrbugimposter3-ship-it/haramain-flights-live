@@ -2881,9 +2881,35 @@
   "prayer": "maghrib",
   "date": "2026-10-29",
   "imam": "Sheikh Juhany",
-  "status": "pending",
+  "status": "ok",
   "listed_utc": "2026-10-29T19:29:39Z",
-  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 57,
+    "surah_name": "Al-Hadid",
+    "ayah_from": 1,
+    "ayah_to": 6,
+    "ref": "57:1-6",
+    "windows": 7,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 64,
+    "surah_name": "At-Taghabun",
+    "ayah_from": 1,
+    "ayah_to": 4,
+    "ref": "64:1-4",
+    "windows": 3,
+    "confidence": 83
+   }
+  ],
+  "confidence": 86,
+  "seconds": 361,
+  "identified_utc": "2026-10-29T21:33:08Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "SM6CeVpp2tQ": {
   "video": "SM6CeVpp2tQ",
@@ -2894,9 +2920,35 @@
   "prayer": "maghrib",
   "date": "2026-10-29",
   "imam": "Sheikh Thubaity",
-  "status": "pending",
+  "status": "ok",
   "listed_utc": "2026-10-29T19:29:39Z",
-  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 18,
+    "surah_name": "Al-Kahf",
+    "ayah_from": 107,
+    "ayah_to": 110,
+    "ref": "18:107-110",
+    "windows": 5,
+    "confidence": 85
+   },
+   {
+    "rakah": 2,
+    "surah": 19,
+    "surah_name": "Maryam",
+    "ayah_from": 96,
+    "ayah_to": 98,
+    "ref": "19:96-98",
+    "windows": 3,
+    "confidence": 71
+   }
+  ],
+  "confidence": 78,
+  "seconds": 305,
+  "identified_utc": "2026-10-29T21:38:13Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "TkhGrinADZU": {
   "video": "TkhGrinADZU",
@@ -2946,9 +2998,35 @@
   "prayer": "isha",
   "date": "2026-10-29",
   "imam": "Sheikh Badr al Turki",
-  "status": "pending",
+  "status": "ok",
   "listed_utc": "2026-10-29T20:20:38Z",
-  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 13,
+    "surah_name": "Ar-Rad",
+    "ayah_from": 8,
+    "ayah_to": 14,
+    "ref": "13:8-14",
+    "windows": 11,
+    "confidence": 87
+   },
+   {
+    "rakah": 2,
+    "surah": 13,
+    "surah_name": "Ar-Rad",
+    "ayah_from": 15,
+    "ayah_to": 18,
+    "ref": "13:15-18",
+    "windows": 9,
+    "confidence": 90
+   }
+  ],
+  "confidence": 88,
+  "seconds": 487,
+  "identified_utc": "2026-10-29T21:27:01Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "jrd_mU1rjzw": {
   "video": "jrd_mU1rjzw",
