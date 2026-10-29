@@ -203,6 +203,14 @@ def export(done, out_dir):
     now = now_utc()
     mosques = {m: {} for m in ('makkah', 'madinah', 'aqsa')}
     for (m, p), rec in sorted(best.items(), key=lambda kv: ORDER.get(kv[0][1], 9)): mosques[m][p] = entry(rec)
+    # Never replace a newer entry already in the file (e.g. one written by HelpOutBoran-Videos' box tracker, which reads
+    # YouTube directly and is usually hours ahead of the MP3 mirror) with an older one from this done-list.
+    prev = load(f'{out_dir}/recitations.json', {}).get('mosques', {})
+    for m, P in prev.items():
+        for p, e in (P or {}).items():
+            cur = mosques.setdefault(m, {}).get(p)
+            if not cur or (e.get('date') or '', e.get('identified_utc') or '') > (cur['date'], cur.get('identified_utc') or ''): mosques[m][p] = e
+    for m in mosques: mosques[m] = dict(sorted(mosques[m].items(), key=lambda kv: ORDER.get(kv[0], 9)))
     rec_out = dict(schema_version=1, updated_utc=now,
         note=('Ayat identified privately from each prayer\'s YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) '
               'with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. '
