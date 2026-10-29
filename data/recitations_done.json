@@ -2778,5 +2778,33 @@
   "identified_utc": "2026-10-29T17:06:15Z",
   "runner": "github-actions",
   "download_format": "haramain.info-mp3"
+ },
+ "ebIrsTiJIvs": {
+  "video": "ebIrsTiJIvs",
+  "title": "29th Oct 2026 Makkah Fajr Sheikh Dosary",
+  "duration": "913",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-29",
+  "imam": "Sheikh Dosary",
+  "status": "pending",
+  "listed_utc": "2026-10-29T17:09:00Z",
+  "errors": 1,
+  "last_error": "download failed (not on the haramain.info MP3 mirror yet; YouTube: dash: ERROR: [youtube] ebIrsTiJIvs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-c"
+ },
+ "i_JUsExOjWA": {
+  "video": "i_JUsExOjWA",
+  "title": "29th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
+  "duration": "662",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-29",
+  "imam": "Sheikh Bu'ayjaan",
+  "status": "pending",
+  "listed_utc": "2026-10-29T17:09:00Z",
+  "errors": 1,
+  "last_error": "download failed: not on the haramain.info MP3 mirror yet, and YouTube is blocking this runner"
  }
 }
