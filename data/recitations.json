@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-29T13:37:25Z",
+  "updated_utc": "2026-10-29T14:16:23Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -131,35 +131,35 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "isha",
-        "date": "2026-10-27",
+        "date": "2026-10-28",
         "imam": "Sheikh Badr al Turki",
-        "surah": 4,
-        "surah_name": "An-Nisa",
-        "ayah_from": 36,
-        "ayah_to": 45,
+        "surah": 5,
+        "surah_name": "Al-Maidah",
+        "ayah_from": 1,
+        "ayah_to": 5,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 4,
-            "surah_name": "An-Nisa",
-            "ayah_from": 36,
-            "ayah_to": 42,
-            "ref": "4:36-42"
+            "surah": 5,
+            "surah_name": "Al-Maidah",
+            "ayah_from": 1,
+            "ayah_to": 3,
+            "ref": "5:1-3"
           },
           {
             "rakah": 2,
-            "surah": 4,
-            "surah_name": "An-Nisa",
-            "ayah_from": 43,
-            "ayah_to": 45,
-            "ref": "4:43-45"
+            "surah": 5,
+            "surah_name": "Al-Maidah",
+            "ayah_from": 4,
+            "ayah_to": 5,
+            "ref": "5:4-5"
           }
         ],
-        "summary": "4:36-42 · 4:43-45",
-        "confidence": 86,
-        "source_video": "https://www.youtube.com/watch?v=J5u_vF0HcMo",
-        "source_title": "27th Oct 2026 Makkah 'Isha Sheikh Badr al Turki",
-        "identified_utc": "2026-10-29T02:16:11Z"
+        "summary": "5:1-3 · 5:4-5",
+        "confidence": 84,
+        "source_video": "https://www.youtube.com/watch?v=x_3SvW7WMVU",
+        "source_title": "28th Oct 2026 Makkah 'Isha Sheikh Badr al Turki",
+        "identified_utc": "2026-10-29T14:16:23Z"
       }
     },
     "madinah": {
@@ -285,35 +285,35 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "isha",
-        "date": "2026-10-27",
+        "date": "2026-10-28",
         "imam": "Sheikh Maghamsi",
-        "surah": 7,
-        "surah_name": "Al-Araf",
-        "ayah_from": 52,
-        "ayah_to": 56,
+        "surah": 27,
+        "surah_name": "An-Naml",
+        "ayah_from": 27,
+        "ayah_to": 44,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 7,
-            "surah_name": "Al-Araf",
-            "ayah_from": 52,
-            "ayah_to": 54,
-            "ref": "7:52-54"
+            "surah": 27,
+            "surah_name": "An-Naml",
+            "ayah_from": 27,
+            "ayah_to": 39,
+            "ref": "27:27-39"
           },
           {
             "rakah": 2,
-            "surah": 7,
-            "surah_name": "Al-Araf",
-            "ayah_from": 55,
-            "ayah_to": 56,
-            "ref": "7:55-56"
+            "surah": 27,
+            "surah_name": "An-Naml",
+            "ayah_from": 40,
+            "ayah_to": 44,
+            "ref": "27:40-44"
           }
         ],
-        "summary": "7:52-54 · 7:55-56",
-        "confidence": 83,
-        "source_video": "https://www.youtube.com/watch?v=4ZeuaTLcc6M",
-        "source_title": "27th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
-        "identified_utc": "2026-10-29T02:13:59Z"
+        "summary": "27:27-39 · 27:40-44",
+        "confidence": 76,
+        "source_video": "https://www.youtube.com/watch?v=IIlJguBNWFc",
+        "source_title": "28th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
+        "identified_utc": "2026-10-29T14:13:34Z"
       }
     },
     "aqsa": {
