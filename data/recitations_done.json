@@ -1,0 +1,2498 @@
+{
+ "hA1JX2i7UoY": {
+  "video": "hA1JX2i7UoY",
+  "title": "18th Oct 2026 Madeenah Fajr Sheikh Quraafi",
+  "source": "haramain",
+  "status": "ok",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-18",
+  "imam": "Sheikh Quraafi",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 1,
+    "ayah_to": 8,
+    "ref": "8:1-8",
+    "windows": 13,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 9,
+    "ayah_to": 14,
+    "ref": "8:9-14",
+    "windows": 10,
+    "confidence": 87
+   }
+  ],
+  "confidence": 86,
+  "identified_utc": "2026-10-21T11:42:44Z"
+ },
+ "8PldCrJPWR0": {
+  "video": "8PldCrJPWR0",
+  "title": "19th Oct 2026 Madeenah Fajr Sheikh Quraafi",
+  "source": "haramain",
+  "status": "ok",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-19",
+  "imam": "Sheikh Quraafi",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 15,
+    "ayah_to": 23,
+    "ref": "8:15-23",
+    "windows": 15,
+    "confidence": 89
+   },
+   {
+    "rakah": 2,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 24,
+    "ayah_to": 30,
+    "ref": "8:24-30",
+    "windows": 13,
+    "confidence": 89
+   }
+  ],
+  "confidence": 89,
+  "identified_utc": "2026-10-21T11:42:44Z"
+ },
+ "oM7DPOVfRNk": {
+  "video": "oM7DPOVfRNk",
+  "title": "20th Oct 2026 Madeenah Fajr Sheikh Quraafi",
+  "source": "haramain",
+  "status": "ok",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-20",
+  "imam": "Sheikh Quraafi",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 30,
+    "ayah_to": 40,
+    "ref": "8:30-40",
+    "windows": 18,
+    "confidence": 90
+   },
+   {
+    "rakah": 2,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 41,
+    "ayah_to": 44,
+    "ref": "8:41-44",
+    "windows": 10,
+    "confidence": 88
+   }
+  ],
+  "confidence": 89,
+  "seconds": 0,
+  "identified_utc": "2026-10-21T11:39:00Z"
+ },
+ "5D86WtqQ6g8": {
+  "video": "5D86WtqQ6g8",
+  "title": "20th Oct 2026 Makkah 'Isha Sheikh Maahir",
+  "duration": "825",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-20",
+  "imam": "Sheikh Maahir",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 25,
+    "surah_name": "Al-Furqan",
+    "ayah_from": 21,
+    "ayah_to": 34,
+    "ref": "25:21-34",
+    "windows": 13,
+    "confidence": 83
+   },
+   {
+    "rakah": 2,
+    "surah": 25,
+    "surah_name": "Al-Furqan",
+    "ayah_from": 35,
+    "ayah_to": 41,
+    "ref": "25:35-41",
+    "windows": 6,
+    "confidence": 84
+   }
+  ],
+  "confidence": 84,
+  "seconds": 147,
+  "identified_utc": "2026-10-21T11:05:25Z"
+ },
+ "7pbKQkiGNH4": {
+  "video": "7pbKQkiGNH4",
+  "title": "20th Oct 2026 Madeenah 'Isha Sheikh Ahmad al Hudhaify",
+  "duration": "848",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-20",
+  "imam": "Sheikh Ahmad al Hudhaify",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 32,
+    "surah_name": "As-Sajdah",
+    "ayah_from": 18,
+    "ayah_to": 25,
+    "ref": "32:18-25",
+    "windows": 12,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 32,
+    "surah_name": "As-Sajdah",
+    "ayah_from": 26,
+    "ayah_to": 30,
+    "ref": "32:26-30",
+    "windows": 7,
+    "confidence": 81
+   }
+  ],
+  "confidence": 82,
+  "seconds": 127,
+  "identified_utc": "2026-10-21T11:07:32Z"
+ },
+ "H7gKGp_SAaI": {
+  "video": "H7gKGp_SAaI",
+  "title": "20th Oct 2026 Madeenah Maghrib Sheikh Muhanna",
+  "duration": "623",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-20",
+  "imam": "Sheikh Muhanna",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 33,
+    "surah_name": "Al-Ahzab",
+    "ayah_from": 41,
+    "ayah_to": 44,
+    "ref": "33:41-44",
+    "windows": 4,
+    "confidence": 86
+   },
+   {
+    "rakah": 2,
+    "surah": 33,
+    "surah_name": "Al-Ahzab",
+    "ayah_from": 45,
+    "ayah_to": 48,
+    "ref": "33:45-48",
+    "windows": 4,
+    "confidence": 83
+   }
+  ],
+  "confidence": 84,
+  "seconds": 91,
+  "identified_utc": "2026-10-21T11:24:04Z"
+ },
+ "7j959zJsQfc": {
+  "video": "7j959zJsQfc",
+  "title": "20th Oct 2026 Makkah Maghrib Sheikh Shamsaan",
+  "duration": "779",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-20",
+  "imam": "Sheikh Shamsaan",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 82,
+    "surah_name": "Al-Infitar",
+    "ayah_from": 1,
+    "ayah_to": 12,
+    "ref": "82:1-12",
+    "windows": 5,
+    "confidence": 80
+   },
+   {
+    "rakah": 2,
+    "surah": 82,
+    "surah_name": "Al-Infitar",
+    "ayah_from": 1,
+    "ayah_to": 19,
+    "ref": "82:1-19",
+    "windows": 8,
+    "confidence": 76
+   }
+  ],
+  "confidence": 78,
+  "seconds": 116,
+  "identified_utc": "2026-10-21T11:26:00Z"
+ },
+ "uTXv4OViSEA": {
+  "video": "uTXv4OViSEA",
+  "title": "20th Oct 2026 Madeenah 'Asr Sheikh Budayr",
+  "duration": "556",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-20",
+  "imam": "Sheikh Budayr",
+  "status": "silent",
+  "silent": true
+ },
+ "Fh4VY1RKpyo": {
+  "video": "Fh4VY1RKpyo",
+  "title": "20th Oct 2026 Makkah 'Asr Sheikh Baleelah",
+  "duration": "562",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-20",
+  "imam": "Sheikh Baleelah",
+  "status": "silent",
+  "silent": true
+ },
+ "5BbNXjy--nM": {
+  "video": "5BbNXjy--nM",
+  "title": "20th Oct 2026 Madeenah Dhuhr Sheikh Bu’ayjaan",
+  "duration": "642",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-20",
+  "imam": "Sheikh Bu’ayjaan",
+  "status": "silent",
+  "silent": true
+ },
+ "6lEPBx5pWfI": {
+  "video": "6lEPBx5pWfI",
+  "title": "20th Oct 2026 Makkah Dhuhr Sheikh Usaamah Khayyat",
+  "duration": "551",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-20",
+  "imam": "Sheikh Usaamah Khayyat",
+  "status": "silent",
+  "silent": true
+ },
+ "2nLaxPDFJAk": {
+  "video": "2nLaxPDFJAk",
+  "title": "20th Oct 2026 Makkah Fajr Sheikh Baleelah",
+  "duration": "916",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-20",
+  "imam": "Sheikh Baleelah",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 42,
+    "surah_name": "Ash-Shura",
+    "ayah_from": 36,
+    "ayah_to": 46,
+    "ref": "42:36-46",
+    "windows": 17,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 42,
+    "surah_name": "Ash-Shura",
+    "ayah_from": 47,
+    "ayah_to": 53,
+    "ref": "42:47-53",
+    "windows": 15,
+    "confidence": 83
+   }
+  ],
+  "confidence": 84,
+  "seconds": 173,
+  "identified_utc": "2026-10-21T11:41:53Z"
+ },
+ "pg2_wMygdJM": {
+  "video": "pg2_wMygdJM",
+  "title": "19th Oct 2026 Makkah 'Isha Sheikh Maahir",
+  "duration": "824",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-19",
+  "imam": "Sheikh Maahir",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 35,
+    "surah_name": "Fatir",
+    "ayah_from": 29,
+    "ayah_to": 35,
+    "ref": "35:29-35",
+    "windows": 11,
+    "confidence": 85
+   },
+   {
+    "rakah": 2,
+    "surah": 35,
+    "surah_name": "Fatir",
+    "ayah_from": 36,
+    "ayah_to": 37,
+    "ref": "35:36-37",
+    "windows": 5,
+    "confidence": 91
+   }
+  ],
+  "confidence": 88,
+  "seconds": 125,
+  "identified_utc": "2026-10-21T11:50:15Z"
+ },
+ "D_oo4WwQdmA": {
+  "video": "D_oo4WwQdmA",
+  "title": "19th Oct 2026 Madeenah 'Isha Sheikh Ahmad al Hudhaify",
+  "duration": "904",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-19",
+  "imam": "Sheikh Ahmad al Hudhaify",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 7,
+    "surah_name": "Al-Araf",
+    "ayah_from": 179,
+    "ayah_to": 186,
+    "ref": "7:179-186",
+    "windows": 13,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 7,
+    "surah_name": "Al-Araf",
+    "ayah_from": 187,
+    "ayah_to": 188,
+    "ref": "7:187-188",
+    "windows": 8,
+    "confidence": 89
+   }
+  ],
+  "confidence": 86,
+  "seconds": 119,
+  "identified_utc": "2026-10-21T11:52:14Z"
+ },
+ "CgcBxgJNwzE": {
+  "video": "CgcBxgJNwzE",
+  "title": "19th Oct 2026 Madeenah Maghrib Sheikh Muhanna",
+  "duration": "734",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-19",
+  "imam": "Sheikh Muhanna",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 104,
+    "surah_name": "Al-Humazah",
+    "ayah_from": 1,
+    "ayah_to": 9,
+    "ref": "104:1-9",
+    "windows": 4,
+    "confidence": 82
+   },
+   {
+    "rakah": 2,
+    "surah": 105,
+    "surah_name": "Al-Fil",
+    "ayah_from": 1,
+    "ayah_to": 5,
+    "ref": "105:1-5",
+    "windows": 3,
+    "confidence": 87
+   }
+  ],
+  "confidence": 84,
+  "seconds": 4138,
+  "identified_utc": "2026-10-21T13:01:12Z"
+ },
+ "7ZwX0H56zqI": {
+  "video": "7ZwX0H56zqI",
+  "title": "19th Oct 2026 Makkah Maghrib Sheikh Shamsaan",
+  "duration": "635",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-19",
+  "imam": "Sheikh Shamsaan",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 99,
+    "surah_name": "Az-Zalzalah",
+    "ayah_from": 1,
+    "ayah_to": 8,
+    "ref": "99:1-8",
+    "windows": 5,
+    "confidence": 74
+   },
+   {
+    "rakah": 2,
+    "surah": 107,
+    "surah_name": "Al-Maun",
+    "ayah_from": 1,
+    "ayah_to": 7,
+    "ref": "107:1-7",
+    "windows": 4,
+    "confidence": 86
+   }
+  ],
+  "confidence": 80,
+  "seconds": 8608,
+  "identified_utc": "2026-10-21T15:24:40Z"
+ },
+ "w8f96Xz29MQ": {
+  "video": "w8f96Xz29MQ",
+  "title": "19th Oct 2026 Madeenah 'Asr Sheikh Budayr",
+  "duration": "584",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-19",
+  "imam": "Sheikh Budayr",
+  "status": "silent",
+  "silent": true
+ },
+ "k6Z-upvaJwg": {
+  "video": "k6Z-upvaJwg",
+  "title": "19th Oct 2026 Makkah 'Asr Sheikh Baleelah",
+  "duration": "553",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-19",
+  "imam": "Sheikh Baleelah",
+  "status": "silent",
+  "silent": true
+ },
+ "C854qepO4pE": {
+  "video": "C854qepO4pE",
+  "title": "19th Oct 2026 Madeenah Dhuhr Sheikh Bu’ayjaan",
+  "duration": "638",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-19",
+  "imam": "Sheikh Bu’ayjaan",
+  "status": "silent",
+  "silent": true
+ },
+ "RPsv6LdZCig": {
+  "video": "RPsv6LdZCig",
+  "title": "19th Oct 2026 Makkah Dhuhr Sheikh Usaamah Khayyat",
+  "duration": "578",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-19",
+  "imam": "Sheikh Usaamah Khayyat",
+  "status": "silent",
+  "silent": true
+ },
+ "7o3YtByNIoM": {
+  "video": "7o3YtByNIoM",
+  "title": "19th Oct 2026 Makkah Fajr Sheikh Baleelah",
+  "duration": "898",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-19",
+  "imam": "Sheikh Baleelah",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 42,
+    "surah_name": "Ash-Shura",
+    "ayah_from": 17,
+    "ayah_to": 24,
+    "ref": "42:17-24",
+    "windows": 16,
+    "confidence": 87
+   },
+   {
+    "rakah": 2,
+    "surah": 42,
+    "surah_name": "Ash-Shura",
+    "ayah_from": 25,
+    "ayah_to": 35,
+    "ref": "42:25-35",
+    "windows": 13,
+    "confidence": 86
+   }
+  ],
+  "confidence": 86,
+  "seconds": 162,
+  "identified_utc": "2026-10-21T15:27:23Z"
+ },
+ "giWMVM2Svf4": {
+  "video": "giWMVM2Svf4",
+  "title": "21.10.2026 أذان و صلاة الفجر من المسجد الأقصى المبارك Dawn prayer from the blessed Al-Aqsa Mosque",
+  "duration": "4143",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-21",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 1099,
+  "identified_utc": "2026-10-21T11:02:58Z"
+ },
+ "rl4RYtT2jXA": {
+  "video": "rl4RYtT2jXA",
+  "title": "20.10.2026 أذان و صلاة العشاء من المسجد الأقصى المبارك Isha prayer from the blessed Al-Aqsa Mosque",
+  "duration": "2380",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "isha",
+  "date": "2026-10-20",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 900,
+  "identified_utc": "2026-10-21T11:22:33Z"
+ },
+ "X3jzJ4jEB3c": {
+  "video": "X3jzJ4jEB3c",
+  "title": "20.10.2026 أذان و صلاة المغرب من المسجد الأقصى المبارك Maghrib prayer from Al-Aqsa Mosque",
+  "duration": "2613",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "maghrib",
+  "date": "2026-10-20",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 780,
+  "identified_utc": "2026-10-21T11:39:00Z"
+ },
+ "9Ea4l6R3Pxk": {
+  "video": "9Ea4l6R3Pxk",
+  "title": "20.10.2026 أذان و صلاة الفجر من المسجد الأقصى المبارك Dawn prayer from the blessed Al-Aqsa Mosque",
+  "duration": "3791",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-20",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 1089,
+  "identified_utc": "2026-10-22T11:30:04Z"
+ },
+ "x1k3d-7-S3k": {
+  "video": "x1k3d-7-S3k",
+  "title": "19.10.2026 أذان و صلاة العشاء من المسجد الأقصى المبارك Isha prayer from the blessed Al-Aqsa Mosque",
+  "duration": "2321",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "isha",
+  "date": "2026-10-19",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 763,
+  "identified_utc": "2026-10-22T11:42:47Z"
+ },
+ "wOc7Qd7FB_w": {
+  "video": "wOc7Qd7FB_w",
+  "title": "19.10.2026 أذان و صلاة المغرب من المسجد الأقصى المبارك Maghrib prayer from Al-Aqsa Mosque",
+  "duration": "2707",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "maghrib",
+  "date": "2026-10-19",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 843,
+  "identified_utc": "2026-10-22T11:56:50Z"
+ },
+ "fX6V5MXcBZc": {
+  "video": "fX6V5MXcBZc",
+  "title": "19.10.2026 أذان و صلاة الفجر من المسجد الأقصى المبارك Dawn prayer at Al-Aqsa Mosque",
+  "duration": "3837",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-19",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 7070,
+  "identified_utc": "2026-10-22T13:54:40Z"
+ },
+ "MQCalkVIQdw": {
+  "video": "MQCalkVIQdw",
+  "title": "21st Oct 2026 Madeenah Dhuhr Sheikh Bu’ayjaan",
+  "duration": "661",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-21",
+  "imam": "Sheikh Bu’ayjaan",
+  "status": "silent",
+  "silent": true
+ },
+ "_BgFdcKAGuE": {
+  "video": "_BgFdcKAGuE",
+  "title": "21st Oct 2026 Makkah Dhuhr Sheikh Usaamah Khayyat",
+  "duration": "551",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-21",
+  "imam": "Sheikh Usaamah Khayyat",
+  "status": "silent",
+  "silent": true
+ },
+ "9vJ0O6XJifQ": {
+  "video": "9vJ0O6XJifQ",
+  "title": "21st Oct 2026 Madeenah Fajr Sheikh Quraafi",
+  "duration": "939",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-21",
+  "imam": "Sheikh Quraafi",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 45,
+    "ayah_to": 55,
+    "ref": "8:45-55",
+    "windows": 18,
+    "confidence": 86
+   },
+   {
+    "rakah": 2,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 55,
+    "ayah_to": 63,
+    "ref": "8:55-63",
+    "windows": 13,
+    "confidence": 86
+   }
+  ],
+  "confidence": 86,
+  "seconds": 169,
+  "identified_utc": "2026-10-21T11:45:41Z"
+ },
+ "V8zhPojccdk": {
+  "video": "V8zhPojccdk",
+  "title": "21st Oct 2026 Makkah Fajr Sheikh Baleelah",
+  "duration": "847",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-21",
+  "imam": "Sheikh Baleelah",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 45,
+    "surah_name": "Al-Jathiyah",
+    "ayah_from": 3,
+    "ayah_to": 15,
+    "ref": "45:3-15",
+    "windows": 16,
+    "confidence": 87
+   },
+   {
+    "rakah": 2,
+    "surah": 45,
+    "surah_name": "Al-Jathiyah",
+    "ayah_from": 16,
+    "ayah_to": 22,
+    "ref": "45:16-22",
+    "windows": 10,
+    "confidence": 85
+   }
+  ],
+  "confidence": 86,
+  "seconds": 149,
+  "identified_utc": "2026-10-21T11:48:10Z"
+ },
+ "a9ZUYRIY294": {
+  "video": "a9ZUYRIY294",
+  "title": "21st Oct 2026 Makkah Maghrib Sheikh Shamsaan",
+  "duration": "668",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-21",
+  "imam": "Sheikh Shamsaan",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 57,
+    "surah_name": "Al-Hadid",
+    "ayah_from": 18,
+    "ayah_to": 20,
+    "ref": "57:18-20",
+    "windows": 6,
+    "confidence": 86
+   },
+   {
+    "rakah": 2,
+    "surah": 57,
+    "surah_name": "Al-Hadid",
+    "ayah_from": 21,
+    "ayah_to": 21,
+    "ref": "57:21",
+    "windows": 2,
+    "confidence": 100
+   }
+  ],
+  "confidence": 93,
+  "seconds": 109,
+  "identified_utc": "2026-10-21T17:05:04Z"
+ },
+ "prLXfvF_SyE": {
+  "video": "prLXfvF_SyE",
+  "title": "21st Oct 2026 Madeenah Maghrib Sheikh Muhanna",
+  "duration": "640",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-21",
+  "imam": "Sheikh Muhanna",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 101,
+    "surah_name": "Al-Qariah",
+    "ayah_from": 3,
+    "ayah_to": 11,
+    "ref": "101:3-11",
+    "windows": 4,
+    "confidence": 78
+   },
+   {
+    "rakah": 2,
+    "surah": 102,
+    "surah_name": "At-Takathur",
+    "ayah_from": 1,
+    "ayah_to": 8,
+    "ref": "102:1-8",
+    "windows": 4,
+    "confidence": 78
+   }
+  ],
+  "confidence": 78,
+  "seconds": 97,
+  "identified_utc": "2026-10-21T17:06:42Z"
+ },
+ "QmVWv7doD4o": {
+  "video": "QmVWv7doD4o",
+  "title": "21st Oct 2026 Madeenah 'Asr Sheikh Budayr",
+  "duration": "571",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-21",
+  "imam": "Sheikh Budayr",
+  "status": "silent",
+  "silent": true
+ },
+ "E9Aw8zMXnHQ": {
+  "video": "E9Aw8zMXnHQ",
+  "title": "21st Oct 2026 Makkah 'Asr Sheikh Baleelah",
+  "duration": "526",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-21",
+  "imam": "Sheikh Baleelah",
+  "status": "silent",
+  "silent": true
+ },
+ "-zYAAa3yqi8": {
+  "video": "-zYAAa3yqi8",
+  "title": "22nd Oct 2026 Madeenah 'Isha Sheikh Ahmad al Hudhaify",
+  "duration": "935",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-22",
+  "imam": "Sheikh Ahmad al Hudhaify",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 25,
+    "surah_name": "Al-Furqan",
+    "ayah_from": 21,
+    "ayah_to": 34,
+    "ref": "25:21-34",
+    "windows": 14,
+    "confidence": 83
+   },
+   {
+    "rakah": 2,
+    "surah": 25,
+    "surah_name": "Al-Furqan",
+    "ayah_from": 35,
+    "ayah_to": 41,
+    "ref": "25:35-41",
+    "windows": 7,
+    "confidence": 80
+   }
+  ],
+  "confidence": 82,
+  "seconds": 285,
+  "identified_utc": "2026-10-22T02:06:20Z"
+ },
+ "Ai896Y0Y6Hs": {
+  "video": "Ai896Y0Y6Hs",
+  "title": "21st Oct 2026 Makkah 'Isha Sheikh Maahir",
+  "duration": "914",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-21",
+  "imam": "Sheikh Maahir",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 24,
+    "surah_name": "An-Nur",
+    "ayah_from": 34,
+    "ayah_to": 40,
+    "ref": "24:34-40",
+    "windows": 16,
+    "confidence": 82
+   },
+   {
+    "rakah": 2,
+    "surah": 24,
+    "surah_name": "An-Nur",
+    "ayah_from": 41,
+    "ayah_to": 44,
+    "ref": "24:41-44",
+    "windows": 7,
+    "confidence": 82
+   }
+  ],
+  "confidence": 82,
+  "seconds": 163,
+  "identified_utc": "2026-10-22T02:09:03Z"
+ },
+ "5bDBB8jtXkc": {
+  "video": "5bDBB8jtXkc",
+  "title": "22nd Oct 2026 Makkah Dhuhr Sheikh Usaamah Khayyat",
+  "duration": "509",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-22",
+  "imam": "Sheikh Usaamah Khayyat",
+  "status": "silent",
+  "silent": true
+ },
+ "TepGrocvcCY": {
+  "video": "TepGrocvcCY",
+  "title": "22nd Oct 2026 Madeenah Fajr Sheikh Quraafi",
+  "duration": "882",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-22",
+  "imam": "Sheikh Quraafi",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 64,
+    "ayah_to": 71,
+    "ref": "8:64-71",
+    "windows": 18,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 72,
+    "ayah_to": 75,
+    "ref": "8:72-75",
+    "windows": 11,
+    "confidence": 91
+   }
+  ],
+  "confidence": 90,
+  "seconds": 214,
+  "identified_utc": "2026-10-22T11:09:33Z"
+ },
+ "ynDJfbbKmcU": {
+  "video": "ynDJfbbKmcU",
+  "title": "22nd Oct 2026 Makkah Fajr Sheikh Baleelah",
+  "duration": "799",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-22",
+  "imam": "Sheikh Baleelah",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 45,
+    "surah_name": "Al-Jathiyah",
+    "ayah_from": 23,
+    "ayah_to": 31,
+    "ref": "45:23-31",
+    "windows": 14,
+    "confidence": 86
+   },
+   {
+    "rakah": 2,
+    "surah": 45,
+    "surah_name": "Al-Jathiyah",
+    "ayah_from": 32,
+    "ayah_to": 37,
+    "ref": "45:32-37",
+    "windows": 9,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 2,
+    "surah_name": "Al-Baqarah",
+    "ayah_from": 217,
+    "ayah_to": 217,
+    "ref": "2:217",
+    "windows": 2,
+    "confidence": 67
+   }
+  ],
+  "confidence": 79,
+  "seconds": 137,
+  "identified_utc": "2026-10-22T11:11:50Z"
+ },
+ "sCdLiiKHhGo": {
+  "video": "sCdLiiKHhGo",
+  "title": "22.10.2026 صلاة الفجر من المسجد الأقصى المبارك Dawn prayer from the blessed Al-Aqsa Mosque",
+  "duration": "2810",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-22",
+  "imam": null,
+  "status": "low_confidence",
+  "errors": 1,
+  "last_error": "Command '['nice', '-n', '19', '/home/box/.local/bin/yt-dlp', '-q', '--no-progress', '-f', 'bestaudio[abr<=80]/bestaudio/worstaudio', '-o', '/tmp/allp_7z_thirv/a.%(ext)s', '--', 'sCdLiiKHhGo']' returned non-zero exit status 1.",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 2102,
+  "identified_utc": "2026-10-23T12:52:51Z"
+ },
+ "d33YuBpnxMs": {
+  "video": "d33YuBpnxMs",
+  "title": "21.10.2026 أذان و صلاة العشاء من المسجد الأقصى المبارك Isha prayer from the blessed Al-Aqsa Mosque",
+  "duration": "2485",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "isha",
+  "date": "2026-10-21",
+  "imam": null,
+  "status": "low_confidence",
+  "errors": 1,
+  "last_error": "Command '['nice', '-n', '19', '/home/box/.local/bin/yt-dlp', '-q', '--no-progress', '-f', 'bestaudio[abr<=80]/bestaudio/worstaudio', '-o', '/tmp/allp__4g014da/a.%(ext)s', '--', 'd33YuBpnxMs']' returned non-zero exit status 1.",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 1155,
+  "identified_utc": "2026-10-23T13:12:07Z"
+ },
+ "SPgzlTBSPl4": {
+  "video": "SPgzlTBSPl4",
+  "title": "22nd Oct 2026 Madeenah 'Asr Sheikh Budayr",
+  "duration": "577",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-22",
+  "imam": "Sheikh Budayr",
+  "status": "silent",
+  "silent": true
+ },
+ "ekF-K_4n4Zo": {
+  "video": "ekF-K_4n4Zo",
+  "title": "22nd Oct 2026 Makkah 'Asr Sheikh Baleelah",
+  "duration": "537",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-22",
+  "imam": "Sheikh Baleelah",
+  "status": "silent",
+  "silent": true
+ },
+ "Vwal0WqChus": {
+  "video": "Vwal0WqChus",
+  "title": "22nd Oct 2026 Madeenah Dhuhr Sheikh Bu’ayjaan",
+  "duration": "635",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-22",
+  "imam": "Sheikh Bu’ayjaan",
+  "status": "silent",
+  "silent": true
+ },
+ "o5M4xP5mAVs": {
+  "video": "o5M4xP5mAVs",
+  "title": "22nd Oct 2026 Makkah 'Isha Sheikh Mu’ayqali",
+  "duration": "856",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-22",
+  "imam": "Sheikh Mu’ayqali",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 29,
+    "surah_name": "Al-Ankabut",
+    "ayah_from": 14,
+    "ayah_to": 23,
+    "ref": "29:14-23",
+    "windows": 12,
+    "confidence": 89
+   },
+   {
+    "rakah": 2,
+    "surah": 29,
+    "surah_name": "Al-Ankabut",
+    "ayah_from": 24,
+    "ayah_to": 25,
+    "ref": "29:24-25",
+    "windows": 4,
+    "confidence": 76
+   }
+  ],
+  "confidence": 82,
+  "seconds": 184,
+  "identified_utc": "2026-10-22T20:04:25Z"
+ },
+ "bABVYTcC8Zk": {
+  "video": "bABVYTcC8Zk",
+  "title": "22nd Oct 2026 Madeenah 'Isha Sheikh Ahmed Hudhaify",
+  "duration": "971",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-22",
+  "imam": "Sheikh Ahmed Hudhaify",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 41,
+    "surah_name": "Fussilat",
+    "ayah_from": 19,
+    "ayah_to": 29,
+    "ref": "41:19-29",
+    "windows": 17,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 41,
+    "surah_name": "Fussilat",
+    "ayah_from": 30,
+    "ayah_to": 35,
+    "ref": "41:30-35",
+    "windows": 8,
+    "confidence": 81
+   }
+  ],
+  "confidence": 84,
+  "seconds": 184,
+  "identified_utc": "2026-10-22T20:07:29Z"
+ },
+ "RAywrxq4Rts": {
+  "video": "RAywrxq4Rts",
+  "title": "22nd Oct 2026 Makkah Maghrib Sheikh Shamsaan",
+  "duration": "682",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-22",
+  "imam": "Sheikh Shamsaan",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 18,
+    "surah_name": "Al-Kahf",
+    "ayah_from": 50,
+    "ayah_to": 53,
+    "ref": "18:50-53",
+    "windows": 5,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 18,
+    "surah_name": "Al-Kahf",
+    "ayah_from": 54,
+    "ayah_to": 56,
+    "ref": "18:54-56",
+    "windows": 5,
+    "confidence": 86
+   }
+  ],
+  "confidence": 87,
+  "seconds": 126,
+  "identified_utc": "2026-10-22T20:09:35Z"
+ },
+ "edLOoK7n_Lk": {
+  "video": "edLOoK7n_Lk",
+  "title": "22nd Oct 2026 Madeenah Maghrib Sheikh Muhanna",
+  "duration": "578",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-22",
+  "imam": "Sheikh Muhanna",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 94,
+    "surah_name": "Ash-Sharh",
+    "ayah_from": 2,
+    "ayah_to": 8,
+    "ref": "94:2-8",
+    "windows": 3,
+    "confidence": 71
+   },
+   {
+    "rakah": 2,
+    "surah": 108,
+    "surah_name": "Al-Kawthar",
+    "ayah_from": 1,
+    "ayah_to": 3,
+    "ref": "108:1-3",
+    "windows": 1,
+    "confidence": 73
+   }
+  ],
+  "confidence": 72,
+  "seconds": 93,
+  "identified_utc": "2026-10-22T20:11:08Z"
+ },
+ "5k2MOx11iU8": {
+  "video": "5k2MOx11iU8",
+  "title": "23rd Oct 2026 Madeenah Fajr Sheikh Quraafi",
+  "source": "haramain",
+  "status": "ok",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-23",
+  "imam": "Sheikh Quraafi",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 32,
+    "surah_name": "As-Sajdah",
+    "ayah_from": 1,
+    "ayah_to": 30,
+    "ref": "32:1-30",
+    "confidence": 82
+   },
+   {
+    "rakah": 2,
+    "surah": 76,
+    "surah_name": "Al-Insan",
+    "ayah_from": 1,
+    "ayah_to": 31,
+    "ref": "76:1-31",
+    "confidence": 82
+   }
+  ],
+  "confidence": 82,
+  "identified_utc": "2026-10-23T04:39:16Z",
+  "note": "ayat from the Sajal routine verified result"
+ },
+ "T3_mebuwwkg": {
+  "video": "T3_mebuwwkg",
+  "title": "23rd Oct 2026 Makkah Fajr Sheikh Baleelah",
+  "duration": "680",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-23",
+  "imam": "Sheikh Baleelah",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 62,
+    "surah_name": "Al-Jumuah",
+    "ayah_from": 1,
+    "ayah_to": 8,
+    "ref": "62:1-8",
+    "windows": 11,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 62,
+    "surah_name": "Al-Jumuah",
+    "ayah_from": 9,
+    "ayah_to": 11,
+    "ref": "62:9-11",
+    "windows": 6,
+    "confidence": 88
+   }
+  ],
+  "confidence": 86,
+  "seconds": 186,
+  "identified_utc": "2026-10-23T05:08:30Z"
+ },
+ "Yt5iMeljo74": {
+  "video": "Yt5iMeljo74",
+  "title": "23rd Oct 2026 Madeenah Jumu'ah Salaah Sheikh ‘Ali Hudhaify",
+  "duration": "526",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "jumuah",
+  "date": "2026-10-23",
+  "imam": "Sheikh ‘Ali Hudhaify",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 112,
+    "surah_name": "Al-Ikhlas",
+    "ayah_from": 1,
+    "ayah_to": 4,
+    "ref": "112:1-4",
+    "windows": 1,
+    "confidence": 79
+   }
+  ],
+  "confidence": 79,
+  "seconds": 86,
+  "identified_utc": "2026-10-23T11:05:47Z"
+ },
+ "oSEy0K0d7zU": {
+  "video": "oSEy0K0d7zU",
+  "title": "23rd Oct 2026 Makkah Jumu'ah Salaah Sheikh Humaid",
+  "duration": "382",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "jumuah",
+  "date": "2026-10-23",
+  "imam": "Sheikh Humaid",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 105,
+    "surah_name": "Al-Fil",
+    "ayah_from": 1,
+    "ayah_to": 5,
+    "ref": "105:1-5",
+    "windows": 2,
+    "confidence": 76
+   }
+  ],
+  "confidence": 76,
+  "seconds": 81,
+  "identified_utc": "2026-10-23T11:07:08Z"
+ },
+ "PX24zQvtaOk": {
+  "video": "PX24zQvtaOk",
+  "title": "23.10.2026 أذان و خطبة و صلاة الجمعة من المسجد الأقصى المبارك Friday rituals at Al-Aqsa",
+  "duration": "4333",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "jumuah",
+  "date": "2026-10-23",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 1529,
+  "identified_utc": "2026-10-23T11:32:37Z"
+ },
+ "Tl-1Lxs5HHY": {
+  "video": "Tl-1Lxs5HHY",
+  "title": "23.10.2026 أذان و صلاة الفجر من المسجد الأقصى المبارك Dawn prayer from the blessed Al-Aqsa Mosque",
+  "duration": "5784",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-23",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 2712,
+  "identified_utc": "2026-10-23T12:17:49Z"
+ },
+ "nJicTqxrceQ": {
+  "video": "nJicTqxrceQ",
+  "title": "23rd Oct 2026 Makkah 'Asr Sheikh Baleelah",
+  "duration": "525",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-23",
+  "imam": "Sheikh Baleelah",
+  "status": "silent",
+  "silent": true
+ },
+ "ZazmB_sMZqA": {
+  "video": "ZazmB_sMZqA",
+  "title": "23rd Oct 2026 Madeenah 'Asr Sheikh Budayr",
+  "duration": "564",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-23",
+  "imam": "Sheikh Budayr",
+  "status": "silent",
+  "silent": true
+ },
+ "Dz7ZhBe7HEg": {
+  "video": "Dz7ZhBe7HEg",
+  "title": "23rd Oct 2026 Madeenah 'Isha Sheikh Ahmed Hudhaify",
+  "duration": "986",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-23",
+  "imam": "Sheikh Ahmed Hudhaify",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 44,
+    "surah_name": "Ad-Dukhan",
+    "ayah_from": 40,
+    "ayah_to": 59,
+    "ref": "44:40-59",
+    "windows": 12,
+    "confidence": 82
+   },
+   {
+    "rakah": 2,
+    "surah": 78,
+    "surah_name": "An-Naba",
+    "ayah_from": 17,
+    "ayah_to": 36,
+    "ref": "78:17-36",
+    "windows": 9,
+    "confidence": 82
+   }
+  ],
+  "confidence": 82,
+  "seconds": 158,
+  "identified_utc": "2026-10-24T01:54:19Z"
+ },
+ "64HMXCF6OeQ": {
+  "video": "64HMXCF6OeQ",
+  "title": "23rd Oct 2026 Makkah 'Isha Sheikh Mu’ayqali",
+  "duration": "782",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-23",
+  "imam": "Sheikh Mu’ayqali",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 40,
+    "surah_name": "Ghafir",
+    "ayah_from": 56,
+    "ayah_to": 63,
+    "ref": "40:56-63",
+    "windows": 10,
+    "confidence": 82
+   },
+   {
+    "rakah": 2,
+    "surah": 40,
+    "surah_name": "Ghafir",
+    "ayah_from": 64,
+    "ayah_to": 66,
+    "ref": "40:64-66",
+    "windows": 5,
+    "confidence": 85
+   }
+  ],
+  "confidence": 84,
+  "seconds": 130,
+  "identified_utc": "2026-10-24T01:56:29Z"
+ },
+ "cY6EbSbDilU": {
+  "video": "cY6EbSbDilU",
+  "title": "23rd Oct 2026 Madeenah Maghrib Sheikh Muhanna",
+  "duration": "729",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-23",
+  "imam": "Sheikh Muhanna",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 98,
+    "surah_name": "Al-Bayyinah",
+    "ayah_from": 1,
+    "ayah_to": 8,
+    "ref": "98:1-8",
+    "windows": 9,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 100,
+    "surah_name": "Al-Adiyat",
+    "ayah_from": 5,
+    "ayah_to": 11,
+    "ref": "100:5-11",
+    "windows": 4,
+    "confidence": 71
+   }
+  ],
+  "confidence": 78,
+  "seconds": 114,
+  "identified_utc": "2026-10-24T01:58:23Z"
+ },
+ "iRjH-ubTy5Y": {
+  "video": "iRjH-ubTy5Y",
+  "title": "23rd Oct 2026 Makkah Maghrib Sheikh Shamsaan",
+  "duration": "637",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-23",
+  "imam": "Sheikh Shamsaan",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 57,
+    "surah_name": "Al-Hadid",
+    "ayah_from": 22,
+    "ayah_to": 24,
+    "ref": "57:22-24",
+    "windows": 5,
+    "confidence": 87
+   },
+   {
+    "rakah": 2,
+    "surah": 57,
+    "surah_name": "Al-Hadid",
+    "ayah_from": 28,
+    "ayah_to": 29,
+    "ref": "57:28-29",
+    "windows": 4,
+    "confidence": 91
+   }
+  ],
+  "confidence": 89,
+  "seconds": 97,
+  "identified_utc": "2026-10-24T02:00:00Z"
+ },
+ "RX1fnthAhS4": {
+  "video": "RX1fnthAhS4",
+  "title": "24.10.2026 أذان و صلاة الفجر من المسجد الأقصى المبارك Dawn prayer from the blessed Al-Aqsa Mosque",
+  "duration": "4250",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-24",
+  "imam": null,
+  "status": "low_confidence",
+  "errors": 1,
+  "last_error": "Command '['nice', '-n', '19', '/home/box/.local/bin/yt-dlp', '-q', '--no-progress', '-f', 'bestaudio[abr<=80]/bestaudio/worstaudio', '-o', '/tmp/allp_2oi07xlw/a.%(ext)s', '--', 'RX1fnthAhS4']' returned non-zero exit status 1.",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 1173,
+  "identified_utc": "2026-10-24T11:22:22Z"
+ },
+ "NeKTxDnMJIQ": {
+  "video": "NeKTxDnMJIQ",
+  "title": "23.10.2026 أذان و صلاة العشاء من المسجد الأقصى المبارك Isha prayer from the blessed Al-Aqsa Mosque",
+  "duration": "1914",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "isha",
+  "date": "2026-10-23",
+  "imam": null,
+  "status": "low_confidence",
+  "errors": 1,
+  "last_error": "Command '['nice', '-n', '19', '/home/box/.local/bin/yt-dlp', '-q', '--no-progress', '-f', 'bestaudio[abr<=80]/bestaudio/worstaudio', '-o', '/tmp/allp_svt9jnip/a.%(ext)s', '--', 'NeKTxDnMJIQ']' returned non-zero exit status 1.",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 574,
+  "identified_utc": "2026-10-24T11:31:57Z"
+ },
+ "hj-6NGLWdRI": {
+  "video": "hj-6NGLWdRI",
+  "title": "23.10.2026 أذان و صلاة المغرب من المسجد الأقصى المباركMaghrib prayer from the blessed Al-Aqsa Mosque",
+  "duration": "2073",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "maghrib",
+  "date": "2026-10-23",
+  "imam": null,
+  "status": "low_confidence",
+  "errors": 1,
+  "last_error": "Command '['nice', '-n', '19', '/home/box/.local/bin/yt-dlp', '-q', '--no-progress', '-f', 'bestaudio[abr<=80]/bestaudio/worstaudio', '-o', '/tmp/allp__tr5qzie/a.%(ext)s', '--', 'hj-6NGLWdRI']' returned non-zero exit status 1.",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 639,
+  "identified_utc": "2026-10-24T11:42:36Z"
+ },
+ "KvSf2S-8PO8": {
+  "video": "KvSf2S-8PO8",
+  "title": "24th Oct 2026 Madeenah Dhuhr Sheikh Bu'ayjaan",
+  "duration": "651",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-24",
+  "imam": "Sheikh Bu'ayjaan",
+  "status": "silent",
+  "silent": true
+ },
+ "Vf5cL1Rv96o": {
+  "video": "Vf5cL1Rv96o",
+  "title": "24th Oct 2026 Makkah Dhuhr Sheikh Usaamah Khayyat",
+  "duration": "526",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-24",
+  "imam": "Sheikh Usaamah Khayyat",
+  "status": "silent",
+  "silent": true
+ },
+ "yLfIM02YCqM": {
+  "video": "yLfIM02YCqM",
+  "title": "24th Oct 2026 Madeenah Fajr Sheikh Quraafi",
+  "duration": "907",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-24",
+  "imam": "Sheikh Quraafi",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 9,
+    "surah_name": "At-Tawbah",
+    "ayah_from": 38,
+    "ayah_to": 47,
+    "ref": "9:38-47",
+    "windows": 16,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 9,
+    "surah_name": "At-Tawbah",
+    "ayah_from": 48,
+    "ayah_to": 55,
+    "ref": "9:48-55",
+    "windows": 12,
+    "confidence": 86
+   }
+  ],
+  "confidence": 87,
+  "seconds": 221,
+  "identified_utc": "2026-10-24T14:04:39Z"
+ },
+ "SKcvZbOhanI": {
+  "video": "SKcvZbOhanI",
+  "title": "24h Oct 2026 Makkah Fajr Sheikh Baleelah",
+  "duration": "678",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-24",
+  "imam": "Sheikh Baleelah",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 75,
+    "surah_name": "Al-Qiyamah",
+    "ayah_from": 1,
+    "ayah_to": 19,
+    "ref": "75:1-19",
+    "windows": 9,
+    "confidence": 77
+   },
+   {
+    "rakah": 2,
+    "surah": 75,
+    "surah_name": "Al-Qiyamah",
+    "ayah_from": 20,
+    "ayah_to": 39,
+    "ref": "75:20-39",
+    "windows": 8,
+    "confidence": 77
+   }
+  ],
+  "confidence": 77,
+  "seconds": 130,
+  "identified_utc": "2026-10-24T14:06:48Z"
+ },
+ "tBMEbB135Do": {
+  "video": "tBMEbB135Do",
+  "title": "24th Oct 2026 Madeenah 'Asr Sheikh Budayr",
+  "duration": "582",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-24",
+  "imam": "Sheikh Budayr",
+  "status": "silent",
+  "silent": true
+ },
+ "cXA3nbeIWQo": {
+  "video": "cXA3nbeIWQo",
+  "title": "24th Oct 2026 Makkah 'Asr Sheikh Baleelah",
+  "duration": "522",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-24",
+  "imam": "Sheikh Baleelah",
+  "status": "silent",
+  "silent": true
+ },
+ "3kOr_9tx21U": {
+  "video": "3kOr_9tx21U",
+  "title": "24th Oct 2026 Makkah 'Isha Sheikh Maahir",
+  "duration": "869",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-24",
+  "imam": "Sheikh Maahir",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 57,
+    "surah_name": "Al-Hadid",
+    "ayah_from": 11,
+    "ayah_to": 17,
+    "ref": "57:11-17",
+    "windows": 11,
+    "confidence": 85
+   },
+   {
+    "rakah": 2,
+    "surah": 57,
+    "surah_name": "Al-Hadid",
+    "ayah_from": 18,
+    "ayah_to": 21,
+    "ref": "57:18-21",
+    "windows": 9,
+    "confidence": 85
+   }
+  ],
+  "confidence": 85,
+  "seconds": 171,
+  "identified_utc": "2026-10-24T20:08:30Z"
+ },
+ "AO-4yzjUEKw": {
+  "video": "AO-4yzjUEKw",
+  "title": "24th Oct 2026 Madeenah 'Isha Sheikh Budayr",
+  "duration": "818",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-24",
+  "imam": "Sheikh Budayr",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 55,
+    "surah_name": "Ar-Rahman",
+    "ayah_from": 1,
+    "ayah_to": 17,
+    "ref": "55:1-17",
+    "windows": 8,
+    "confidence": 82
+   },
+   {
+    "rakah": 2,
+    "surah": 55,
+    "surah_name": "Ar-Rahman",
+    "ayah_from": 18,
+    "ayah_to": 27,
+    "ref": "55:18-27",
+    "windows": 5,
+    "confidence": 81
+   }
+  ],
+  "confidence": 82,
+  "seconds": 125,
+  "identified_utc": "2026-10-24T20:10:36Z"
+ },
+ "X-1kRGRqR0c": {
+  "video": "X-1kRGRqR0c",
+  "title": "24th Oct 2026 Madeenah Maghrib Sheikh Muhanna",
+  "duration": "663",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-24",
+  "imam": "Sheikh Muhanna",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 17,
+    "surah_name": "Al-Isra",
+    "ayah_from": 49,
+    "ayah_to": 52,
+    "ref": "17:49-52",
+    "windows": 5,
+    "confidence": 85
+   },
+   {
+    "rakah": 2,
+    "surah": 17,
+    "surah_name": "Al-Isra",
+    "ayah_from": 53,
+    "ayah_to": 55,
+    "ref": "17:53-55",
+    "windows": 4,
+    "confidence": 83
+   }
+  ],
+  "confidence": 84,
+  "seconds": 108,
+  "identified_utc": "2026-10-24T20:12:24Z"
+ },
+ "6GWVJB6TGhg": {
+  "video": "6GWVJB6TGhg",
+  "title": "24th Oct 2026 Makkah Maghrib Shikh Shamsaan",
+  "duration": "595",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-24",
+  "imam": "Shikh Shamsaan",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 101,
+    "surah_name": "Al-Qariah",
+    "ayah_from": 3,
+    "ayah_to": 11,
+    "ref": "101:3-11",
+    "windows": 4,
+    "confidence": 78
+   },
+   {
+    "rakah": 2,
+    "surah": 110,
+    "surah_name": "An-Nasr",
+    "ayah_from": 1,
+    "ayah_to": 3,
+    "ref": "110:1-3",
+    "windows": 2,
+    "confidence": 90
+   }
+  ],
+  "confidence": 84,
+  "seconds": 92,
+  "identified_utc": "2026-10-24T20:13:57Z"
+ },
+ "9HhWO-HFBHQ": {
+  "video": "9HhWO-HFBHQ",
+  "title": "28th Oct 2026 Madeenah 'Asr Sheikh 'Ali Al Hudhaify",
+  "duration": "848",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-28",
+  "imam": "Sheikh 'Ali Al Hudhaify",
+  "status": "silent",
+  "silent": true
+ },
+ "wN3EiYacJvs": {
+  "video": "wN3EiYacJvs",
+  "title": "28th Oct 2026 Makkah 'Asr Sheikh Dosary",
+  "duration": "505",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-28",
+  "imam": "Sheikh Dosary",
+  "status": "silent",
+  "silent": true
+ },
+ "93cDPuz4T8Q": {
+  "video": "93cDPuz4T8Q",
+  "title": "28th Oct 2026 Makkah Dhuhr Sheikh Ghazzawi",
+  "duration": "611",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-28",
+  "imam": "Sheikh Ghazzawi",
+  "status": "silent",
+  "silent": true
+ },
+ "cK6L7qYnLG8": {
+  "video": "cK6L7qYnLG8",
+  "title": "28th Oct 2026 Madeenah Dhuhr Sheikh Barhaji",
+  "duration": "695",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-28",
+  "imam": "Sheikh Barhaji",
+  "status": "silent",
+  "silent": true
+ },
+ "WktNyz4xiq8": {
+  "video": "WktNyz4xiq8",
+  "title": "28th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
+  "duration": "712",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-28",
+  "imam": "Sheikh Bu'ayjaan",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 3,
+    "surah_name": "Aal-Imran",
+    "ayah_from": 190,
+    "ayah_to": 195,
+    "ref": "3:190-195",
+    "windows": 11,
+    "confidence": 79
+   },
+   {
+    "rakah": 2,
+    "surah": 3,
+    "surah_name": "Aal-Imran",
+    "ayah_from": 196,
+    "ayah_to": 200,
+    "ref": "3:196-200",
+    "windows": 7,
+    "confidence": 84
+   }
+  ],
+  "confidence": 82,
+  "seconds": 197,
+  "identified_utc": "2026-10-29T02:08:17Z"
+ },
+ "xfGgNKkxQmM": {
+  "video": "xfGgNKkxQmM",
+  "title": "28th Oct 2026 Makkah Fajr Sheikh Dosary",
+  "duration": "1007",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-28",
+  "imam": "Sheikh Dosary",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 37,
+    "surah_name": "As-Saffat",
+    "ayah_from": 5,
+    "ayah_to": 49,
+    "ref": "37:5-49",
+    "windows": 22,
+    "confidence": 76
+   },
+   {
+    "rakah": 2,
+    "surah": 37,
+    "surah_name": "As-Saffat",
+    "ayah_from": 50,
+    "ayah_to": 74,
+    "ref": "37:50-74",
+    "windows": 16,
+    "confidence": 80
+   }
+  ],
+  "confidence": 78,
+  "seconds": 236,
+  "identified_utc": "2026-10-29T02:12:13Z"
+ },
+ "4ZeuaTLcc6M": {
+  "video": "4ZeuaTLcc6M",
+  "title": "27th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
+  "duration": "680",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-27",
+  "imam": "Sheikh Maghamsi",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 7,
+    "surah_name": "Al-Araf",
+    "ayah_from": 52,
+    "ayah_to": 54,
+    "ref": "7:52-54",
+    "windows": 7,
+    "confidence": 80
+   },
+   {
+    "rakah": 2,
+    "surah": 7,
+    "surah_name": "Al-Araf",
+    "ayah_from": 55,
+    "ayah_to": 56,
+    "ref": "7:55-56",
+    "windows": 3,
+    "confidence": 86
+   }
+  ],
+  "confidence": 83,
+  "seconds": 106,
+  "identified_utc": "2026-10-29T02:13:59Z"
+ },
+ "J5u_vF0HcMo": {
+  "video": "J5u_vF0HcMo",
+  "title": "27th Oct 2026 Makkah 'Isha Sheikh Badr al Turki",
+  "duration": "770",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-27",
+  "imam": "Sheikh Badr al Turki",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 4,
+    "surah_name": "An-Nisa",
+    "ayah_from": 36,
+    "ayah_to": 42,
+    "ref": "4:36-42",
+    "windows": 11,
+    "confidence": 89
+   },
+   {
+    "rakah": 2,
+    "surah": 4,
+    "surah_name": "An-Nisa",
+    "ayah_from": 43,
+    "ayah_to": 45,
+    "ref": "4:43-45",
+    "windows": 7,
+    "confidence": 82
+   }
+  ],
+  "confidence": 86,
+  "seconds": 132,
+  "identified_utc": "2026-10-29T02:16:11Z"
+ },
+ "asNmCxwf-6g": {
+  "video": "asNmCxwf-6g",
+  "title": "27th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
+  "duration": "684",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-27",
+  "imam": "Sheikh Thubaity",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 19,
+    "surah_name": "Maryam",
+    "ayah_from": 63,
+    "ayah_to": 65,
+    "ref": "19:63-65",
+    "windows": 3,
+    "confidence": 91
+   },
+   {
+    "rakah": 2,
+    "surah": 19,
+    "surah_name": "Maryam",
+    "ayah_from": 66,
+    "ayah_to": 71,
+    "ref": "19:66-71",
+    "windows": 5,
+    "confidence": 77
+   }
+  ],
+  "confidence": 84,
+  "seconds": 94,
+  "identified_utc": "2026-10-29T02:17:46Z"
+ },
+ "r8pWXxwJxAQ": {
+  "video": "r8pWXxwJxAQ",
+  "title": "27th Oct 2026 Makkah Maghrib Sheikh Juhany",
+  "duration": "502",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-27",
+  "imam": "Sheikh Juhany",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 113,
+    "surah_name": "Al-Falaq",
+    "ayah_from": 1,
+    "ayah_to": 5,
+    "ref": "113:1-5",
+    "windows": 3,
+    "confidence": 78
+   },
+   {
+    "rakah": 2,
+    "surah": 114,
+    "surah_name": "An-Nas",
+    "ayah_from": 1,
+    "ayah_to": 6,
+    "ref": "114:1-6",
+    "windows": 3,
+    "confidence": 71
+   }
+  ],
+  "confidence": 74,
+  "seconds": 70,
+  "identified_utc": "2026-10-29T02:18:55Z"
+ },
+ "S1s64gm63Vw": {
+  "video": "S1s64gm63Vw",
+  "title": "27th Oct 2026 Madeenah 'Asr Sheikh ‘Ali Hudhaify",
+  "duration": "807",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-27",
+  "imam": "Sheikh ‘Ali Hudhaify",
+  "status": "silent",
+  "silent": true
+ },
+ "xGdk6GpDyis": {
+  "video": "xGdk6GpDyis",
+  "title": "27th Oct 2026 Makkah 'Asr Sheikh Dosary",
+  "duration": "519",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-27",
+  "imam": "Sheikh Dosary",
+  "status": "silent",
+  "silent": true
+ },
+ "o_UwkRnYI6Q": {
+  "video": "o_UwkRnYI6Q",
+  "title": "27th Oct 2026 Madeenah Dhuhr Sheikh Barhaji",
+  "duration": "679",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-27",
+  "imam": "Sheikh Barhaji",
+  "status": "silent",
+  "silent": true
+ },
+ "ycSi0XzjWYc": {
+  "video": "ycSi0XzjWYc",
+  "title": "27th Oct 2026 Makkah Dhuhr Sheikh Ghazzawi",
+  "duration": "576",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-27",
+  "imam": "Sheikh Ghazzawi",
+  "status": "silent",
+  "silent": true
+ },
+ "5GjHiiG-OXU": {
+  "video": "5GjHiiG-OXU",
+  "title": "27th Oct 2026 Makkah Fajr Sheikh Dosary",
+  "duration": "787",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-27",
+  "imam": "Sheikh Dosary",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 64,
+    "surah_name": "At-Taghabun",
+    "ayah_from": 1,
+    "ayah_to": 13,
+    "ref": "64:1-13",
+    "windows": 18,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 64,
+    "surah_name": "At-Taghabun",
+    "ayah_from": 14,
+    "ayah_to": 18,
+    "ref": "64:14-18",
+    "windows": 6,
+    "confidence": 86
+   }
+  ],
+  "confidence": 87,
+  "seconds": 142,
+  "identified_utc": "2026-10-29T02:21:18Z"
+ },
+ "Y0nr6Fu4CBg": {
+  "video": "Y0nr6Fu4CBg",
+  "title": "27th Oct 2026 Madeenah Fajr Sheikh Bu’ayjaan",
+  "duration": "700",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-27",
+  "imam": "Sheikh Bu’ayjaan",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 3,
+    "surah_name": "Aal-Imran",
+    "ayah_from": 102,
+    "ayah_to": 108,
+    "ref": "3:102-108",
+    "windows": 10,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 3,
+    "surah_name": "Aal-Imran",
+    "ayah_from": 109,
+    "ayah_to": 115,
+    "ref": "3:109-115",
+    "windows": 8,
+    "confidence": 86
+   }
+  ],
+  "confidence": 85,
+  "seconds": 133,
+  "identified_utc": "2026-10-29T02:23:30Z"
+ },
+ "BcRnOqDRazE": {
+  "video": "BcRnOqDRazE",
+  "title": "28th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
+  "duration": "696",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-28",
+  "imam": "Sheikh Thubaity",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 23,
+    "surah_name": "Al-Muminun",
+    "ayah_from": 112,
+    "ayah_to": 118,
+    "ref": "23:112-118",
+    "windows": 6,
+    "confidence": 81
+   },
+   {
+    "rakah": 2,
+    "surah": 26,
+    "surah_name": "Ash-Shuara",
+    "ayah_from": 221,
+    "ayah_to": 227,
+    "ref": "26:221-227",
+    "windows": 6,
+    "confidence": 81
+   }
+  ],
+  "confidence": 81,
+  "seconds": 113,
+  "identified_utc": "2026-10-29T05:09:24Z"
+ },
+ "hY0bD-ZFTTs": {
+  "video": "hY0bD-ZFTTs",
+  "title": "28th Oct 2026 Makkah Maghrib Sheikh Juhany",
+  "duration": "620",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-28",
+  "imam": "Sheikh Juhany",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 24,
+    "surah_name": "An-Nur",
+    "ayah_from": 23,
+    "ayah_to": 26,
+    "ref": "24:23-26",
+    "windows": 5,
+    "confidence": 87
+   },
+   {
+    "rakah": 2,
+    "surah": 24,
+    "surah_name": "An-Nur",
+    "ayah_from": 27,
+    "ayah_to": 29,
+    "ref": "24:27-29",
+    "windows": 5,
+    "confidence": 88
+   }
+  ],
+  "confidence": 88,
+  "seconds": 127,
+  "identified_utc": "2026-10-29T05:11:30Z"
+ },
+ "b_JBtu-TJq0": {
+  "video": "b_JBtu-TJq0",
+  "title": "29.10.2026 أذان و صلاة الفجر من المسجد الأقصى المبارك Dawn prayer from the blessed Al-Aqsa Mosque",
+  "duration": "4261",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-29",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 1165,
+  "identified_utc": "2026-10-29T11:27:25Z"
+ },
+ "2kz3quiursg": {
+  "video": "2kz3quiursg",
+  "title": "28.10.2026 أذان و صلاة الفجر من المسجد الأقصى المبارك Dawn prayer from the blessed Al-Aqsa Mosque",
+  "duration": "3959",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-28",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 1032,
+  "identified_utc": "2026-10-29T11:44:37Z"
+ },
+ "DGkZRTBLORE": {
+  "video": "DGkZRTBLORE",
+  "title": "27.10.2026 أذان و صلاة العشاء من المسجد الأقصى المبارك Isha prayer from the blessed Al-Aqsa Mosque",
+  "duration": "2748",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "isha",
+  "date": "2026-10-27",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 682,
+  "identified_utc": "2026-10-29T11:55:59Z"
+ },
+ "Zz6bv0M1Y80": {
+  "video": "Zz6bv0M1Y80",
+  "title": "27.10.2026 أذان و صلاة المغرب من المسجد الأقصى المبارك Maghrib prayer from  Al-Aqsa Mosque",
+  "duration": "2742",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "maghrib",
+  "date": "2026-10-27",
+  "imam": null,
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 18,
+    "surah_name": "Al-Kahf",
+    "ayah_from": 39,
+    "ayah_to": 39,
+    "ref": "18:39",
+    "windows": 3,
+    "confidence": 64
+   }
+  ],
+  "confidence": 64,
+  "seconds": 1236,
+  "identified_utc": "2026-10-29T12:16:35Z"
+ },
+ "PD7-WuiCRqM": {
+  "video": "PD7-WuiCRqM",
+  "title": "27.10.2026 أذان و صلاة الظهر من المسجد الأقصى المبارك Dhuhr prayer from the blessed Al-Aqsa Mosque",
+  "duration": "3466",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "dhuhr",
+  "date": "2026-10-27",
+  "imam": null,
+  "status": "silent",
+  "silent": true
+ },
+ "oX8X9Oqhb90": {
+  "video": "oX8X9Oqhb90",
+  "title": "27.10.2026 أذان و صلاة الفجر من المسجد الأقصى المبارك Dawn prayer from the blessed Al-Aqsa Mosque",
+  "duration": "4483",
+  "source": "aqsa",
+  "mosque": "aqsa",
+  "prayer": "fajr",
+  "date": "2026-10-27",
+  "imam": null,
+  "status": "low_confidence",
+  "rakahs": [],
+  "confidence": 0,
+  "seconds": 4850,
+  "identified_utc": "2026-10-29T13:37:25Z"
+ },
+ "IIlJguBNWFc": {
+  "video": "IIlJguBNWFc",
+  "title": "28th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
+  "duration": "761",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-28",
+  "imam": "Sheikh Maghamsi",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 27,
+    "surah_name": "An-Naml",
+    "ayah_from": 27,
+    "ayah_to": 39,
+    "ref": "27:27-39",
+    "windows": 9,
+    "confidence": 76
+   },
+   {
+    "rakah": 2,
+    "surah": 27,
+    "surah_name": "An-Naml",
+    "ayah_from": 40,
+    "ayah_to": 44,
+    "ref": "27:40-44",
+    "windows": 6,
+    "confidence": 76
+   }
+  ],
+  "confidence": 76,
+  "seconds": 235,
+  "identified_utc": "2026-10-29T14:13:34Z"
+ },
+ "x_3SvW7WMVU": {
+  "video": "x_3SvW7WMVU",
+  "title": "28th Oct 2026 Makkah 'Isha Sheikh Badr al Turki",
+  "duration": "764",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-28",
+  "imam": "Sheikh Badr al Turki",
+  "status": "ok",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 5,
+    "surah_name": "Al-Maidah",
+    "ayah_from": 1,
+    "ayah_to": 3,
+    "ref": "5:1-3",
+    "windows": 10,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 5,
+    "surah_name": "Al-Maidah",
+    "ayah_from": 4,
+    "ayah_to": 5,
+    "ref": "5:4-5",
+    "windows": 6,
+    "confidence": 79
+   }
+  ],
+  "confidence": 84,
+  "seconds": 169,
+  "identified_utc": "2026-10-29T14:16:23Z"
+ }
+}

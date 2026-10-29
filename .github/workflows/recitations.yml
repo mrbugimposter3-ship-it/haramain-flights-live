@@ -1,0 +1,87 @@
+name: Recited ayat per prayer (no AI agent)
+# Plain scheduled script on GitHub's servers: yt-dlp + tarteel-ai/whisper-base-ar-quran (CPU) + letter matcher.
+# Writes data/recitations.json, data/last_recited.json and the done-list data/recitations_done.json, then
+# triggers collect.yml so the site is rebuilt (build.py copies the two files into site/data) and redeployed.
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+    inputs:
+      max_videos:
+        description: 'Max new videos to transcribe this run'
+        default: '6'
+      reprocess_video:
+        description: 'Test only: YouTube id to download + transcribe into a scratch folder (data/ untouched, nothing committed)'
+        default: ''
+      with_aqsa:
+        description: 'Also try Al-Aqsa streams (slow, mostly low confidence)'
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: recitations
+  cancel-in-progress: false
+jobs:
+  recitations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    env:
+      ASR_THREADS: '4'
+      OMP_NUM_THREADS: '4'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-recitations-${{ runner.os }}-${{ hashFiles('collector/recitations/requirements.txt') }}
+      - name: Cache Hugging Face model (tarteel-ai/whisper-base-ar-quran)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-whisper-base-ar-quran-v1
+      - name: Install ffmpeg + Python packages
+        run: |
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          pip install --quiet -r collector/recitations/requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+          python -m yt_dlp --version
+      - name: Identify recited ayat
+        id: track
+        run: |
+          if [ -n "${{ inputs.reprocess_video }}" ]; then
+            python collector/recitations/track.py --reprocess "${{ inputs.reprocess_video }}" --out-dir "$RUNNER_TEMP/scratch"
+          else
+            python collector/recitations/track.py --max-videos "${{ inputs.max_videos || '6' }}" ${{ inputs.with_aqsa && '--with-aqsa' || '' }}
+          fi
+      - name: Upload scratch result (test runs)
+        if: inputs.reprocess_video != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: reprocess-${{ inputs.reprocess_video }}
+          path: ${{ runner.temp }}/scratch/reprocess_*.json
+      - name: Commit recitation files + done-list
+        id: commit
+        if: inputs.reprocess_video == ''
+        run: |
+          git config user.name "recitations-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/recitations_done.json data/recitations.json data/last_recited.json
+          if git diff --cached --quiet; then echo "no changes"; echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -q -m "data: update recited ayat for all prayers (Makkah, Madinah, Al-Aqsa)"
+          for i in 1 2 3 4 5; do
+            if git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main; then
+              echo "pushed=true" >> "$GITHUB_OUTPUT"; git log -1 --format='pushed %H'; exit 0
+            fi
+            git rebase --abort 2>/dev/null || true; sleep $((5 + 10 * i))
+          done
+          echo "push failed after retries"; exit 1
+      - name: Rebuild + deploy the site (dispatch collect.yml)
+        if: steps.commit.outputs.pushed == 'true' && steps.track.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run collect.yml --ref main
