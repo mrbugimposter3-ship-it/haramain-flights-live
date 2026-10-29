@@ -2504,9 +2504,36 @@
   "prayer": "isha",
   "date": "2026-10-26",
   "imam": "Sheikh Maghamsi",
-  "status": "pending",
+  "status": "ok",
   "errors": 1,
-  "last_error": "download failed: dash: ERROR: [youtube] 5CEUMHNM8TI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies"
+  "listed_utc": "2026-10-29T16:21:02Z",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 85,
+    "surah_name": "Al-Buruj",
+    "ayah_from": 1,
+    "ayah_to": 11,
+    "ref": "85:1-11",
+    "windows": 6,
+    "confidence": 79
+   },
+   {
+    "rakah": 2,
+    "surah": 85,
+    "surah_name": "Al-Buruj",
+    "ayah_from": 12,
+    "ayah_to": 21,
+    "ref": "85:12-21",
+    "windows": 4,
+    "confidence": 61
+   }
+  ],
+  "confidence": 70,
+  "seconds": 377,
+  "identified_utc": "2026-10-29T16:27:18Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "X98G9rCC3XI": {
   "video": "X98G9rCC3XI",
@@ -2517,9 +2544,36 @@
   "prayer": "isha",
   "date": "2026-10-26",
   "imam": "Sheikh Badr al Turki",
-  "status": "pending",
+  "status": "ok",
   "errors": 1,
-  "last_error": "download failed: dash: ERROR: [youtube] X98G9rCC3XI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies"
+  "listed_utc": "2026-10-29T16:27:18Z",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 9,
+    "surah_name": "At-Tawbah",
+    "ayah_from": 100,
+    "ayah_to": 106,
+    "ref": "9:100-106",
+    "windows": 11,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 9,
+    "surah_name": "At-Tawbah",
+    "ayah_from": 107,
+    "ayah_to": 110,
+    "ref": "9:107-110",
+    "windows": 8,
+    "confidence": 85
+   }
+  ],
+  "confidence": 86,
+  "seconds": 503,
+  "identified_utc": "2026-10-29T16:35:42Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "YNo_Ar8lGTA": {
   "video": "YNo_Ar8lGTA",
@@ -2530,7 +2584,35 @@
   "prayer": "maghrib",
   "date": "2026-10-26",
   "imam": "Sheikh Juhany",
-  "status": "pending"
+  "status": "ok",
+  "listed_utc": "2026-10-29T16:35:42Z",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 39,
+    "surah_name": "Az-Zumar",
+    "ayah_from": 10,
+    "ayah_to": 20,
+    "ref": "39:10-20",
+    "windows": 10,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 39,
+    "surah_name": "Az-Zumar",
+    "ayah_from": 21,
+    "ayah_to": 22,
+    "ref": "39:21-22",
+    "windows": 5,
+    "confidence": 86
+   }
+  ],
+  "confidence": 87,
+  "seconds": 445,
+  "identified_utc": "2026-10-29T16:43:07Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "fqlZAauEpXE": {
   "video": "fqlZAauEpXE",
@@ -2541,7 +2623,35 @@
   "prayer": "maghrib",
   "date": "2026-10-26",
   "imam": "Sheikh Thubaity",
-  "status": "pending"
+  "status": "ok",
+  "listed_utc": "2026-10-29T16:43:07Z",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 42,
+    "surah_name": "Ash-Shura",
+    "ayah_from": 27,
+    "ayah_to": 31,
+    "ref": "42:27-31",
+    "windows": 6,
+    "confidence": 90
+   },
+   {
+    "rakah": 2,
+    "surah": 42,
+    "surah_name": "Ash-Shura",
+    "ayah_from": 32,
+    "ayah_to": 35,
+    "ref": "42:32-35",
+    "windows": 4,
+    "confidence": 78
+   }
+  ],
+  "confidence": 84,
+  "seconds": 318,
+  "identified_utc": "2026-10-29T16:48:26Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "uZOeT9IBHUU": {
   "video": "uZOeT9IBHUU",
@@ -2552,7 +2662,8 @@
   "prayer": "asr",
   "date": "2026-10-26",
   "imam": "Sheikh ‘Ali Hudhaify",
-  "status": "pending"
+  "status": "silent",
+  "silent": true
  },
  "8MaP_Q6bJeI": {
   "video": "8MaP_Q6bJeI",
@@ -2563,7 +2674,8 @@
   "prayer": "asr",
   "date": "2026-10-26",
   "imam": "Sheikh Dosary",
-  "status": "pending"
+  "status": "silent",
+  "silent": true
  },
  "rMIAIeRK7UY": {
   "video": "rMIAIeRK7UY",
@@ -2574,7 +2686,8 @@
   "prayer": "dhuhr",
   "date": "2026-10-26",
   "imam": "Sheikh Barhaji",
-  "status": "pending"
+  "status": "silent",
+  "silent": true
  },
  "GemisrmUjn0": {
   "video": "GemisrmUjn0",
@@ -2585,7 +2698,8 @@
   "prayer": "dhuhr",
   "date": "2026-10-26",
   "imam": "Sheikh Ghazzawi",
-  "status": "pending"
+  "status": "silent",
+  "silent": true
  },
  "CoMQlF3Kkhk": {
   "video": "CoMQlF3Kkhk",
@@ -2596,7 +2710,35 @@
   "prayer": "fajr",
   "date": "2026-10-26",
   "imam": "Sheikh Bu’ayjaan",
-  "status": "pending"
+  "status": "ok",
+  "listed_utc": "2026-10-29T16:48:26Z",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 63,
+    "surah_name": "Al-Munafiqun",
+    "ayah_from": 1,
+    "ayah_to": 8,
+    "ref": "63:1-8",
+    "windows": 13,
+    "confidence": 87
+   },
+   {
+    "rakah": 2,
+    "surah": 63,
+    "surah_name": "Al-Munafiqun",
+    "ayah_from": 9,
+    "ayah_to": 11,
+    "ref": "63:9-11",
+    "windows": 5,
+    "confidence": 86
+   }
+  ],
+  "confidence": 86,
+  "seconds": 458,
+  "identified_utc": "2026-10-29T16:56:03Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "Uzoq3xmgtjs": {
   "video": "Uzoq3xmgtjs",
@@ -2607,6 +2749,34 @@
   "prayer": "fajr",
   "date": "2026-10-26",
   "imam": "Sheikh Dosary",
-  "status": "pending"
+  "status": "ok",
+  "listed_utc": "2026-10-29T16:56:03Z",
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 20,
+    "ayah_to": 35,
+    "ref": "8:20-35",
+    "windows": 23,
+    "confidence": 88
+   },
+   {
+    "rakah": 2,
+    "surah": 8,
+    "surah_name": "Al-Anfal",
+    "ayah_from": 36,
+    "ayah_to": 40,
+    "ref": "8:36-40",
+    "windows": 9,
+    "confidence": 86
+   }
+  ],
+  "confidence": 87,
+  "seconds": 611,
+  "identified_utc": "2026-10-29T17:06:15Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  }
 }
