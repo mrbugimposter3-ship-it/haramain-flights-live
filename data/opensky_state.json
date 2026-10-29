@@ -69,6 +69,13 @@
 "n": 0,
 "ok": true
 },
+"AMM|2026-10-28": {
+"err": "HTTP 403: anonymous access refused (account needed); not retried today",
+"http": 403,
+"last_try": 1793234362.120309,
+"n": 0,
+"ok": true
+},
 "JED|2026-10-18": {
 "err": "HTTP 403: anonymous access refused (account needed); not retried today",
 "http": 403,
@@ -136,6 +143,13 @@
 "err": "HTTP 403: anonymous access refused (account needed); not retried today",
 "http": 403,
 "last_try": 1793146427.038405,
+"n": 0,
+"ok": true
+},
+"JED|2026-10-28": {
+"err": "HTTP 403: anonymous access refused (account needed); not retried today",
+"http": 403,
+"last_try": 1793234362.120309,
 "n": 0,
 "ok": true
 },
@@ -209,6 +223,13 @@
 "n": 0,
 "ok": true
 },
+"MED|2026-10-28": {
+"err": "HTTP 403: anonymous access refused (account needed); not retried today",
+"http": 403,
+"last_try": 1793234362.120309,
+"n": 0,
+"ok": true
+},
 "TLV|2026-10-18": {
 "err": "HTTP 403: anonymous access refused (account needed); not retried today",
 "http": 403,
@@ -276,6 +297,13 @@
 "err": "HTTP 403: anonymous access refused (account needed); not retried today",
 "http": 403,
 "last_try": 1793146427.038405,
+"n": 0,
+"ok": true
+},
+"TLV|2026-10-28": {
+"err": "HTTP 403: anonymous access refused (account needed); not retried today",
+"http": 403,
+"last_try": 1793234362.120309,
 "n": 0,
 "ok": true
 }
