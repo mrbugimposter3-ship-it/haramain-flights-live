@@ -1,62 +1,62 @@
 {
-  "updated_utc": "2026-10-29T02:23:30Z",
+  "updated_utc": "2026-10-29T05:11:30Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
     "mosque": "makkah",
     "mosque_name": "Masjid al-Haram",
-    "prayer": "Fajr",
+    "prayer": "Maghrib",
     "date": "2026-10-28",
-    "imam": "Sheikh Dosary",
-    "surah": 37,
-    "surah_name": "As-Saffat",
-    "ayah_from": 5,
-    "ayah_to": 74,
-    "confidence": 78,
-    "source_video": "https://www.youtube.com/watch?v=xfGgNKkxQmM",
-    "source_title": "28th Oct 2026 Makkah Fajr Sheikh Dosary",
-    "identified_utc": "2026-10-29T02:12:13Z",
+    "imam": "Sheikh Juhany",
+    "surah": 24,
+    "surah_name": "An-Nur",
+    "ayah_from": 23,
+    "ayah_to": 29,
+    "confidence": 88,
+    "source_video": "https://www.youtube.com/watch?v=hY0bD-ZFTTs",
+    "source_title": "28th Oct 2026 Makkah Maghrib Sheikh Juhany",
+    "identified_utc": "2026-10-29T05:11:30Z",
     "rakahs": [
-      "37:5-49",
-      "37:50-74"
+      "24:23-26",
+      "24:27-29"
     ]
   },
   "mosques": {
     "makkah": {
       "mosque": "makkah",
       "mosque_name": "Masjid al-Haram",
-      "prayer": "Fajr",
+      "prayer": "Maghrib",
       "date": "2026-10-28",
-      "imam": "Sheikh Dosary",
-      "surah": 37,
-      "surah_name": "As-Saffat",
-      "ayah_from": 5,
-      "ayah_to": 74,
-      "confidence": 78,
-      "source_video": "https://www.youtube.com/watch?v=xfGgNKkxQmM",
-      "source_title": "28th Oct 2026 Makkah Fajr Sheikh Dosary",
-      "identified_utc": "2026-10-29T02:12:13Z",
+      "imam": "Sheikh Juhany",
+      "surah": 24,
+      "surah_name": "An-Nur",
+      "ayah_from": 23,
+      "ayah_to": 29,
+      "confidence": 88,
+      "source_video": "https://www.youtube.com/watch?v=hY0bD-ZFTTs",
+      "source_title": "28th Oct 2026 Makkah Maghrib Sheikh Juhany",
+      "identified_utc": "2026-10-29T05:11:30Z",
       "rakahs": [
-        "37:5-49",
-        "37:50-74"
+        "24:23-26",
+        "24:27-29"
       ]
     },
     "madinah": {
       "mosque": "madinah",
       "mosque_name": "Masjid an-Nabawi",
-      "prayer": "Fajr",
+      "prayer": "Maghrib",
       "date": "2026-10-28",
-      "imam": "Sheikh Bu'ayjaan",
-      "surah": 3,
-      "surah_name": "Aal-Imran",
-      "ayah_from": 190,
-      "ayah_to": 200,
-      "confidence": 82,
-      "source_video": "https://www.youtube.com/watch?v=WktNyz4xiq8",
-      "source_title": "28th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
-      "identified_utc": "2026-10-29T02:08:17Z",
+      "imam": "Sheikh Thubaity",
+      "surah": 23,
+      "surah_name": "Al-Muminun",
+      "ayah_from": 112,
+      "ayah_to": 118,
+      "confidence": 81,
+      "source_video": "https://www.youtube.com/watch?v=BcRnOqDRazE",
+      "source_title": "28th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
+      "identified_utc": "2026-10-29T05:09:24Z",
       "rakahs": [
-        "3:190-195",
-        "3:196-200"
+        "23:112-118",
+        "26:221-227"
       ]
     }
   }

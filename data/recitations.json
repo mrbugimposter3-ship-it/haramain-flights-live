@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-29T02:23:30Z",
+  "updated_utc": "2026-10-29T05:11:30Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -97,35 +97,35 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "maghrib",
-        "date": "2026-10-27",
+        "date": "2026-10-28",
         "imam": "Sheikh Juhany",
-        "surah": 113,
-        "surah_name": "Al-Falaq",
-        "ayah_from": 1,
-        "ayah_to": 5,
+        "surah": 24,
+        "surah_name": "An-Nur",
+        "ayah_from": 23,
+        "ayah_to": 29,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 113,
-            "surah_name": "Al-Falaq",
-            "ayah_from": 1,
-            "ayah_to": 5,
-            "ref": "113:1-5"
+            "surah": 24,
+            "surah_name": "An-Nur",
+            "ayah_from": 23,
+            "ayah_to": 26,
+            "ref": "24:23-26"
           },
           {
             "rakah": 2,
-            "surah": 114,
-            "surah_name": "An-Nas",
-            "ayah_from": 1,
-            "ayah_to": 6,
-            "ref": "114:1-6"
+            "surah": 24,
+            "surah_name": "An-Nur",
+            "ayah_from": 27,
+            "ayah_to": 29,
+            "ref": "24:27-29"
           }
         ],
-        "summary": "113:1-5 · 114:1-6",
-        "confidence": 74,
-        "source_video": "https://www.youtube.com/watch?v=r8pWXxwJxAQ",
-        "source_title": "27th Oct 2026 Makkah Maghrib Sheikh Juhany",
-        "identified_utc": "2026-10-29T02:18:55Z"
+        "summary": "24:23-26 · 24:27-29",
+        "confidence": 88,
+        "source_video": "https://www.youtube.com/watch?v=hY0bD-ZFTTs",
+        "source_title": "28th Oct 2026 Makkah Maghrib Sheikh Juhany",
+        "identified_utc": "2026-10-29T05:11:30Z"
       },
       "isha": {
         "mosque": "makkah",
@@ -251,35 +251,35 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "maghrib",
-        "date": "2026-10-27",
+        "date": "2026-10-28",
         "imam": "Sheikh Thubaity",
-        "surah": 19,
-        "surah_name": "Maryam",
-        "ayah_from": 63,
-        "ayah_to": 71,
+        "surah": 23,
+        "surah_name": "Al-Muminun",
+        "ayah_from": 112,
+        "ayah_to": 118,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 19,
-            "surah_name": "Maryam",
-            "ayah_from": 63,
-            "ayah_to": 65,
-            "ref": "19:63-65"
+            "surah": 23,
+            "surah_name": "Al-Muminun",
+            "ayah_from": 112,
+            "ayah_to": 118,
+            "ref": "23:112-118"
           },
           {
             "rakah": 2,
-            "surah": 19,
-            "surah_name": "Maryam",
-            "ayah_from": 66,
-            "ayah_to": 71,
-            "ref": "19:66-71"
+            "surah": 26,
+            "surah_name": "Ash-Shuara",
+            "ayah_from": 221,
+            "ayah_to": 227,
+            "ref": "26:221-227"
           }
         ],
-        "summary": "19:63-65 · 19:66-71",
-        "confidence": 84,
-        "source_video": "https://www.youtube.com/watch?v=asNmCxwf-6g",
-        "source_title": "27th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
-        "identified_utc": "2026-10-29T02:17:46Z"
+        "summary": "23:112-118 · 26:221-227",
+        "confidence": 81,
+        "source_video": "https://www.youtube.com/watch?v=BcRnOqDRazE",
+        "source_title": "28th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
+        "identified_utc": "2026-10-29T05:09:24Z"
       },
       "isha": {
         "mosque": "madinah",
