@@ -2788,10 +2788,36 @@
   "prayer": "fajr",
   "date": "2026-10-29",
   "imam": "Sheikh Dosary",
-  "status": "pending",
+  "status": "ok",
   "listed_utc": "2026-10-29T17:09:00Z",
   "errors": 2,
-  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 43,
+    "surah_name": "Az-Zukhruf",
+    "ayah_from": 26,
+    "ayah_to": 45,
+    "ref": "43:26-45",
+    "windows": 24,
+    "confidence": 84
+   },
+   {
+    "rakah": 2,
+    "surah": 43,
+    "surah_name": "Az-Zukhruf",
+    "ayah_from": 46,
+    "ayah_to": 56,
+    "ref": "43:46-56",
+    "windows": 10,
+    "confidence": 81
+   }
+  ],
+  "confidence": 82,
+  "seconds": 384,
+  "identified_utc": "2026-10-29T19:36:08Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "i_JUsExOjWA": {
   "video": "i_JUsExOjWA",
@@ -2802,10 +2828,36 @@
   "prayer": "fajr",
   "date": "2026-10-29",
   "imam": "Sheikh Bu'ayjaan",
-  "status": "pending",
+  "status": "ok",
   "listed_utc": "2026-10-29T17:09:00Z",
   "errors": 2,
-  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 21,
+    "surah_name": "Al-Anbiya",
+    "ayah_from": 94,
+    "ayah_to": 104,
+    "ref": "21:94-104",
+    "windows": 11,
+    "confidence": 79
+   },
+   {
+    "rakah": 2,
+    "surah": 21,
+    "surah_name": "Al-Anbiya",
+    "ayah_from": 105,
+    "ayah_to": 112,
+    "ref": "21:105-112",
+    "windows": 6,
+    "confidence": 86
+   }
+  ],
+  "confidence": 82,
+  "seconds": 267,
+  "identified_utc": "2026-10-29T19:40:35Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "19qeDlvaETc": {
   "video": "19qeDlvaETc",
@@ -2818,6 +2870,71 @@
   "imam": "Sheikh Barhaji",
   "status": "silent",
   "listed_utc": "2026-10-29T17:13:45Z",
+  "silent": true
+ },
+ "J-eeoaZUo2Q": {
+  "video": "J-eeoaZUo2Q",
+  "title": "29th Oct 2026 Makkah Maghrib Sheikh Juhany",
+  "duration": "734",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-29",
+  "imam": "Sheikh Juhany",
+  "status": "pending",
+  "listed_utc": "2026-10-29T19:29:39Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "SM6CeVpp2tQ": {
+  "video": "SM6CeVpp2tQ",
+  "title": "29th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
+  "duration": "705",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-29",
+  "imam": "Sheikh Thubaity",
+  "status": "pending",
+  "listed_utc": "2026-10-29T19:29:39Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "TkhGrinADZU": {
+  "video": "TkhGrinADZU",
+  "title": "29th Oct 2026 Madeenah 'Asr Sheikh 'Ali al Hudhiafy",
+  "duration": "756",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-29",
+  "imam": "Sheikh 'Ali al Hudhiafy",
+  "status": "silent",
+  "listed_utc": "2026-10-29T19:29:39Z",
+  "silent": true
+ },
+ "cZYXFv9CddA": {
+  "video": "cZYXFv9CddA",
+  "title": "29th Oct 2026 Makkah 'Asr Sheikh Dosary",
+  "duration": "555",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-29",
+  "imam": "Sheikh Dosary",
+  "status": "silent",
+  "listed_utc": "2026-10-29T19:29:39Z",
+  "silent": true
+ },
+ "N7PYE1lUqkw": {
+  "video": "N7PYE1lUqkw",
+  "title": "29th Oct 2026 Makkah Dhuhr Sheikh Ghazzawi",
+  "duration": "564",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-29",
+  "imam": "Sheikh Ghazzawi",
+  "status": "silent",
+  "listed_utc": "2026-10-29T19:29:39Z",
   "silent": true
  }
 }

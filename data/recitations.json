@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-29T17:13:50Z",
+  "updated_utc": "2026-10-29T19:40:35Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -38,21 +38,21 @@
           }
         ],
         "summary": "43:26-45 · 43:46-56",
-        "confidence": 84,
+        "confidence": 82,
         "source_video": "https://www.youtube.com/watch?v=ebIrsTiJIvs",
         "source_title": "29th Oct 2026 Makkah Fajr Sheikh Dosary",
-        "identified_utc": "2026-10-29T17:07:27Z"
+        "identified_utc": "2026-10-29T19:36:08Z"
       },
       "dhuhr": {
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "dhuhr",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "imam": "Sheikh Ghazzawi",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=93cDPuz4T8Q",
-        "source_title": "28th Oct 2026 Makkah Dhuhr Sheikh Ghazzawi",
+        "source_video": "https://www.youtube.com/watch?v=N7PYE1lUqkw",
+        "source_title": "29th Oct 2026 Makkah Dhuhr Sheikh Ghazzawi",
         "identified_utc": null
       },
       "jumuah": {
@@ -85,12 +85,12 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "asr",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "imam": "Sheikh Dosary",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=wN3EiYacJvs",
-        "source_title": "28th Oct 2026 Makkah 'Asr Sheikh Dosary",
+        "source_video": "https://www.youtube.com/watch?v=cZYXFv9CddA",
+        "source_title": "29th Oct 2026 Makkah 'Asr Sheikh Dosary",
         "identified_utc": null
       },
       "maghrib": {
@@ -195,7 +195,7 @@
         "confidence": 82,
         "source_video": "https://www.youtube.com/watch?v=i_JUsExOjWA",
         "source_title": "29th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
-        "identified_utc": "2026-10-29T17:09:57Z"
+        "identified_utc": "2026-10-29T19:40:35Z"
       },
       "dhuhr": {
         "mosque": "madinah",
@@ -239,12 +239,12 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "asr",
-        "date": "2026-10-28",
-        "imam": "Sheikh 'Ali Al Hudhaify",
+        "date": "2026-10-29",
+        "imam": "Sheikh 'Ali al Hudhiafy",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=9HhWO-HFBHQ",
-        "source_title": "28th Oct 2026 Madeenah 'Asr Sheikh 'Ali Al Hudhaify",
+        "source_video": "https://www.youtube.com/watch?v=TkhGrinADZU",
+        "source_title": "29th Oct 2026 Madeenah 'Asr Sheikh 'Ali al Hudhiafy",
         "identified_utc": null
       },
       "maghrib": {

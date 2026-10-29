@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T17:09:57Z",
+  "updated_utc": "2026-10-29T19:40:35Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
     "mosque": "makkah",
@@ -11,10 +11,10 @@
     "surah_name": "Az-Zukhruf",
     "ayah_from": 26,
     "ayah_to": 56,
-    "confidence": 84,
+    "confidence": 82,
     "source_video": "https://www.youtube.com/watch?v=ebIrsTiJIvs",
     "source_title": "29th Oct 2026 Makkah Fajr Sheikh Dosary",
-    "identified_utc": "2026-10-29T17:07:27Z",
+    "identified_utc": "2026-10-29T19:36:08Z",
     "rakahs": [
       "43:26-45",
       "43:46-56"
@@ -31,10 +31,10 @@
       "surah_name": "Az-Zukhruf",
       "ayah_from": 26,
       "ayah_to": 56,
-      "confidence": 84,
+      "confidence": 82,
       "source_video": "https://www.youtube.com/watch?v=ebIrsTiJIvs",
       "source_title": "29th Oct 2026 Makkah Fajr Sheikh Dosary",
-      "identified_utc": "2026-10-29T17:07:27Z",
+      "identified_utc": "2026-10-29T19:36:08Z",
       "rakahs": [
         "43:26-45",
         "43:46-56"
@@ -53,7 +53,7 @@
       "confidence": 82,
       "source_video": "https://www.youtube.com/watch?v=i_JUsExOjWA",
       "source_title": "29th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
-      "identified_utc": "2026-10-29T17:09:57Z",
+      "identified_utc": "2026-10-29T19:40:35Z",
       "rakahs": [
         "21:94-104",
         "21:105-112"
