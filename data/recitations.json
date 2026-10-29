@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-29T21:38:13Z",
+  "updated_utc": "2026-10-29T22:23:00Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -310,10 +310,10 @@
           }
         ],
         "summary": "78:31-40 · 95:1-8",
-        "confidence": 69,
+        "confidence": 72,
         "source_video": "https://www.youtube.com/watch?v=jrd_mU1rjzw",
         "source_title": "29th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
-        "identified_utc": "2026-10-29T20:14:35Z"
+        "identified_utc": "2026-10-29T22:23:00Z"
       }
     },
     "aqsa": {

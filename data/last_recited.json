@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T21:38:13Z",
+  "updated_utc": "2026-10-29T22:23:00Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
     "mosque": "makkah",
@@ -50,10 +50,10 @@
       "surah_name": "An-Naba",
       "ayah_from": 31,
       "ayah_to": 40,
-      "confidence": 69,
+      "confidence": 72,
       "source_video": "https://www.youtube.com/watch?v=jrd_mU1rjzw",
       "source_title": "29th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
-      "identified_utc": "2026-10-29T20:14:35Z",
+      "identified_utc": "2026-10-29T22:23:00Z",
       "rakahs": [
         "78:31-40",
         "95:1-8"

@@ -3037,8 +3037,34 @@
   "prayer": "isha",
   "date": "2026-10-29",
   "imam": "Sheikh Maghamsi",
-  "status": "pending",
+  "status": "ok",
   "listed_utc": "2026-10-29T20:20:38Z",
-  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 78,
+    "surah_name": "An-Naba",
+    "ayah_from": 31,
+    "ayah_to": 40,
+    "ref": "78:31-40",
+    "windows": 6,
+    "confidence": 76
+   },
+   {
+    "rakah": 2,
+    "surah": 95,
+    "surah_name": "At-Tin",
+    "ayah_from": 1,
+    "ayah_to": 8,
+    "ref": "95:1-8",
+    "windows": 3,
+    "confidence": 68
+   }
+  ],
+  "confidence": 72,
+  "seconds": 345,
+  "identified_utc": "2026-10-29T22:23:00Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  }
 }
