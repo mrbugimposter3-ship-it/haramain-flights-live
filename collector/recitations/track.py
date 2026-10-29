@@ -88,12 +88,54 @@ def listing(src, days):
     log(f"  listing {src['key']}: {len(r.stdout.splitlines())} uploads, {len(out)} prayers in window")
     return out
 
+HARAMAIN_FEED = 'https://www.blogger.com/feeds/2770201362269837489/posts/default?alt=json&max-results=150'   # haramain.info (same Haramain Recordings team)
+_MIRROR = None
+def mirror_map():
+    """{youtube_id: mp3_url} from haramain.info's public Blogger feed. Each post embeds the YouTube video and links the same
+    recording as a 128 kbps MP3 on mirrors.quranicaudio.com, which (unlike YouTube) does not block GitHub's servers."""
+    global _MIRROR
+    if _MIRROR is None:
+        _MIRROR = {}
+        import urllib.request
+        for attempt in range(3):
+            try:
+                req = urllib.request.Request(HARAMAIN_FEED, headers={'User-Agent': 'haramain-flights-live recitations (+github actions)'})
+                feed = json.load(urllib.request.urlopen(req, timeout=60))
+                for e in feed.get('feed', {}).get('entry', []):
+                    html = e.get('content', {}).get('$t', '')
+                    yt = re.search(r'youtube\.com/embed/([\w-]{11})', html); mp3 = re.search(r'(https?://[^"\'\s<>]+\.mp3)', html)
+                    if yt and mp3: _MIRROR[yt[1]] = mp3[1]
+                break
+            except Exception as ex:
+                log(f'  haramain.info feed attempt {attempt + 1} failed: {ex}'); time.sleep(10)
+        log(f'  haramain.info feed: {len(_MIRROR)} recordings with an MP3 mirror')
+    return _MIRROR
+
+def download_mirror(vid, tmp):
+    url = mirror_map().get(vid)
+    if not url: return None
+    import urllib.request
+    dst = os.path.join(tmp, 'a.mp3')
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'haramain-flights-live recitations (+github actions)'})
+            with urllib.request.urlopen(req, timeout=300) as r, open(dst, 'wb') as fh: shutil.copyfileobj(r, fh)
+            if os.path.getsize(dst) > 100000: return dst
+        except Exception as ex:
+            log(f'  mirror download attempt {attempt + 1} failed: {ex}'); time.sleep(10 * (attempt + 1))
+    return None
+
+YOUTUBE_BLOCKED = False
 def download(vid, tmp):
-    """DASH audio first, then HLS audio-only 233/234 (the box tracker's 403 fallback), then the same via the
+    """haramain.info MP3 mirror first (works from GitHub's servers). Otherwise YouTube: DASH audio first, then HLS audio-only 233/234 (the box tracker's 403 fallback), then the same via the
     web_safari client (serves HLS). Two rounds with a pause. Returns (path, format_label)."""
     attempts = [('dash', ['-f', 'bestaudio[abr<=80]/bestaudio/worstaudio']),
                 ('hls', ['-f', '233/234/bestaudio[protocol^=m3u8]']),
                 ('hls-safari', ['-f', '233/234/bestaudio[protocol^=m3u8]/bestaudio', '--extractor-args', 'youtube:player_client=web_safari'])]
+    global YOUTUBE_BLOCKED
+    a = download_mirror(vid, tmp)
+    if a: return a, 'haramain.info-mp3'
+    if YOUTUBE_BLOCKED: raise RuntimeError('download failed: not on the haramain.info MP3 mirror yet, and YouTube is blocking this runner')
     errs = []
     for rnd in range(2):
         for label, fmt in attempts:
@@ -109,8 +151,10 @@ def download(vid, tmp):
                 errs.append(f'{label}: {e}'); log(f'  download {label} failed: {e[:200]}')
             except subprocess.TimeoutExpired:
                 errs.append(f'{label}: timeout'); log(f'  download {label} timed out')
+        if all(BLOCKED.search(e) for e in errs): break   # bot wall: retrying from the same IP does not help
         if rnd == 0: time.sleep(20)
-    raise RuntimeError('download failed: ' + ' | '.join(errs[-3:]))
+    if errs and all(BLOCKED.search(e) for e in errs): YOUTUBE_BLOCKED = True
+    raise RuntimeError('download failed (not on the haramain.info MP3 mirror yet; YouTube: ' + ' | '.join(errs[-3:]) + ')')
 
 def identify(vid, title, ident_dir):
     """Return (ident dict, download format); reuses an ident file in ident_dir, otherwise downloads + transcribes."""
@@ -221,18 +265,17 @@ def main():
             try: items += listing(s, a.days)
             except Exception as ex: log('listing failed', s['key'], ex)
         for it in items:
-            if it['video'] not in done: done[it['video']] = dict(it, status='pending')
+            if it['video'] not in done: done[it['video']] = dict(it, status='pending', listed_utc=now_utc())
         save(DONE, done)
         optin = set() if a.with_aqsa else {x['key'] for x in SOURCES if x.get('optin')}
         todo = sorted([r for r in done.values() if r['status'] == 'pending' and r.get('source') not in optin],
                       key=lambda r: (r['date'], ORDER.get(r['prayer'], 9)), reverse=True)
         log(f'{len(todo)} pending (max {a.max_videos} transcriptions this run)')
-        blocked_in_a_row = 0
         for rec in todo:
             if rec['prayer'] in SILENT:
                 rec.update(status='silent', silent=True); save(DONE, done); continue
             if processed >= a.max_videos: break
-            if blocked_in_a_row >= 2: log('YouTube is blocking downloads from this runner; stopping early (existing data untouched)'); break
+            rec.setdefault('listed_utc', now_utc())
             t0 = time.time(); log('identify', rec['video'], rec['title'])
             processed += 1
             try:
@@ -240,13 +283,15 @@ def main():
                 rk, conf = analyse(ident)
                 rec.update(rakahs=rk, confidence=conf, seconds=round(time.time() - t0), identified_utc=now_utc(),
                            status='ok' if rk else 'low_confidence', runner='github-actions', download_format=fmt)
-                rec.pop('last_error', None); ok += bool(rk); blocked_in_a_row = 0
+                rec.pop('last_error', None); ok += bool(rk)
                 log(' ->', rec['status'], [r['ref'] for r in rk], conf, f"{rec['seconds']}s")
             except Exception as ex:
                 errors += 1
                 rec['errors'] = rec.get('errors', 0) + 1; rec['last_error'] = str(ex)[:300]
-                if rec['errors'] >= 3: rec['status'] = 'error'
-                blocked_in_a_row = blocked_in_a_row + 1 if BLOCKED.search(str(ex)) or 'download failed' in str(ex) else 0
+                # the MP3 mirror can lag the YouTube upload by some hours: only give up after 3 failures AND 24 h
+                age_h = (time.time() - datetime.datetime.strptime(rec.get('listed_utc', '2000-01-01T00:00:00Z'), '%Y-%m-%dT%H:%M:%SZ').replace(tzinfo=datetime.timezone.utc).timestamp()) / 3600
+                if rec['errors'] >= 3 and age_h >= 24: rec['status'] = 'error'
+                processed -= 'download failed' in str(ex)   # a download that never started costs no CPU time
                 log(' !! failed', str(ex)[:300])
             save(DONE, done)
     changed = export(done, a.out_dir)
