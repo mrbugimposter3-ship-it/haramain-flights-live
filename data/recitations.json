@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-29T14:16:23Z",
+  "updated_utc": "2026-10-29T17:09:57Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -13,35 +13,35 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "fajr",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "imam": "Sheikh Dosary",
-        "surah": 37,
-        "surah_name": "As-Saffat",
-        "ayah_from": 5,
-        "ayah_to": 74,
+        "surah": 43,
+        "surah_name": "Az-Zukhruf",
+        "ayah_from": 26,
+        "ayah_to": 56,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 37,
-            "surah_name": "As-Saffat",
-            "ayah_from": 5,
-            "ayah_to": 49,
-            "ref": "37:5-49"
+            "surah": 43,
+            "surah_name": "Az-Zukhruf",
+            "ayah_from": 26,
+            "ayah_to": 45,
+            "ref": "43:26-45"
           },
           {
             "rakah": 2,
-            "surah": 37,
-            "surah_name": "As-Saffat",
-            "ayah_from": 50,
-            "ayah_to": 74,
-            "ref": "37:50-74"
+            "surah": 43,
+            "surah_name": "Az-Zukhruf",
+            "ayah_from": 46,
+            "ayah_to": 56,
+            "ref": "43:46-56"
           }
         ],
-        "summary": "37:5-49 · 37:50-74",
-        "confidence": 78,
-        "source_video": "https://www.youtube.com/watch?v=xfGgNKkxQmM",
-        "source_title": "28th Oct 2026 Makkah Fajr Sheikh Dosary",
-        "identified_utc": "2026-10-29T02:12:13Z"
+        "summary": "43:26-45 · 43:46-56",
+        "confidence": 84,
+        "source_video": "https://www.youtube.com/watch?v=ebIrsTiJIvs",
+        "source_title": "29th Oct 2026 Makkah Fajr Sheikh Dosary",
+        "identified_utc": "2026-10-29T17:07:27Z"
       },
       "dhuhr": {
         "mosque": "makkah",
@@ -167,35 +167,35 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "fajr",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "imam": "Sheikh Bu'ayjaan",
-        "surah": 3,
-        "surah_name": "Aal-Imran",
-        "ayah_from": 190,
-        "ayah_to": 200,
+        "surah": 21,
+        "surah_name": "Al-Anbiya",
+        "ayah_from": 94,
+        "ayah_to": 112,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 3,
-            "surah_name": "Aal-Imran",
-            "ayah_from": 190,
-            "ayah_to": 195,
-            "ref": "3:190-195"
+            "surah": 21,
+            "surah_name": "Al-Anbiya",
+            "ayah_from": 94,
+            "ayah_to": 104,
+            "ref": "21:94-104"
           },
           {
             "rakah": 2,
-            "surah": 3,
-            "surah_name": "Aal-Imran",
-            "ayah_from": 196,
-            "ayah_to": 200,
-            "ref": "3:196-200"
+            "surah": 21,
+            "surah_name": "Al-Anbiya",
+            "ayah_from": 105,
+            "ayah_to": 112,
+            "ref": "21:105-112"
           }
         ],
-        "summary": "3:190-195 · 3:196-200",
+        "summary": "21:94-104 · 21:105-112",
         "confidence": 82,
-        "source_video": "https://www.youtube.com/watch?v=WktNyz4xiq8",
-        "source_title": "28th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
-        "identified_utc": "2026-10-29T02:08:17Z"
+        "source_video": "https://www.youtube.com/watch?v=i_JUsExOjWA",
+        "source_title": "29th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
+        "identified_utc": "2026-10-29T17:09:57Z"
       },
       "dhuhr": {
         "mosque": "madinah",
