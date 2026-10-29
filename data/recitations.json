@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-29T19:40:35Z",
+  "updated_utc": "2026-10-29T20:18:27Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -97,69 +97,69 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "maghrib",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "imam": "Sheikh Juhany",
-        "surah": 24,
-        "surah_name": "An-Nur",
-        "ayah_from": 23,
-        "ayah_to": 29,
+        "surah": 57,
+        "surah_name": "Al-Hadid",
+        "ayah_from": 1,
+        "ayah_to": 6,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 24,
-            "surah_name": "An-Nur",
-            "ayah_from": 23,
-            "ayah_to": 26,
-            "ref": "24:23-26"
+            "surah": 57,
+            "surah_name": "Al-Hadid",
+            "ayah_from": 1,
+            "ayah_to": 6,
+            "ref": "57:1-6"
           },
           {
             "rakah": 2,
-            "surah": 24,
-            "surah_name": "An-Nur",
-            "ayah_from": 27,
-            "ayah_to": 29,
-            "ref": "24:27-29"
+            "surah": 64,
+            "surah_name": "At-Taghabun",
+            "ayah_from": 1,
+            "ayah_to": 4,
+            "ref": "64:1-4"
           }
         ],
-        "summary": "24:23-26 · 24:27-29",
-        "confidence": 88,
-        "source_video": "https://www.youtube.com/watch?v=hY0bD-ZFTTs",
-        "source_title": "28th Oct 2026 Makkah Maghrib Sheikh Juhany",
-        "identified_utc": "2026-10-29T05:11:30Z"
+        "summary": "57:1-6 · 64:1-4",
+        "confidence": 86,
+        "source_video": "https://www.youtube.com/watch?v=J-eeoaZUo2Q",
+        "source_title": "29th Oct 2026 Makkah Maghrib Sheikh Juhany",
+        "identified_utc": "2026-10-29T20:16:41Z"
       },
       "isha": {
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "isha",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "imam": "Sheikh Badr al Turki",
-        "surah": 5,
-        "surah_name": "Al-Maidah",
-        "ayah_from": 1,
-        "ayah_to": 5,
+        "surah": 13,
+        "surah_name": "Ar-Rad",
+        "ayah_from": 8,
+        "ayah_to": 18,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 5,
-            "surah_name": "Al-Maidah",
-            "ayah_from": 1,
-            "ayah_to": 3,
-            "ref": "5:1-3"
+            "surah": 13,
+            "surah_name": "Ar-Rad",
+            "ayah_from": 8,
+            "ayah_to": 14,
+            "ref": "13:8-14"
           },
           {
             "rakah": 2,
-            "surah": 5,
-            "surah_name": "Al-Maidah",
-            "ayah_from": 4,
-            "ayah_to": 5,
-            "ref": "5:4-5"
+            "surah": 13,
+            "surah_name": "Ar-Rad",
+            "ayah_from": 15,
+            "ayah_to": 18,
+            "ref": "13:15-18"
           }
         ],
-        "summary": "5:1-3 · 5:4-5",
-        "confidence": 84,
-        "source_video": "https://www.youtube.com/watch?v=x_3SvW7WMVU",
-        "source_title": "28th Oct 2026 Makkah 'Isha Sheikh Badr al Turki",
-        "identified_utc": "2026-10-29T14:16:23Z"
+        "summary": "13:8-14 · 13:15-18",
+        "confidence": 86,
+        "source_video": "https://www.youtube.com/watch?v=yHxBM9aQzJM",
+        "source_title": "29th Oct 2026 Makkah 'Isha Sheikh Badr al Turki",
+        "identified_utc": "2026-10-29T20:12:37Z"
       }
     },
     "madinah": {
@@ -251,69 +251,69 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "maghrib",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "imam": "Sheikh Thubaity",
-        "surah": 23,
-        "surah_name": "Al-Muminun",
-        "ayah_from": 112,
-        "ayah_to": 118,
+        "surah": 18,
+        "surah_name": "Al-Kahf",
+        "ayah_from": 107,
+        "ayah_to": 110,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 23,
-            "surah_name": "Al-Muminun",
-            "ayah_from": 112,
-            "ayah_to": 118,
-            "ref": "23:112-118"
+            "surah": 18,
+            "surah_name": "Al-Kahf",
+            "ayah_from": 107,
+            "ayah_to": 110,
+            "ref": "18:107-110"
           },
           {
             "rakah": 2,
-            "surah": 26,
-            "surah_name": "Ash-Shuara",
-            "ayah_from": 221,
-            "ayah_to": 227,
-            "ref": "26:221-227"
+            "surah": 19,
+            "surah_name": "Maryam",
+            "ayah_from": 96,
+            "ayah_to": 98,
+            "ref": "19:96-98"
           }
         ],
-        "summary": "23:112-118 · 26:221-227",
-        "confidence": 81,
-        "source_video": "https://www.youtube.com/watch?v=BcRnOqDRazE",
-        "source_title": "28th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
-        "identified_utc": "2026-10-29T05:09:24Z"
+        "summary": "18:107-110 · 19:96-98",
+        "confidence": 78,
+        "source_video": "https://www.youtube.com/watch?v=SM6CeVpp2tQ",
+        "source_title": "29th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
+        "identified_utc": "2026-10-29T20:18:27Z"
       },
       "isha": {
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "isha",
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "imam": "Sheikh Maghamsi",
-        "surah": 27,
-        "surah_name": "An-Naml",
-        "ayah_from": 27,
-        "ayah_to": 44,
+        "surah": 78,
+        "surah_name": "An-Naba",
+        "ayah_from": 31,
+        "ayah_to": 40,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 27,
-            "surah_name": "An-Naml",
-            "ayah_from": 27,
-            "ayah_to": 39,
-            "ref": "27:27-39"
+            "surah": 78,
+            "surah_name": "An-Naba",
+            "ayah_from": 31,
+            "ayah_to": 40,
+            "ref": "78:31-40"
           },
           {
             "rakah": 2,
-            "surah": 27,
-            "surah_name": "An-Naml",
-            "ayah_from": 40,
-            "ayah_to": 44,
-            "ref": "27:40-44"
+            "surah": 95,
+            "surah_name": "At-Tin",
+            "ayah_from": 1,
+            "ayah_to": 8,
+            "ref": "95:1-8"
           }
         ],
-        "summary": "27:27-39 · 27:40-44",
-        "confidence": 76,
-        "source_video": "https://www.youtube.com/watch?v=IIlJguBNWFc",
-        "source_title": "28th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
-        "identified_utc": "2026-10-29T14:13:34Z"
+        "summary": "78:31-40 · 95:1-8",
+        "confidence": 69,
+        "source_video": "https://www.youtube.com/watch?v=jrd_mU1rjzw",
+        "source_title": "29th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
+        "identified_utc": "2026-10-29T20:14:35Z"
       }
     },
     "aqsa": {
