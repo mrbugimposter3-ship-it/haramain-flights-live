@@ -2791,7 +2791,7 @@
   "status": "pending",
   "listed_utc": "2026-10-29T17:09:00Z",
   "errors": 2,
-  "last_error": "download failed (not on the haramain.info MP3 mirror yet; YouTube: dash: ERROR: [youtube] ebIrsTiJIvs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manua"
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
  },
  "i_JUsExOjWA": {
   "video": "i_JUsExOjWA",
@@ -2805,6 +2805,19 @@
   "status": "pending",
   "listed_utc": "2026-10-29T17:09:00Z",
   "errors": 2,
-  "last_error": "download failed: not on the haramain.info MP3 mirror yet, and YouTube is blocking this runner"
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "19qeDlvaETc": {
+  "video": "19qeDlvaETc",
+  "title": "29th Oct 2026 Madeenah Dhuhr Sheikh Barhaji",
+  "duration": "707",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-29",
+  "imam": "Sheikh Barhaji",
+  "status": "silent",
+  "listed_utc": "2026-10-29T17:13:45Z",
+  "silent": true
  }
 }
