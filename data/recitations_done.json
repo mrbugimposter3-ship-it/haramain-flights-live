@@ -2494,5 +2494,119 @@
   "confidence": 84,
   "seconds": 169,
   "identified_utc": "2026-10-29T14:16:23Z"
+ },
+ "5CEUMHNM8TI": {
+  "video": "5CEUMHNM8TI",
+  "title": "26th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
+  "duration": "720",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-26",
+  "imam": "Sheikh Maghamsi",
+  "status": "pending",
+  "errors": 1,
+  "last_error": "download failed: dash: ERROR: [youtube] 5CEUMHNM8TI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies"
+ },
+ "X98G9rCC3XI": {
+  "video": "X98G9rCC3XI",
+  "title": "26th Oct 2026 Makkah 'Isha Sheikh Badr al Turki",
+  "duration": "840",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-26",
+  "imam": "Sheikh Badr al Turki",
+  "status": "pending",
+  "errors": 1,
+  "last_error": "download failed: dash: ERROR: [youtube] X98G9rCC3XI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies"
+ },
+ "YNo_Ar8lGTA": {
+  "video": "YNo_Ar8lGTA",
+  "title": "26th Oct 2026 Makkah Maghrib Sheikh Juhany",
+  "duration": "676",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-26",
+  "imam": "Sheikh Juhany",
+  "status": "pending"
+ },
+ "fqlZAauEpXE": {
+  "video": "fqlZAauEpXE",
+  "title": "26th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
+  "duration": "644",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-26",
+  "imam": "Sheikh Thubaity",
+  "status": "pending"
+ },
+ "uZOeT9IBHUU": {
+  "video": "uZOeT9IBHUU",
+  "title": "26th Oct 2026 Madeenah 'Asr Sheikh ‘Ali Hudhaify",
+  "duration": "851",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-26",
+  "imam": "Sheikh ‘Ali Hudhaify",
+  "status": "pending"
+ },
+ "8MaP_Q6bJeI": {
+  "video": "8MaP_Q6bJeI",
+  "title": "26th Oct 2026 Makkah 'Asr Sheikh Dosary",
+  "duration": "540",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-26",
+  "imam": "Sheikh Dosary",
+  "status": "pending"
+ },
+ "rMIAIeRK7UY": {
+  "video": "rMIAIeRK7UY",
+  "title": "26th Oct 2026 Madeenah Dhuhr Sheikh Barhaji",
+  "duration": "711",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-26",
+  "imam": "Sheikh Barhaji",
+  "status": "pending"
+ },
+ "GemisrmUjn0": {
+  "video": "GemisrmUjn0",
+  "title": "26th Oct 2026 Makkah Dhuhr Sheikh Ghazzawi",
+  "duration": "612",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "dhuhr",
+  "date": "2026-10-26",
+  "imam": "Sheikh Ghazzawi",
+  "status": "pending"
+ },
+ "CoMQlF3Kkhk": {
+  "video": "CoMQlF3Kkhk",
+  "title": "26th Oct 2026 Madeenah Fajr Sheikh Bu’ayjaan",
+  "duration": "729",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-26",
+  "imam": "Sheikh Bu’ayjaan",
+  "status": "pending"
+ },
+ "Uzoq3xmgtjs": {
+  "video": "Uzoq3xmgtjs",
+  "title": "26th Oct 2026 Makkah Fajr Sheikh Dosary",
+  "duration": "890",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-26",
+  "imam": "Sheikh Dosary",
+  "status": "pending"
  }
 }
