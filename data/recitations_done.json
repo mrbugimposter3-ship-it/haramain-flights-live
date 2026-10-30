@@ -3066,5 +3066,44 @@
   "identified_utc": "2026-10-29T22:23:00Z",
   "runner": "github-actions",
   "download_format": "haramain.info-mp3"
+ },
+ "SgnWoY_Wf00": {
+  "video": "SgnWoY_Wf00",
+  "title": "30th Oct 2026 Makkah Jumu'ah Sheikh Usaamah Khayyat",
+  "duration": "497",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "jumuah",
+  "date": "2026-10-30",
+  "imam": "Sheikh Usaamah Khayyat",
+  "status": "pending",
+  "listed_utc": "2026-10-30T14:59:14Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "OvtEeY7jnxc": {
+  "video": "OvtEeY7jnxc",
+  "title": "30th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
+  "duration": "791",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-30",
+  "imam": "Sheikh Bu'ayjaan",
+  "status": "pending",
+  "listed_utc": "2026-10-30T14:59:14Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "iMGYQ0baZig": {
+  "video": "iMGYQ0baZig",
+  "title": "30th Oct 2026 Makkah Fajr Sheikh Dosary",
+  "duration": "990",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-30",
+  "imam": "Sheikh Dosary",
+  "status": "pending",
+  "listed_utc": "2026-10-30T14:59:14Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
  }
 }
