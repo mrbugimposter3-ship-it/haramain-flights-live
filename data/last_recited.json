@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T17:13:16Z",
+  "updated_utc": "2026-10-30T20:06:03Z",
   "note": "Latest identified recitation per mosque (any prayer). Full per-prayer data: data/recitations.json.",
   "latest": {
     "mosque": "makkah",
@@ -43,20 +43,20 @@
     "madinah": {
       "mosque": "madinah",
       "mosque_name": "Masjid an-Nabawi",
-      "prayer": "Fajr",
+      "prayer": "Jumuah",
       "date": "2026-10-30",
-      "imam": "Sheikh Bu'ayjaan",
-      "surah": 20,
-      "surah_name": "Ta-Ha",
-      "ayah_from": 2,
-      "ayah_to": 48,
-      "confidence": 78,
-      "source_video": "https://www.youtube.com/watch?v=OvtEeY7jnxc",
-      "source_title": "30th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
-      "identified_utc": "2026-10-30T17:09:26Z",
+      "imam": "Sheikh Thubaity",
+      "surah": 95,
+      "surah_name": "At-Tin",
+      "ayah_from": 1,
+      "ayah_to": 8,
+      "confidence": 81,
+      "source_video": "https://www.youtube.com/watch?v=R_VuFjDjH-g",
+      "source_title": "30th Oct 2026 Madeenah Jumu'ah Sheikh Thubaity",
+      "identified_utc": "2026-10-30T20:03:02Z",
       "rakahs": [
-        "20:2-35",
-        "20:37-48"
+        "95:1-8",
+        "107:2-7"
       ]
     },
     "aqsa": {

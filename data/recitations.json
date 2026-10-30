@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-30T17:13:16Z",
+  "updated_utc": "2026-10-30T20:06:03Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -221,27 +221,35 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "jumuah",
-        "date": "2026-10-23",
-        "imam": "Sheikh ‘Ali Hudhaify",
-        "surah": 112,
-        "surah_name": "Al-Ikhlas",
+        "date": "2026-10-30",
+        "imam": "Sheikh Thubaity",
+        "surah": 95,
+        "surah_name": "At-Tin",
         "ayah_from": 1,
-        "ayah_to": 4,
+        "ayah_to": 8,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 112,
-            "surah_name": "Al-Ikhlas",
+            "surah": 95,
+            "surah_name": "At-Tin",
             "ayah_from": 1,
-            "ayah_to": 4,
-            "ref": "112:1-4"
+            "ayah_to": 8,
+            "ref": "95:1-8"
+          },
+          {
+            "rakah": 2,
+            "surah": 107,
+            "surah_name": "Al-Maun",
+            "ayah_from": 2,
+            "ayah_to": 7,
+            "ref": "107:2-7"
           }
         ],
-        "summary": "112:1-4",
-        "confidence": 79,
-        "source_video": "https://www.youtube.com/watch?v=Yt5iMeljo74",
-        "source_title": "23rd Oct 2026 Madeenah Jumu'ah Salaah Sheikh ‘Ali Hudhaify",
-        "identified_utc": "2026-10-23T11:05:47Z"
+        "summary": "95:1-8 · 107:2-7",
+        "confidence": 81,
+        "source_video": "https://www.youtube.com/watch?v=R_VuFjDjH-g",
+        "source_title": "30th Oct 2026 Madeenah Jumu'ah Sheikh Thubaity",
+        "identified_utc": "2026-10-30T20:03:02Z"
       },
       "asr": {
         "mosque": "madinah",
