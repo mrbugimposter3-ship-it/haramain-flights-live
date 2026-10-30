@@ -3105,5 +3105,44 @@
   "status": "pending",
   "listed_utc": "2026-10-30T14:59:14Z",
   "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "axKq55hbb9k": {
+  "video": "axKq55hbb9k",
+  "title": "30th Oct 2026 Madeenah 'Asr Sheikh 'Ali al Hudhaify",
+  "duration": "884",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "asr",
+  "date": "2026-10-30",
+  "imam": "Sheikh 'Ali al Hudhaify",
+  "status": "silent",
+  "listed_utc": "2026-10-30T15:54:48Z",
+  "silent": true
+ },
+ "R0z6ut2DZZ8": {
+  "video": "R0z6ut2DZZ8",
+  "title": "30th Oct 2026 Makkah 'Asr Sheikh Dosary",
+  "duration": "551",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "asr",
+  "date": "2026-10-30",
+  "imam": "Sheikh Dosary",
+  "status": "silent",
+  "listed_utc": "2026-10-30T15:54:48Z",
+  "silent": true
+ },
+ "R_VuFjDjH-g": {
+  "video": "R_VuFjDjH-g",
+  "title": "30th Oct 2026 Madeenah Jumu'ah Sheikh Thubaity",
+  "duration": "483",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "jumuah",
+  "date": "2026-10-30",
+  "imam": "Sheikh Thubaity",
+  "status": "pending",
+  "listed_utc": "2026-10-30T15:54:48Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
  }
 }

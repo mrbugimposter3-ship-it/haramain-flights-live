@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-29T22:23:00Z",
+  "updated_utc": "2026-10-30T15:54:53Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -85,12 +85,12 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "asr",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "imam": "Sheikh Dosary",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=cZYXFv9CddA",
-        "source_title": "29th Oct 2026 Makkah 'Asr Sheikh Dosary",
+        "source_video": "https://www.youtube.com/watch?v=R0z6ut2DZZ8",
+        "source_title": "30th Oct 2026 Makkah 'Asr Sheikh Dosary",
         "identified_utc": null
       },
       "maghrib": {
@@ -239,12 +239,12 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "asr",
-        "date": "2026-10-29",
-        "imam": "Sheikh 'Ali al Hudhiafy",
+        "date": "2026-10-30",
+        "imam": "Sheikh 'Ali al Hudhaify",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=TkhGrinADZU",
-        "source_title": "29th Oct 2026 Madeenah 'Asr Sheikh 'Ali al Hudhiafy",
+        "source_video": "https://www.youtube.com/watch?v=axKq55hbb9k",
+        "source_title": "30th Oct 2026 Madeenah 'Asr Sheikh 'Ali al Hudhaify",
         "identified_utc": null
       },
       "maghrib": {
