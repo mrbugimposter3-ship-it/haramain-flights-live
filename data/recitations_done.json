@@ -3089,9 +3089,35 @@
   "prayer": "fajr",
   "date": "2026-10-30",
   "imam": "Sheikh Bu'ayjaan",
-  "status": "pending",
+  "status": "ok",
   "listed_utc": "2026-10-30T14:59:14Z",
-  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 20,
+    "surah_name": "Ta-Ha",
+    "ayah_from": 2,
+    "ayah_to": 35,
+    "ref": "20:2-35",
+    "windows": 12,
+    "confidence": 77
+   },
+   {
+    "rakah": 2,
+    "surah": 20,
+    "surah_name": "Ta-Ha",
+    "ayah_from": 37,
+    "ayah_to": 48,
+    "ref": "20:37-48",
+    "windows": 9,
+    "confidence": 78
+   }
+  ],
+  "confidence": 78,
+  "seconds": 391,
+  "identified_utc": "2026-10-31T08:57:49Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "iMGYQ0baZig": {
   "video": "iMGYQ0baZig",
@@ -3102,9 +3128,35 @@
   "prayer": "fajr",
   "date": "2026-10-30",
   "imam": "Sheikh Dosary",
-  "status": "pending",
+  "status": "ok",
   "listed_utc": "2026-10-30T14:59:14Z",
-  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+  "rakahs": [
+   {
+    "rakah": 1,
+    "surah": 2,
+    "surah_name": "Al-Baqarah",
+    "ayah_from": 124,
+    "ayah_to": 134,
+    "ref": "2:124-134",
+    "windows": 23,
+    "confidence": 82
+   },
+   {
+    "rakah": 2,
+    "surah": 14,
+    "surah_name": "Ibrahim",
+    "ayah_from": 32,
+    "ayah_to": 37,
+    "ref": "14:32-37",
+    "windows": 14,
+    "confidence": 84
+   }
+  ],
+  "confidence": 83,
+  "seconds": 364,
+  "identified_utc": "2026-10-31T09:03:53Z",
+  "runner": "github-actions",
+  "download_format": "haramain.info-mp3"
  },
  "axKq55hbb9k": {
   "video": "axKq55hbb9k",
@@ -3182,6 +3234,45 @@
   "imam": "Sheikh Thubaity",
   "status": "pending",
   "listed_utc": "2026-10-31T02:18:04Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "ZdXAic2ti4w": {
+  "video": "ZdXAic2ti4w",
+  "title": "31st Oct 2026 Makkah Fajr Sheikh Dosary",
+  "duration": "1062",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "fajr",
+  "date": "2026-10-31",
+  "imam": "Sheikh Dosary",
+  "status": "pending",
+  "listed_utc": "2026-10-31T08:51:13Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "tnYyz03QxYA": {
+  "video": "tnYyz03QxYA",
+  "title": "31st Oct 2026 Madeenah Fajr Sheikh Bu’ayjaan",
+  "duration": "756",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "fajr",
+  "date": "2026-10-31",
+  "imam": "Sheikh Bu’ayjaan",
+  "status": "pending",
+  "listed_utc": "2026-10-31T08:51:13Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "QZYsPIxv4eg": {
+  "video": "QZYsPIxv4eg",
+  "title": "30th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
+  "duration": "612",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "isha",
+  "date": "2026-10-30",
+  "imam": "Sheikh Maghamsi",
+  "status": "pending",
+  "listed_utc": "2026-10-31T08:51:13Z",
   "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
  }
 }

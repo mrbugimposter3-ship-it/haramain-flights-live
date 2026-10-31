@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-30T20:06:03Z",
+  "updated_utc": "2026-10-31T09:03:53Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -38,10 +38,10 @@
           }
         ],
         "summary": "2:124-134 · 14:32-37",
-        "confidence": 84,
+        "confidence": 83,
         "source_video": "https://www.youtube.com/watch?v=iMGYQ0baZig",
         "source_title": "30th Oct 2026 Makkah Fajr Sheikh Dosary",
-        "identified_utc": "2026-10-30T17:13:16Z"
+        "identified_utc": "2026-10-31T09:03:53Z"
       },
       "dhuhr": {
         "mosque": "makkah",
@@ -203,7 +203,7 @@
         "confidence": 78,
         "source_video": "https://www.youtube.com/watch?v=OvtEeY7jnxc",
         "source_title": "30th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
-        "identified_utc": "2026-10-30T17:09:26Z"
+        "identified_utc": "2026-10-31T08:57:49Z"
       },
       "dhuhr": {
         "mosque": "madinah",
