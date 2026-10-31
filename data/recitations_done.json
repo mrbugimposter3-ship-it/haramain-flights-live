@@ -3274,5 +3274,18 @@
   "status": "pending",
   "listed_utc": "2026-10-31T08:51:13Z",
   "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "KjmDnwP9Kfo": {
+  "video": "KjmDnwP9Kfo",
+  "title": "31st Oct 2026 Madeenah Dhuhr Sheikh Maghamsi",
+  "duration": "594",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "dhuhr",
+  "date": "2026-10-31",
+  "imam": "Sheikh Maghamsi",
+  "status": "silent",
+  "listed_utc": "2026-10-31T15:17:38Z",
+  "silent": true
  }
 }
