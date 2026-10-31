@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-31T09:03:53Z",
+  "updated_utc": "2026-10-31T11:59:33Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -13,35 +13,35 @@
         "mosque": "makkah",
         "mosque_name": "Masjid al-Haram",
         "prayer": "fajr",
-        "date": "2026-10-30",
+        "date": "2026-10-31",
         "imam": "Sheikh Dosary",
-        "surah": 2,
-        "surah_name": "Al-Baqarah",
-        "ayah_from": 124,
-        "ayah_to": 134,
+        "surah": 39,
+        "surah_name": "Az-Zumar",
+        "ayah_from": 53,
+        "ayah_to": 75,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 2,
-            "surah_name": "Al-Baqarah",
-            "ayah_from": 124,
-            "ayah_to": 134,
-            "ref": "2:124-134"
+            "surah": 39,
+            "surah_name": "Az-Zumar",
+            "ayah_from": 53,
+            "ayah_to": 67,
+            "ref": "39:53-67"
           },
           {
             "rakah": 2,
-            "surah": 14,
-            "surah_name": "Ibrahim",
-            "ayah_from": 32,
-            "ayah_to": 37,
-            "ref": "14:32-37"
+            "surah": 39,
+            "surah_name": "Az-Zumar",
+            "ayah_from": 68,
+            "ayah_to": 75,
+            "ref": "39:68-75"
           }
         ],
-        "summary": "2:124-134 · 14:32-37",
-        "confidence": 83,
-        "source_video": "https://www.youtube.com/watch?v=iMGYQ0baZig",
-        "source_title": "30th Oct 2026 Makkah Fajr Sheikh Dosary",
-        "identified_utc": "2026-10-31T09:03:53Z"
+        "summary": "39:53-67 · 39:68-75",
+        "confidence": 84,
+        "source_video": "https://www.youtube.com/watch?v=ZdXAic2ti4w",
+        "source_title": "31st Oct 2026 Makkah Fajr Sheikh Dosary",
+        "identified_utc": "2026-10-31T11:12:14Z"
       },
       "dhuhr": {
         "mosque": "makkah",
@@ -175,35 +175,35 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "fajr",
-        "date": "2026-10-30",
-        "imam": "Sheikh Bu'ayjaan",
-        "surah": 20,
-        "surah_name": "Ta-Ha",
-        "ayah_from": 2,
-        "ayah_to": 48,
+        "date": "2026-10-31",
+        "imam": "Sheikh Bu’ayjaan",
+        "surah": 6,
+        "surah_name": "Al-Anam",
+        "ayah_from": 95,
+        "ayah_to": 110,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 20,
-            "surah_name": "Ta-Ha",
-            "ayah_from": 2,
-            "ayah_to": 35,
-            "ref": "20:2-35"
+            "surah": 6,
+            "surah_name": "Al-Anam",
+            "ayah_from": 95,
+            "ayah_to": 103,
+            "ref": "6:95-103"
           },
           {
             "rakah": 2,
-            "surah": 20,
-            "surah_name": "Ta-Ha",
-            "ayah_from": 37,
-            "ayah_to": 48,
-            "ref": "20:37-48"
+            "surah": 6,
+            "surah_name": "Al-Anam",
+            "ayah_from": 104,
+            "ayah_to": 110,
+            "ref": "6:104-110"
           }
         ],
-        "summary": "20:2-35 · 20:37-48",
-        "confidence": 78,
-        "source_video": "https://www.youtube.com/watch?v=OvtEeY7jnxc",
-        "source_title": "30th Oct 2026 Madeenah Fajr Sheikh Bu'ayjaan",
-        "identified_utc": "2026-10-31T08:57:49Z"
+        "summary": "6:95-103 · 6:104-110",
+        "confidence": 84,
+        "source_video": "https://www.youtube.com/watch?v=tnYyz03QxYA",
+        "source_title": "31st Oct 2026 Madeenah Fajr Sheikh Bu’ayjaan",
+        "identified_utc": "2026-10-31T11:16:58Z"
       },
       "dhuhr": {
         "mosque": "madinah",
@@ -301,35 +301,35 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "isha",
-        "date": "2026-10-29",
+        "date": "2026-10-30",
         "imam": "Sheikh Maghamsi",
-        "surah": 78,
-        "surah_name": "An-Naba",
-        "ayah_from": 31,
-        "ayah_to": 40,
+        "surah": 26,
+        "surah_name": "Ash-Shuara",
+        "ayah_from": 205,
+        "ayah_to": 227,
         "rakahs": [
           {
             "rakah": 1,
-            "surah": 78,
-            "surah_name": "An-Naba",
-            "ayah_from": 31,
-            "ayah_to": 40,
-            "ref": "78:31-40"
+            "surah": 26,
+            "surah_name": "Ash-Shuara",
+            "ayah_from": 205,
+            "ayah_to": 220,
+            "ref": "26:205-220"
           },
           {
             "rakah": 2,
-            "surah": 95,
-            "surah_name": "At-Tin",
-            "ayah_from": 1,
-            "ayah_to": 8,
-            "ref": "95:1-8"
+            "surah": 26,
+            "surah_name": "Ash-Shuara",
+            "ayah_from": 221,
+            "ayah_to": 227,
+            "ref": "26:221-227"
           }
         ],
-        "summary": "78:31-40 · 95:1-8",
-        "confidence": 72,
-        "source_video": "https://www.youtube.com/watch?v=jrd_mU1rjzw",
-        "source_title": "29th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
-        "identified_utc": "2026-10-29T22:23:00Z"
+        "summary": "26:205-220 · 26:221-227",
+        "confidence": 77,
+        "source_video": "https://www.youtube.com/watch?v=QZYsPIxv4eg",
+        "source_title": "30th Oct 2026 Madeenah 'Isha Sheikh Maghamsi",
+        "identified_utc": "2026-10-31T11:38:36Z"
       }
     },
     "aqsa": {
@@ -344,6 +344,32 @@
         "source_video": "https://www.youtube.com/watch?v=PD7-WuiCRqM",
         "source_title": "27.10.2026 أذان و صلاة الظهر من المسجد الأقصى المبارك Dhuhr prayer from the blessed Al-Aqsa Mosque",
         "identified_utc": null
+      },
+      "jumuah": {
+        "mosque": "aqsa",
+        "mosque_name": "Al-Masjid al-Aqsa",
+        "prayer": "jumuah",
+        "date": "2026-10-30",
+        "imam": null,
+        "surah": 19,
+        "surah_name": "Maryam",
+        "ayah_from": 96,
+        "ayah_to": 98,
+        "rakahs": [
+          {
+            "rakah": 1,
+            "surah": 19,
+            "surah_name": "Maryam",
+            "ayah_from": 96,
+            "ayah_to": 98,
+            "ref": "19:96-98"
+          }
+        ],
+        "summary": "19:96-98",
+        "confidence": 68,
+        "source_video": "https://www.youtube.com/watch?v=TgsmI8x4ADU",
+        "source_title": "30.10.2026 شعاىر صلاة الجمعة من المسجد الأقصى المبارك Friday prayer rituals from  Al-Aqsa Mosque",
+        "identified_utc": "2026-10-31T11:59:19Z"
       },
       "maghrib": {
         "mosque": "aqsa",
