@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-31T11:59:33Z",
+  "updated_utc": "2026-10-31T14:07:06Z",
   "note": "Ayat identified privately from each prayer's YouTube recording (Haramain Recordings for Makkah/Madinah, Al Quds Al Salam for Al-Aqsa) with a Quran ASR model; not a live feed. Each prayer holds its latest identified recitation. Dhuhr and Asr are silent. Entries below confidence 60 are left out; a missing prayer means no data yet.",
   "sources": {
     "makkah": "https://www.youtube.com/@haramain_recordings",
@@ -209,12 +209,12 @@
         "mosque": "madinah",
         "mosque_name": "Masjid an-Nabawi",
         "prayer": "dhuhr",
-        "date": "2026-10-29",
-        "imam": "Sheikh Barhaji",
+        "date": "2026-10-31",
+        "imam": "Sheikh Maghamsi",
         "silent": true,
         "note": "Recited silently; no ayat to show.",
-        "source_video": "https://www.youtube.com/watch?v=19qeDlvaETc",
-        "source_title": "29th Oct 2026 Madeenah Dhuhr Sheikh Barhaji",
+        "source_video": "https://www.youtube.com/watch?v=KjmDnwP9Kfo",
+        "source_title": "31st Oct 2026 Madeenah Dhuhr Sheikh Maghamsi",
         "identified_utc": null
       },
       "jumuah": {
