@@ -3144,5 +3144,44 @@
   "status": "pending",
   "listed_utc": "2026-10-30T15:54:48Z",
   "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "tWna9pWo2ec": {
+  "video": "tWna9pWo2ec",
+  "title": "30th Oct 2026 Makkah 'Isha Sheikh Badr al Turki",
+  "duration": "804",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "isha",
+  "date": "2026-10-30",
+  "imam": "Sheikh Badr al Turki",
+  "status": "pending",
+  "listed_utc": "2026-10-31T02:18:04Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "VaLJroGpYd4": {
+  "video": "VaLJroGpYd4",
+  "title": "30th Oct 2026 Makkah Maghrib Sheikh Juhany",
+  "duration": "807",
+  "source": "haramain",
+  "mosque": "makkah",
+  "prayer": "maghrib",
+  "date": "2026-10-30",
+  "imam": "Sheikh Juhany",
+  "status": "pending",
+  "listed_utc": "2026-10-31T02:18:04Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
+ },
+ "rGfF1o7wvEk": {
+  "video": "rGfF1o7wvEk",
+  "title": "30th Oct 2026 Madeenah Maghrib Sheikh Thubaity",
+  "duration": "726",
+  "source": "haramain",
+  "mosque": "madinah",
+  "prayer": "maghrib",
+  "date": "2026-10-30",
+  "imam": "Sheikh Thubaity",
+  "status": "pending",
+  "listed_utc": "2026-10-31T02:18:04Z",
+  "last_error": "waiting for the haramain.info MP3 mirror (YouTube blocks GitHub runners)"
  }
 }
